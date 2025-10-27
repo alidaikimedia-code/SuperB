@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Test - Final</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <style>
+        body {
+            background: #1a1a1a;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="faq-section">
+        <h2>FAQ Test - Final Check</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="accordion" onclick="toggleAccordion(this)">
+                    <h3>Test FAQ 1 - Does this work?</h3>
+                </button>
+                <div class="panel">
+                    <p>If you can see this answer, then the FAQ toggle is working correctly!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="accordion" onclick="toggleAccordion(this)">
+                    <h3>Test FAQ 2 - Click to expand</h3>
+                </button>
+                <div class="panel">
+                    <p>This is the second test FAQ. The accordion should expand and show this content.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="accordion" onclick="toggleAccordion(this)">
+                    <h3>Test FAQ 3 - Final test</h3>
+                </button>
+                <div class="panel">
+                    <p>This is the final test. All CSS conflicts should be resolved now.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced FAQ Accordion Functionality
+        function toggleAccordion(element) {
+          // Close all other accordions
+          const allAccordions = document.querySelectorAll('.accordion');
+          const allPanels = document.querySelectorAll('.panel');
+          const allIcons = document.querySelectorAll('.accordion-icon');
+          
+          allAccordions.forEach(acc => {
+            if (acc !== element) {
+              acc.classList.remove('active');
+            }
+          });
+          
+          allPanels.forEach(panel => {
+            if (panel !== element.nextElementSibling) {
+              panel.style.maxHeight = null;
+            }
+          });
+          
+          allIcons.forEach(icon => {
+            if (icon !== element.querySelector('.accordion-icon')) {
+              icon.textContent = '+';
+            }
+          });
+          
+          // Toggle current accordion
+          element.classList.toggle('active');
+          const panel = element.nextElementSibling;
+          const icon = element.querySelector('.accordion-icon');
+          
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            if (icon) icon.textContent = '+';
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            if (icon) icon.textContent = '−';
+          }
+        }
+
+        // Initialize accordion on page load
+        document.addEventListener('DOMContentLoaded', function() {
+          // Set initial state for all panels
+          const panels = document.querySelectorAll('.panel');
+          panels.forEach(panel => {
+            panel.style.maxHeight = null;
+          });
+        });
+    </script>
+</body>
+</html>

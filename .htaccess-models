@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Model profile routes - Dynamic model pages
+RewriteRule ^models/([A-Z]\d+)/?$ /models/model-profile.php?model=$1 [L,QSA]
+RewriteRule ^models/chinese-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1 [L,QSA]
+RewriteRule ^cn/models/chinese-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1&lang=zh-my [L,QSA]
+
+# Existing routes (keep your current rules)
+RewriteRule ^models/chinese-party-girl/?$ /models/chinese-party-girl/index.php [L,QSA]
+RewriteRule ^cn/models/chinese-party-girl/?$ /cn/models/chinese-party-girl/index.php [L,QSA]
+
+# Add more model type routes as needed
+RewriteRule ^models/japan-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1&type=japan [L,QSA]
+RewriteRule ^models/korea-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1&type=korea [L,QSA]
+RewriteRule ^models/vietnam-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1&type=vietnam [L,QSA]
+RewriteRule ^models/europe-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1&type=europe [L,QSA]
+RewriteRule ^models/local-party-girl/([A-Z]\d+)/?$ /models/model-profile.php?model=$1&type=local [L,QSA]

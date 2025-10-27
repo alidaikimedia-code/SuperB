@@ -1,0 +1,247 @@
+.banner-section.service-models {
+  background-image: url('/wp-content/uploads/services/services-bg.webp');
+}
+.contentBox-card h1, .contentBox-card h2 {
+    color: #fff;
+}
+.service-hero {
+  text-align: center;
+}
+.service-hero h1,.service-hero h2 {
+  font-size: 2.3rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.service-hero .tagline {
+  color: #ff4fa0;
+  font-size: 1.1rem;
+}
+.service-summary {
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service-summary .highlight {
+  color: #ff4fa0;
+  font-weight: bold;
+}
+
+.service-areas {
+  text-align: center;
+}
+.areas-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 18px 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.area-card {
+  background: #17171b;
+  padding: 16px 26px;
+  border-radius: 20px;
+  box-shadow: 0 6px 32px rgba(255,0,127,0.08);
+  font-size: 1rem;
+  color: #ff4fa0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+.area-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 40px rgba(255,0,127,0.15);
+}
+.area-card .city-link {
+  color: #ff4fa0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.area-card .city-link:hover {
+  color: #ff6b9d;
+}
+
+/* Mobile Responsive for Areas */
+@media (max-width: 768px) {
+  .areas-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .area-card {
+    padding: 12px 18px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .areas-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .area-card {
+    padding: 10px 15px;
+    font-size: 0.85rem;
+  }
+}
+.service-hours {
+  margin-top: 8px;
+  font-size: 1.07rem;
+  color: #ff4fa0;
+}
+.service-hours i { margin-right: 4px; }
+
+.service-packages {
+  text-align: center;
+  color: #fff;
+}
+
+.package-block {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  padding-top: 32px; /* for space above */
+}
+
+.package-number {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: #ff4fa0;
+  z-index: 2;
+  line-height: 1;
+  letter-spacing: -3px;
+  transform: translateY(-60%);
+  /* You can adjust the Y for overlap effect */
+}
+
+.package-card {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.22);
+  position: relative;
+  background: #1b2331;
+}
+
+.package-bg-img {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 25%; */
+    filter: grayscale(80%);
+    /* z-index: -1; */
+    margin: 0px auto;
+    background-position: center center;
+    transition: 0.3s;
+    min-height: 220px;
+    display: flex;
+    align-items: flex-end;
+}
+.package-bg-img.package_01 {
+    background: url('/wp-content/uploads/services/package_01.webp') center/cover no-repeat;
+}
+.package-bg-img.package_02 {
+    background: url('/wp-content/uploads/services/package_02.webp') center/cover no-repeat;
+}
+.package-bg-img.package_03 {
+    background: url('/wp-content/uploads/services/package_03.webp') center/cover no-repeat;
+}
+.package-bg-img.package_04 {
+    background: url('/wp-content/uploads/services/package_04.webp') center/cover no-repeat;
+}
+.package-bg-img.package_05 {
+    background: url('/wp-content/uploads/services/package_05.webp') center/cover no-repeat;
+}
+.package-bg-img:hover {
+    filter: grayscale(5%);
+    transform: scale3d(1.05, 1.05, 1.05);
+    transition: 0.3s;
+}
+
+.package-content {
+  background: linear-gradient(90deg, rgba(17,21,30,0.89) 60%, rgba(40,40,40,0.22) 100%);
+  padding:45px;
+  color: #fff;
+  width: 100%;
+}
+
+.package-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.package-desc {
+  font-size: 1.1rem;
+  opacity: 0.93;
+  margin-bottom: 24px;
+}
+.read-more-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff4fa0, #ff007f 60%);
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 28px;
+    font-size: 1.22rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background .2s, transform .15s;
+    box-shadow: 0 6px 28px rgba(255, 0, 127, 0.09);
+}
+.read-more-btn:hover {
+    background: linear-gradient(90deg, #ff007f, #ff4fa0 60%);
+    transform: translateY(-3px) scale(1.05);
+}
+@media (max-width: 700px) {
+  .package-block { max-width: 98vw; }
+  .package-content { padding: 28px 12px 30px 14px; }
+  .package-number { font-size: 2.8rem; }
+}
+
+.service-details,
+.why-choose {
+  max-width: 900px;
+  margin: 0 auto 0;
+  text-align: center;
+  font-size: 1.04rem;
+  line-height: 1.6;
+}
+.why-choose h2 {
+  color: #ff4fa0;
+  margin-bottom: 10px;
+  font-size: 1.22rem;
+  font-weight: bold;
+}
+.cta {
+  text-align: center;
+  margin: 44px 0 60px;
+}
+
+.book-now-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff4fa0, #ff007f 60%);
+  color: #fff;
+  padding: 15px 50px!important;
+  border-radius: 28px!important;
+  font-size: 1.22rem!important;
+  font-weight: bold;
+  text-decoration: none!important;
+  transition: background .2s, transform .15s!important;
+  box-shadow: 0 6px 28px rgba(255, 0, 127, 0.09);
+}
+.book-now-btn:hover {
+  background: linear-gradient(90deg, #ff007f, #ff4fa0 60%);
+  transform: translateY(-3px) scale(1.05);
+}
+@media (max-width:600px) {
+  .areas-list, .package-list { flex-direction: column; }
+  .package-list { grid-template-columns: 1fr; }
+}

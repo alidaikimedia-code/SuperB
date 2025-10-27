@@ -1,0 +1,293 @@
+/* Cities Dropdown Grid Styles */
+.cities-dropdown-grid {
+  position: absolute;
+  top: 100%;
+  left: -400px;
+  min-width: 800px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  z-index: 1000;
+  padding: 20px;
+  display: none;
+  backdrop-filter: blur(10px);
+}
+
+.cities-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 100%;
+}
+
+.cities-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.cities-column-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ff4081;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+
+.cities-column-header i {
+  margin-right: 8px;
+  color: #ff4081;
+  font-size: 16px;
+}
+
+.cities-column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cities-column-content a {
+  display: block;
+  padding: 8px 12px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 13px;
+  border-left: 3px solid transparent;
+}
+
+.cities-column-content a:hover {
+  background-color: rgba(255, 64, 129, 0.1);
+  color: #ff4081;
+  border-left-color: #ff4081;
+  transform: translateX(5px);
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .cities-dropdown-grid {
+  display: block;
+}
+
+/* Models Dropdown Styling */
+.models-dropdown {
+  min-width: 200px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  z-index: 1000;
+  padding: 10px 0;
+  left: -50px;
+  backdrop-filter: blur(10px);
+}
+
+.models-dropdown li {
+  width: 100%;
+  margin: 0;
+}
+
+.models-dropdown a {
+  display: block;
+  padding: 12px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.models-dropdown a:hover {
+  background-color: rgba(255, 64, 129, 0.1);
+  color: #ff4081;
+  border-left-color: #ff4081;
+  transform: translateX(5px);
+}
+
+/* Show models dropdown on hover */
+.dropdown:hover .models-dropdown {
+  display: block;
+}
+
+/* Services Dropdown Styling */
+.services-dropdown {
+  min-width: 220px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  z-index: 1000;
+  padding: 10px 0;
+  left: -60px;
+  backdrop-filter: blur(10px);
+}
+
+.services-dropdown li {
+  width: 100%;
+  margin: 0;
+}
+
+.services-dropdown a {
+  display: block;
+  padding: 12px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.services-dropdown a:hover {
+  background-color: rgba(255, 64, 129, 0.1);
+  color: #ff4081;
+  border-left-color: #ff4081;
+  transform: translateX(5px);
+}
+
+/* Show services dropdown on hover */
+.dropdown:hover .services-dropdown {
+  display: block;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .cities-dropdown-grid {
+    min-width: 300px;
+    left: -50px;
+  }
+  
+  .cities-grid-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .models-dropdown {
+    min-width: 180px;
+    left: -30px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+  }
+  
+  .models-dropdown a {
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  .services-dropdown {
+    min-width: 200px;
+    left: -40px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+  }
+  
+  .services-dropdown a {
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  /* Mobile dropdown behavior */
+  .dropdown .dropdown-menu {
+    position: static;
+    display: none;
+  }
+  
+  .dropdown.active .dropdown-menu {
+    display: block;
+  }
+}
+
+/* Models Section Styles */
+.models-section {
+  background: #23242a;
+  border-bottom: 1px solid #ff2491;
+  padding: 15px 0;
+  margin-top: 80px; /* Add space for fixed navbar */
+  position: relative;
+  z-index: 1;
+}
+
+.models-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-link {
+  display: inline-block;
+  padding: 8px 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.model-link:hover {
+  color: #ff2491;
+  border-bottom-color: #ff2491;
+  transform: translateY(-2px);
+}
+
+/* Cities Section Styles */
+.cities-section {
+  background: #000;
+  border-bottom: 1px solid #ff2491;
+  padding: 20px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.cities-grid {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* City Link styles moved to cities.css to avoid conflicts */
+
+/* Mobile Responsive */
+@media (max-width: 1024px) {
+  .models-flex {
+    gap: 12px;
+  }
+  
+  /* Removed conflicting city-link styles */
+}
+
+@media (max-width: 768px) {
+  .models-section {
+    margin-top: 70px; /* Adjust for mobile navbar height */
+  }
+  
+  .models-flex {
+    gap: 10px;
+  }
+  
+  .model-link {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+  
+  .city-link {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  /* No separators on mobile */
+}

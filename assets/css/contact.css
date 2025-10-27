@@ -1,0 +1,182 @@
+.banner-section.contact-models {
+  background-image: url('/wp-content/uploads/contactus/contact-models-bg.webp');
+  background-position: center center;
+}
+.callout-process {
+  /* margin: 64px auto 48px; */
+  padding: 40px 18px 32px;
+  background: #000;
+  /* border-radius: 26px; */
+  box-shadow: 0 8px 40px #ff4fa012;
+  text-align: center;
+}
+.callout-process h1 {
+  font-size: 2.1rem;
+  color: #ff4fa0;
+  margin: unset;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+.callout-process h2 {
+  color: #fff;
+}
+.callout-process .fa-star {
+  color: #ff4fa0;
+  margin-right: 5px;
+}
+.callout-intro {
+  font-size: 1.06rem;
+  margin-bottom: 26px;
+  line-height: 1.7;
+  color: #ccc;
+}
+.callout-intro a { text-decoration: none; }
+
+.callout-intro .highlight { color: #ff4fa0; font-weight: bold; }
+.contact-row {
+  background: #181c26;
+  border-radius: 18px;
+  box-shadow: 0 4px 22px #ffba180c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 550px;
+  margin: 0 auto 28px;
+  padding: 12px 18px;
+  font-size: 1.12rem;
+}
+.contact-bubble {
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 6px 6px 2px 6px;
+  background: #3da5df;
+  color: #fff;
+  margin-right: 3px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px #3da5df33;
+}
+.contact-label {
+  color: #ff4fa0;
+  font-weight: bold;
+  margin-right: 3px;
+}
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 3px;
+  font-weight: bold;
+  transition: color .13s;
+}
+.contact-link:hover { color: #fff; }
+.contact-tip {
+  color: #ccc;
+  font-size: 0.98rem;
+  margin-left: 7px;
+}
+
+.steps-title {
+  margin: 28px 0;
+  font-size: 1.2rem;
+  color: #ff4fa0;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.steps-title .fa-list-ol { color: #ffba18; }
+
+.process-steps {
+  text-align: left;
+  margin: 0 auto 30px;
+  max-width: 480px;
+  padding: 0;
+  list-style: none;
+  counter-reset: steps;
+}
+.process-steps li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  gap: 14px;
+}
+.process-steps b {
+    color: #f8c5ff;
+}
+.step-badge {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff4fa0, #e807f0 80%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.22rem;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px #ff4fa034;
+}
+.step-desc {
+  color: #fff;
+  font-size: 1.01rem;
+  margin-top: 3px;
+}
+.pink { color: #ff4fa0; }
+
+.callout-safe {
+  margin: 38px 0 16px;
+  padding: 18px 14px;
+  border-radius: 14px;
+  background: #191622;
+  box-shadow: 0 2px 10px #ffba180a;
+  color: #ffeebb;
+}
+.safe-title {
+  color: #ffba18;
+  font-weight: bold;
+  font-size: 1.08rem;
+  margin-bottom: 7px;
+}
+.hire-today {
+  margin-top: 36px;
+}
+.hire-title {
+  font-size: 1.17rem;
+  color: #ff4fa0;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.hire-today p {
+    color: #fff;
+}
+.book-now-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff4fa0, #ff007f 60%);
+  color: #fff;
+  padding: 13px 48px;
+  border-radius: 28px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 14px auto 0;
+  box-shadow: 0 6px 28px #ffba1833;
+  transition: background .17s, color .17s, transform .14s;
+}
+.book-now-btn:hover {
+  background: linear-gradient(90deg, #ff007f, #ff4fa0 60%);
+  transform: translateY(-3px) scale(1.04);
+}
+
+@media (max-width:600px) {
+  .callout-process {
+    padding: 7vw 2vw;
+    border-radius: 0;
+  }
+  .contact-label {display: none;}
+  .contact-row, .process-steps { max-width: 99vw;}
+  .step-badge { width: 30px; height: 30px; font-size: 1rem; line-height: 30px;}
+}

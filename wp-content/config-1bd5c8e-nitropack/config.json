@@ -1,0 +1,39 @@
+{
+    "superbpartygirl.com": {
+        "siteId": "peofTRNCUcNOUjJZLGfXEWpwYcbQNuam",
+        "siteSecret": "vRGjWoeiLvVQVau7ZfdI1Uqjj8vFGnDTd08cUQE0kIXsKFXbKbRO24glmLBJpHLP",
+        "blogId": 1,
+        "compression": true,
+        "webhookToken": "b0bc4f8eb91a9216d617651b4f322349",
+        "home_url": "https:\/\/superbpartygirl.com",
+        "admin_url": "https:\/\/superbpartygirl.com\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.17.6",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": false,
+            "ajaxShortcodes": {
+                "enabled": false,
+                "shortcodes": []
+            },
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": [],
+        "minimumLogLevel": null
+    },
+    "config_path": "1576da91dda9ad3af2a5370ecee87f5c"
+}

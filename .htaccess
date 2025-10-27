@@ -1,0 +1,136 @@
+# SuperB Party Girl - URL Canonicalization Rules
+# This file ensures consistent URL structure with trailing slashes
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Force trailing slash for directories (except root)
+# This handles most duplicate URL issues
+
+# Redirect URLs without trailing slash to URLs with trailing slash
+# Exclude files (those with extensions) and root directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^(.*)$ /$1/ [R=301,L]
+
+# Redirect legacy Yoast path to WP core sitemap
+RewriteRule ^sitemap_index\.xml$ /sitemap.xml [R=301,L]
+
+# Specific redirects for known pages without trailing slashes
+#Hotel pages
+# RewriteRule ^hotel$ /hotel/ [R=301,L]
+# Models pages
+# RewriteRule ^models$ /models/ [R=301,L]
+# RewriteRule ^models/local-party-girl$ /models/local-party-girl/ [R=301,L]
+# RewriteRule ^models/vietnam-party-girl$ /models/vietnam-party-girl/ [R=301,L]
+# RewriteRule ^models/korea-party-girl$ /models/korea-party-girl/ [R=301,L]
+# RewriteRule ^models/japan-party-girl$ /models/japan-party-girl/ [R=301,L]
+# RewriteRule ^models/chinese-party-girl$ /models/chinese-party-girl/ [R=301,L]
+# RewriteRule ^models/europe-party-girl$ /models/europe-party-girl/ [R=301,L]
+
+# Service pages
+# RewriteRule ^service$ /service/ [R=301,L]
+# RewriteRule ^booking$ /booking/ [R=301,L]
+# RewriteRule ^about$ /about/ [R=301,L]
+# RewriteRule ^contact-us$ /contact-us/ [R=301,L]
+RewriteRule ^blogs$ /blogs/ [R=301,L]
+
+# Cities pages
+RewriteRule ^cities$ /cities/ [R=301,L]
+RewriteRule ^cities/genting$ /cities/genting/ [R=301,L]
+RewriteRule ^cities/johor$ /cities/johor/ [R=301,L]
+RewriteRule ^cities/penang$ /cities/penang/ [R=301,L]
+RewriteRule ^cities/melaka$ /cities/melaka/ [R=301,L]
+RewriteRule ^cities/langkawi$ /cities/langkawi/ [R=301,L]
+RewriteRule ^cities/sabah$ /cities/sabah/ [R=301,L]
+RewriteRule ^cities/sarawak$ /cities/sarawak/ [R=301,L]
+RewriteRule ^cities/pahang$ /cities/pahang/ [R=301,L]
+RewriteRule ^cities/port-dickson$ /cities/port-dickson/ [R=301,L]
+RewriteRule ^cities/ampang$ /cities/ampang/ [R=301,L]
+RewriteRule ^cities/cheras$ /cities/cheras/ [R=301,L]
+RewriteRule ^cities/cyberjaya$ /cities/cyberjaya/ [R=301,L]
+RewriteRule ^cities/kepong$ /cities/kepong/ [R=301,L]
+RewriteRule ^cities/klang$ /cities/klang/ [R=301,L]
+RewriteRule ^cities/kota-damansara$ /cities/kota-damansara/ [R=301,L]
+RewriteRule ^cities/mont-kiara$ /cities/mont-kiara/ [R=301,L]
+RewriteRule ^cities/petaling-jaya$ /cities/petaling-jaya/ [R=301,L]
+RewriteRule ^cities/puchong$ /cities/puchong/ [R=301,L]
+RewriteRule ^cities/setia-alam$ /cities/setia-alam/ [R=301,L]
+RewriteRule ^cities/sri-petaling$ /cities/sri-petaling/ [R=301,L]
+RewriteRule ^cities/subang$ /cities/subang/ [R=301,L]
+RewriteRule ^cities/serdang$ /cities/serdang/ [R=301,L]
+RewriteRule ^cities/seremban$ /cities/seremban/ [R=301,L]
+RewriteRule ^cities/taiping$ /cities/taiping/ [R=301,L]
+RewriteRule ^cities/local$ /cities/local/ [R=301,L]
+
+# Premium escort city pages
+RewriteRule ^cities/premium-escort-kuala-lumpur$ /cities/premium-escort-kuala-lumpur/ [R=301,L]
+RewriteRule ^cities/premium-escort-ampang$ /cities/premium-escort-ampang/ [R=301,L]
+RewriteRule ^cities/premium-escort-cheras$ /cities/premium-escort-cheras/ [R=301,L]
+RewriteRule ^cities/premium-escort-cyberjaya$ /cities/premium-escort-cyberjaya/ [R=301,L]
+RewriteRule ^cities/premium-escort-genting$ /cities/premium-escort-genting/ [R=301,L]
+RewriteRule ^cities/premium-escort-ipoh$ /cities/premium-escort-ipoh/ [R=301,L]
+RewriteRule ^cities/premium-escort-johor$ /cities/premium-escort-johor/ [R=301,L]
+RewriteRule ^cities/premium-escort-kepong$ /cities/premium-escort-kepong/ [R=301,L]
+RewriteRule ^cities/premium-escort-klang$ /cities/premium-escort-klang/ [R=301,L]
+RewriteRule ^cities/premium-escort-kota-damansara$ /cities/premium-escort-kota-damansara/ [R=301,L]
+RewriteRule ^cities/premium-escort-langkawi$ /cities/premium-escort-langkawi/ [R=301,L]
+RewriteRule ^cities/premium-escort-local$ /cities/premium-escort-local/ [R=301,L]
+RewriteRule ^cities/premium-escort-melaka$ /cities/premium-escort-melaka/ [R=301,L]
+RewriteRule ^cities/premium-escort-mont-kiara$ /cities/premium-escort-mont-kiara/ [R=301,L]
+RewriteRule ^cities/premium-escort-pahang$ /cities/premium-escort-pahang/ [R=301,L]
+RewriteRule ^cities/premium-escort-penang$ /cities/premium-escort-penang/ [R=301,L]
+RewriteRule ^cities/premium-escort-petaling-jaya$ /cities/premium-escort-petaling-jaya/ [R=301,L]
+RewriteRule ^cities/premium-escort-port-dickson$ /cities/premium-escort-port-dickson/ [R=301,L]
+RewriteRule ^cities/premium-escort-puchong$ /cities/premium-escort-puchong/ [R=301,L]
+RewriteRule ^cities/premium-escort-sabah$ /cities/premium-escort-sabah/ [R=301,L]
+RewriteRule ^cities/premium-escort-sarawak$ /cities/premium-escort-sarawak/ [R=301,L]
+RewriteRule ^cities/premium-escort-serdang$ /cities/premium-escort-serdang/ [R=301,L]
+RewriteRule ^cities/premium-escort-seremban$ /cities/premium-escort-seremban/ [R=301,L]
+RewriteRule ^cities/premium-escort-setia-alam$ /cities/premium-escort-setia-alam/ [R=301,L]
+RewriteRule ^cities/premium-escort-sri-petaling$ /cities/premium-escort-sri-petaling/ [R=301,L]
+RewriteRule ^cities/premium-escort-subang$ /cities/premium-escort-subang/ [R=301,L]
+RewriteRule ^cities/premium-escort-taiping$ /cities/premium-escort-taiping/ [R=301,L]
+
+# Chinese language pages
+RewriteRule ^cn$ /cn/ [R=301,L]
+RewriteRule ^cn/models$ /cn/models/ [R=301,L]
+RewriteRule ^cn/models/local-party-girl$ /cn/models/local-party-girl/ [R=301,L]
+RewriteRule ^cn/models/vietnam-party-girl$ /cn/models/vietnam-party-girl/ [R=301,L]
+RewriteRule ^cn/models/korea-party-girl$ /cn/models/korea-party-girl/ [R=301,L]
+RewriteRule ^cn/models/japan-party-girl$ /cn/models/japan-party-girl/ [R=301,L]
+RewriteRule ^cn/models/chinese-party-girl$ /cn/models/chinese-party-girl/ [R=301,L]
+RewriteRule ^cn/models/europe-party-girl$ /cn/models/europe-party-girl/ [R=301,L]
+RewriteRule ^cn/service$ /cn/service/ [R=301,L]
+RewriteRule ^cn/booking$ /cn/booking/ [R=301,L]
+RewriteRule ^cn/contact-us$ /cn/contact-us/ [R=301,L]
+RewriteRule ^cn/about$ /cn/about/ [R=301,L]
+RewriteRule ^cn/hotel$ /cn/hotel/ [R=301,L]
+
+# Page rewrites (Chinese)
+#RewriteRule ^cn/?$ /index.php [L,QSA]
+# RewriteRule ^cn/?$ /wp-content/themes/theme/index.php [L,QSA]
+
+
+# RewriteRule ^cn/models/?$ /models/index.php [L,QSA]
+# RewriteRule ^cn/models/local-party-girl/?$ /models/local-party-girl/index.php [L,QSA]
+# RewriteRule ^cn/models/korea-party-girl/?$ /models/korea-party-girl/index.php [L,QSA]
+# RewriteRule ^cn/models/japan-party-girl/?$ /models/japan-party-girl/index.php [L,QSA]
+# RewriteRule ^cn/models/chinese-party-girl/?$ /models/chinese-party-girl/index.php [L,QSA]
+# RewriteRule ^cn/models/europe-party-girl/?$ /models/europe-party-girl/index.php [L,QSA]
+# RewriteRule ^cn/models/vietnam-party-girl/?$ /models/vietnam-party-girl/index.php [L,QSA]
+
+# RewriteRule ^cn/hotel/?$ /hotel/index.php [L,QSA]
+# RewriteRule ^cn/service/?$ /service/index.php [L,QSA]
+# RewriteRule ^cn/booking/?$ /booking/index.php [L,QSA]
+# RewriteRule ^cn/about/?$ /about/index.php [L,QSA]
+# RewriteRule ^cn/contact-us/?$ /contact-us/index.php [L,QSA]
+
+# WordPress specific rules (if needed)
+# Uncomment these if you're using WordPress permalinks
+# RewriteBase /
+# RewriteRule ^index\.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.php [L]

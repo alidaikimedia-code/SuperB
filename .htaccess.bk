@@ -1,0 +1,71 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# ------------------------
+# Maintenance Mode
+# ------------------------
+# Allow your IP (replace with your real IP if needed)
+# RewriteCond %{REMOTE_ADDR} !^123\.45\.67\.89$
+
+# Skip redirect for the maintenance page itself
+#RewriteCond %{REQUEST_URI} !/maintenance.html$
+#RewriteRule ^.*$ /maintenance.html [R=302,L]
+
+# ------------------------
+# Custom Rewrite Rules
+# ------------------------
+
+# Page rewrites (English)
+# RewriteRule ^models/?$ /models/index.php [L,QSA]
+# RewriteRule ^service/?$ /service/index.php [L,QSA]
+# RewriteRule ^booking/?$ /booking/index.php [L,QSA]
+# RewriteRule ^about/?$ /about/index.php [L,QSA]
+# RewriteRule ^contact-us/?$ /contact-us/index.php [L,QSA]
+
+# Page rewrites (Chinese)
+#RewriteRule ^cn/?$ /index.php [L,QSA]
+RewriteRule ^cn/?$ /wp-content/themes/theme/index.php [L,QSA]
+
+
+RewriteRule ^cn/models/?$ /models/index.php [L,QSA]
+RewriteRule ^cn/models/local-party-girl/?$ /models/local-party-girl/index.php [L,QSA]
+RewriteRule ^cn/models/korea-party-girl/?$ /models/korea-party-girl/index.php [L,QSA]
+RewriteRule ^cn/models/japan-party-girl/?$ /models/japan-party-girl/index.php [L,QSA]
+RewriteRule ^cn/models/chinese-party-girl/?$ /models/chinese-party-girl/index.php [L,QSA]
+RewriteRule ^cn/models/europe-party-girl/?$ /models/europe-party-girl/index.php [L,QSA]
+
+RewriteRule ^cn/service/?$ /service/index.php [L,QSA]
+RewriteRule ^cn/booking/?$ /booking/index.php [L,QSA]
+RewriteRule ^cn/about/?$ /about/index.php [L,QSA]
+RewriteRule ^cn/contact-us/?$ /contact-us/index.php [L,QSA]
+
+# ------------------------
+# Default WordPress Rules
+# ------------------------
+
+RewriteRule ^index\.php$ - [L]
+
+# Skip existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# All other requests go to index.php
+RewriteRule . /index.php [L]
+
+# ------------------------
+# Redirect Old Paths
+# ------------------------
+
+Redirect 301 /models/my/ https://superbpartygirl.com/models/local-party-girl/
+Redirect 301 /models/cn/ https://superbpartygirl.com/models/chinese-party-girl/
+Redirect 301 /models/vn/ https://superbpartygirl.com/models/vietnam-party-girl/
+Redirect 301 /models/eu/ https://superbpartygirl.com/models/europe-party-girl/
+Redirect 301 /models/kr/ https://superbpartygirl.com/models/korea-party-girl/
+Redirect 301 /models/jp/ https://superbpartygirl.com/models/japan-party-girl/
+Redirect 301 /vietnam-party-girl/ https://superbpartygirl.com/models/vietnam-party-girl/
+Redirect 301 /cn/vietnam-party-girl/ https://superbpartygirl.com/cn/models/vietnam-party-girl/
+
+</IfModule>
+# END WordPress
