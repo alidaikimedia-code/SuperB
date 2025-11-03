@@ -7,7 +7,10 @@ wp-content/updraft/
 wp-content/ai1wm-backups/
 wp-content/nitropack/
 wp-content/wflogs/
+wp-content/plugins/nitropack/
+wp-content/plugins/nitropack-sdk/
 wp-config.php
+nitropack-sdk/
 
 # Logs & archives
 *.log

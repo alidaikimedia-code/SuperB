@@ -38,7 +38,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <!-- Video Header -->
 <div class="video-header">
   <video autoplay muted loop playsinline class="video-bg1 mobile-video">
-    <source src="/wp-content/uploads/2025/02/klpartygirl.mp4" type="video/mp4">
+    <source src="/wp-content/uploads/2025/02/klpartygirl.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
   <div class="overlay"></div>
@@ -126,18 +126,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     </a>
   </div>
 </div>
-  <div class="top10-section">
+  <!-- <div class="top10-section">
     <h2 class="top10-title"><?= $texts['home']['top10Title'] ?></h2>
     <div class="swiper top10-swiper">
       <div class="swiper-wrapper" id="top10-wrapper"></div>
     </div>
-  </div>
+  </div> -->
 
   <div class="contentBox-card">
     <div class="card-slider">
       <div class="contentBox">
         <div class="title">
-          <h2><?= $texts['home']['allPrtyGirl'] ?>
+          <h2><a style="color: #fff; text-decoration:none;" href="<?= localizedPath('/models') ?>"><?= $texts['home']['allPrtyGirl'] ?></a>
             <i class="fas fa-angle-double-right ml-2"></i>
           </h2>
         </div>

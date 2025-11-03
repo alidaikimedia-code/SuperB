@@ -1,12 +1,12 @@
 <?php
-require_once __DIR__ . '/env-loader.php';
+// require_once __DIR__ . '/env-loader.php';
 
-$uri = $_SERVER['REQUEST_URI'];
-// 去除结尾的斜杠
-$uri = rtrim($uri, '/');
+// $uri = $_SERVER['REQUEST_URI'];
+// // 去除结尾的斜杠
+// $uri = rtrim($uri, '/');
 
 // Always load config.php to ensure language system works for all pages
-require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+// require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 include_once __DIR__ . '/lang/init.php';
 
 // Debug: Check language detection
@@ -247,6 +247,7 @@ $page_meta = [
         z-index: 1002;
         max-height: 80vh;
         overflow-y: auto;
+        gap: 15px;
       }
       
       .nav-links.active {
@@ -257,7 +258,7 @@ $page_meta = [
       }
       
       .nav-links li {
-        margin: 5px 0;
+        /* margin: 5px 0; */
         text-align: center;
         width: 100%;
       }

@@ -4,7 +4,7 @@ $page_key = 'about';
 $lang = 'en-my';
 
 // Load config and language files
-include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+// include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/about.css">

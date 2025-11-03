@@ -1,4 +1,16 @@
 <?php
+
+// Load envs if you use env-loader.php
+require_once __DIR__ . '/env-loader.php';
+
+define("NITROPACK_HOME_URL", "https://superbpartygirl.com/");
+define("NITROPACK_SITE_ID", "gcrnZQGnsrCaaEhlWncaxWcIeJVamLZV");         // Replace with your actual Site ID
+define("NITROPACK_SITE_SECRET", "U4vfB6szA5tXDCqQRLlgRrfRx268g7xfSXsJO3hbAuYT55ydetxvYVxscrYXfLzb"); // Replace with your actual Site Secret
+
+// Load NitroPack SDK
+include_once $_SERVER['DOCUMENT_ROOT'] . "/nitropack-sdk/bootstrap.php";
+
+
 // Configuration file for SuperB Party Girl website
 // This file loads the appropriate language files and sets up the text system
 
