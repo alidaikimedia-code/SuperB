@@ -633,6 +633,16 @@ main {
     height: 100%; /* Optional: Ensure it takes full height if inside a container */
 }
 
+.contentBox-card .title h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contentBox-card .title h2 i.fas {
+    font-size: 12px;
+    margin: 10px 0 10px 5px;
+}
+
 
 .contentBox-card p {
     /* display: flex; 
