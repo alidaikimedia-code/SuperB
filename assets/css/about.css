@@ -26,6 +26,13 @@
 .about-cards p {
     color: #fff;
 }
+.about-cards li {
+    color: #fff;
+}
+.about-cards ul {
+    list-style: disc;
+    padding-left: 20px;
+}
 .about-card {
   background: rgba(25, 25, 38, 0.97);
   border-radius: 22px;
