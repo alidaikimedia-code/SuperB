@@ -98,7 +98,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     text-shadow: 0 0 25px rgba(255,36,145,0.9), 0 0 50px rgba(255,36,145,0.5);
     font-weight: 800;
     line-height: 1.2;
-    /* animation: blogsGlow 2.5s infinite alternate; */
+    animation: blogsGlow 2.5s infinite alternate;
   }
   
   .blogs-hero-text-content .blogs-p {
@@ -147,6 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
   }
   
   .blogs-h2 {
+    text-align: center;
     font-size: clamp(1.8rem, 4vw, 2.5rem);
     position: relative;
     margin-bottom: 30px;

@@ -156,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
       position: relative;
     }
     
-    .blog-card::before {
+    /* .blog-card::before {
       content: '';
       position: absolute;
       top: 0;
@@ -165,7 +165,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
       height: 2px;
       background: linear-gradient(90deg, transparent, #ff2491, #ff5ab3, #ff2491, transparent);
       animation: shimmer 3s ease-in-out infinite;
-    }
+    } */
     
     .blog-card.blogs-visible {
       opacity: 1;
@@ -301,21 +301,148 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <div class="blogs-grid">
 
       <?php 
-      foreach($texts[$page_key]['blog_list'] as $blog) {
+      // Function to dynamically get all blogs from /blogs/ folder
+      function getAllBlogsFromFolder($texts, $readMoreText) {
+        $blogsDir = $_SERVER['DOCUMENT_ROOT'] . '/blogs';
+        $blogFolders = [];
+        $excludedFiles = ['index.php', 'blog-template.php', '.', '..'];
+        
+        // Scan blogs directory
+        if (is_dir($blogsDir)) {
+          $items = scandir($blogsDir);
+          
+          foreach ($items as $item) {
+            // Skip excluded files and non-directories
+            if (in_array($item, $excludedFiles) || !is_dir($blogsDir . '/' . $item)) {
+              continue;
+            }
+            
+            $blogIndexFile = $blogsDir . '/' . $item . '/index.php';
+            
+            // Check if index.php exists in the blog folder
+            if (file_exists($blogIndexFile)) {
+              $blogSlug = $item;
+              $blogUrl = '/blogs/' . $blogSlug;
+              
+              // Read page_key from blog's index.php file
+              $langKey = $blogSlug; // Default to slug
+              $pageKeyFile = file_get_contents($blogIndexFile);
+              
+              // Extract $page_key from the file
+              if (preg_match("/page_key\s*=\s*['\"]([^'\"]+)['\"]/", $pageKeyFile, $matches)) {
+                $langKey = $matches[1];
+              }
+              
+              // Try alternative lang key patterns (some blogs might use different formats)
+              $possibleKeys = [
+                $langKey, // Direct match from index.php
+                $blogSlug, // Folder slug
+                'blog_' . str_replace('-', '_', $blogSlug), // With blog_ prefix and underscores
+                str_replace('-', '_', $blogSlug) // Just underscores
+              ];
+              
+              // Try to get blog data from lang file using all possible keys
+              $blogTitle = '';
+              $blogDesc = '';
+              $blogImg = '';
+              
+              foreach ($possibleKeys as $key) {
+                if (isset($texts[$key])) {
+                  // Use hero_title or title from lang file
+                  $blogTitle = $texts[$key]['hero_title'] ?? $texts[$key]['title'] ?? '';
+                  $blogDesc = $texts[$key]['hero_description'] ?? $texts[$key]['description'] ?? '';
+                  $blogImg = $texts[$key]['hero_image'] ?? '';
+                  break; // Found a match, stop searching
+                }
+              }
+              
+              // If title is empty, generate from slug
+              if (empty($blogTitle)) {
+                $blogTitle = ucwords(str_replace('-', ' ', $blogSlug));
+              }
+              
+              // If description is empty, use default
+              if (empty($blogDesc)) {
+                $blogDesc = 'Read our latest article about ' . strtolower($blogTitle);
+              }
+              
+              // Default image if not found
+              if (empty($blogImg) || !file_exists($_SERVER['DOCUMENT_ROOT'] . $blogImg)) {
+                // Try to find image in blogs-images folder based on slug
+                $possibleImages = [
+                  '/blogs-images/' . $blogSlug . '_hero.png',
+                  '/blogs-images/' . $blogSlug . '.png',
+                  '/blogs-images/blog1_hero.png' // fallback
+                ];
+                
+                foreach ($possibleImages as $imgPath) {
+                  if (file_exists($_SERVER['DOCUMENT_ROOT'] . $imgPath)) {
+                    $blogImg = $imgPath;
+                    break;
+                  }
+                }
+                
+                // If still no image, use default
+                if (empty($blogImg) || !file_exists($_SERVER['DOCUMENT_ROOT'] . $blogImg)) {
+                  $blogImg = '/blogs-images/blog1_hero.png';
+                }
+              }
+              
+              // Add to blogs array
+              $blogFolders[] = [
+                'slug' => $blogSlug,
+                'url' => $blogUrl,
+                'title' => $blogTitle,
+                'desc' => $blogDesc,
+                'img' => $blogImg
+              ];
+            }
+          }
+        }
+        
+        // Sort by slug alphabetically (newest first if you have date, or custom order)
+        usort($blogFolders, function($a, $b) {
+          return strcmp($b['slug'], $a['slug']); // Reverse alphabetical (newer slugs usually come first)
+        });
+        
+        return $blogFolders;
+      }
+      
+      // Get all blogs dynamically
+      $allBlogs = getAllBlogsFromFolder($texts, $texts[$page_key]['readMore']);
+      
+      // Display blogs
+      foreach($allBlogs as $blog) {
         echo '
         <div class="blog-card">
-          <img src="'.$blog['img'].'" alt="'.$blog['title'].'">
+          <img src="'.$blog['img'].'" alt="'.htmlspecialchars($blog['title']).'">
           <div class="blog-content">
-            <h3>'.$blog['title'].'</h3>
-            <p>'.$blog['desc'].'</p>
+            <h3>'.htmlspecialchars($blog['title']).'</h3>
+            <p>'.htmlspecialchars($blog['desc']).'</p>
             <a href="'.$blog['url'].'">'.$texts[$page_key]['readMore'].'</a>
           </div>
         </div>
         ';
       }
+      
+      // Fallback: If no blogs found dynamically, use manual list from lang file
+      if (empty($allBlogs) && isset($texts[$page_key]['blog_list'])) {
+        foreach($texts[$page_key]['blog_list'] as $blog) {
+          echo '
+          <div class="blog-card">
+            <img src="'.$blog['img'].'" alt="'.htmlspecialchars($blog['title']).'">
+            <div class="blog-content">
+              <h3>'.htmlspecialchars($blog['title']).'</h3>
+              <p>'.htmlspecialchars($blog['desc']).'</p>
+              <a href="'.$blog['url'].'">'.$texts[$page_key]['readMore'].'</a>
+            </div>
+          </div>
+          ';
+        }
+      }
       ?>
     </div>
-  </section>
+</section>
 
   <script>
     // Professional blog card animations
