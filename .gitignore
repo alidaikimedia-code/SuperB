@@ -18,11 +18,18 @@
 /wp-content/wflogs/
 
 /wp-content/nitropack/
+/wp-content/plugins/
 /wp-content/plugins/nitropack/
 /wp-content/plugins/nitropack-sdk/
 
+/wp-content/mu-plugins/
+/wp-content/w3tc-config/
+
+
 /wp-content/debug.log
 /wp-content/upgrade/
+
+
 
 
 # =========================

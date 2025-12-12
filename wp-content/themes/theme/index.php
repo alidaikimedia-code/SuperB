@@ -43,38 +43,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
   </video>
   <div class="overlay"></div>
   <div class="header-content">
-    <!-- Cities Section Above Title -->
-    <div class="cities-above-title">
-      <div class="cities-grid-above" style="display: none;">
-        <a href="<?= localizedPath('/cities/premium-escort-kuala-lumpur') ?>" class="city-link-above"><?= $texts['cities']['kuala_lumpur'] ?? 'Kuala Lumpur' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-ampang') ?>" class="city-link-above"><?= $texts['cities']['ampang'] ?? 'Ampang' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-cheras') ?>" class="city-link-above"><?= $texts['cities']['cheras'] ?? 'Cheras' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-cyberjaya') ?>" class="city-link-above"><?= $texts['cities']['cyberjaya'] ?? 'Cyberjaya' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-genting') ?>" class="city-link-above"><?= $texts['cities']['genting'] ?? 'Genting' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-ipoh') ?>" class="city-link-above"><?= $texts['cities']['ipoh'] ?? 'Ipoh' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-johor') ?>" class="city-link-above"><?= $texts['cities']['johor'] ?? 'Johor' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-kepong') ?>" class="city-link-above"><?= $texts['cities']['kepong'] ?? 'Kepong' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-klang') ?>" class="city-link-above"><?= $texts['cities']['klang'] ?? 'Klang' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-kota-damansara') ?>" class="city-link-above"><?= $texts['cities']['kota_damansara'] ?? 'Kota Damansara' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-langkawi') ?>" class="city-link-above"><?= $texts['cities']['langkawi'] ?? 'Langkawi' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-local') ?>" class="city-link-above"><?= $texts['cities']['local'] ?? 'Local' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-melaka') ?>" class="city-link-above"><?= $texts['cities']['melaka'] ?? 'Melaka' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-mont-kiara') ?>" class="city-link-above"><?= $texts['cities']['mont_kiara'] ?? 'Mont Kiara' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-pahang') ?>" class="city-link-above"><?= $texts['cities']['pahang'] ?? 'Pahang' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-penang') ?>" class="city-link-above"><?= $texts['cities']['penang'] ?? 'Penang' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-petaling-jaya') ?>" class="city-link-above"><?= $texts['cities']['petaling_jaya'] ?? 'Petaling Jaya' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-port-dickson') ?>" class="city-link-above"><?= $texts['cities']['port_dickson'] ?? 'Port Dickson' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-puchong') ?>" class="city-link-above"><?= $texts['cities']['puchong'] ?? 'Puchong' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-sabah') ?>" class="city-link-above"><?= $texts['cities']['sabah'] ?? 'Sabah' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-sarawak') ?>" class="city-link-above"><?= $texts['cities']['sarawak'] ?? 'Sarawak' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-serdang') ?>" class="city-link-above"><?= $texts['cities']['serdang'] ?? 'Serdang' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-seremban') ?>" class="city-link-above"><?= $texts['cities']['seremban'] ?? 'Seremban' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-setia-alam') ?>" class="city-link-above"><?= $texts['cities']['setia_alam'] ?? 'Setia Alam' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-sri-petaling') ?>" class="city-link-above"><?= $texts['cities']['sri_petaling'] ?? 'Sri Petaling' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-subang') ?>" class="city-link-above"><?= $texts['cities']['subang'] ?? 'Subang' ?></a>
-        <a href="<?= localizedPath('/cities/premium-escort-taiping') ?>" class="city-link-above"><?= $texts['cities']['taiping'] ?? 'Taiping' ?></a>
-      </div>
-    </div>
     
     <h1><?= $texts['home']['homeTitle'] ?></h1>
     <p><?= $texts['home']['homeSubTitle'] ?></p>
