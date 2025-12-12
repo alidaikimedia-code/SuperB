@@ -58,14 +58,26 @@ if (!isset($texts['cities']) || empty($texts['cities'])) {
         'taiping' => 'Taiping',
     ];
 }
-$page_meta = [
-  'title' => $texts[$page_key]['title'] ?? 'Default Title',
-  'description' => $texts[$page_key]['description'] ?? '',
-  'canonical' => $texts[$page_key]['canonical_link'] ?? '',
-  'og_title' => $texts[$page_key]['og_title'] ?? '',
-  'og_description' => $texts[$page_key]['og_description'] ?? '',
-  'lang' => $lang ?? 'en-my'
-];
+// Handle legal pages specially - if legal_section is set, use that
+if (isset($legal_section) && isset($texts['legal'][$legal_section])) {
+  $page_meta = [
+    'title' => $texts['legal'][$legal_section]['title'] ?? 'Default Title',
+    'description' => $texts['legal'][$legal_section]['description'] ?? '',
+    'canonical' => $texts['legal'][$legal_section]['canonical_link'] ?? '',
+    'og_title' => $texts['legal'][$legal_section]['og_title'] ?? '',
+    'og_description' => $texts['legal'][$legal_section]['og_description'] ?? '',
+    'lang' => $lang ?? 'en-my'
+  ];
+} else {
+  $page_meta = [
+    'title' => $texts[$page_key]['title'] ?? 'Default Title',
+    'description' => $texts[$page_key]['description'] ?? '',
+    'canonical' => $texts[$page_key]['canonical_link'] ?? '',
+    'og_title' => $texts[$page_key]['og_title'] ?? '',
+    'og_description' => $texts[$page_key]['og_description'] ?? '',
+    'lang' => $lang ?? 'en-my'
+  ];
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?= $page_meta['lang'] ?? 'en-my' ?>">
@@ -512,111 +524,6 @@ $page_meta = [
   });
 </script>
 
-<!-- <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const langDropdown = document.querySelector(".language-dropdown");
-  if (!langDropdown) return;
-
-  const toggle = langDropdown.querySelector(".language-toggle");
-  const menu = langDropdown.querySelector(".dropdown-menu");
-  const selectedSpan = langDropdown.querySelector(".selected-lang");
-  const links = menu.querySelectorAll("a");
-
-  // 当前语言：根据路径是否以 /cn 开头判断
-  let currentLang = location.pathname === "/cn" || location.pathname.startsWith("/cn/")
-    ? "cn" : "en";
-
-  updateSelectedLang(currentLang);
-
-  // 展开菜单并隐藏当前语言项
-  toggle.addEventListener("click", function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    langDropdown.classList.toggle("active");
-
-    if (langDropdown.classList.contains("active")) {
-      links.forEach(link => {
-        const lang = link.getAttribute("data-lang");
-        link.parentElement.style.display = (lang === currentLang) ? "none" : "block";
-        // 可选：把 href 设为 #，避免默认跳转（我们用 JS 切换）
-        link.setAttribute("href", "#");
-      });
-    }
-  });
-
-  // 点击语言项：切换语言（不 hardcode 路径）
-  links.forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const lang = this.getAttribute("data-lang"); // "en" | "cn"
-      if (!lang || lang === currentLang) return;
-      switchToLang(lang);
-    });
-  });
-
-  // 点击外面关闭
-  document.addEventListener("click", function (e) {
-    if (!langDropdown.contains(e.target)) {
-      langDropdown.classList.remove("active");
-    }
-  });
-
-  function updateSelectedLang(lang) {
-    currentLang = lang;
-    selectedSpan.textContent = (lang === "cn") ? "中文" : "EN";
-  }
-
-  // ========= 关键函数：根据当前 URL 动态加/去 /cn 前缀 =========
-  function switchToLang(targetLang) {
-    const { pathname, search, hash } = location;
-
-    // 规范化：保留是否有结尾斜杠（用于还原）
-    const hadTrailing = pathname.endsWith("/");
-    const path = normalizePath(pathname);
-
-    let newPath;
-    if (targetLang === "cn") {
-      // 已经是 /cn 或 /cn/... 就不变；否则加上 /cn
-      if (path === "/cn" || path.startsWith("/cn/")) {
-        newPath = path;
-      } else if (path === "/") {
-        newPath = "/cn/";
-      } else {
-        newPath = "/cn" + path; // 例如 "/models/xxx" -> "/cn/models/xxx"
-      }
-    } else {
-      // 英文：去掉 /cn 前缀
-      if (path === "/cn" || path === "/cn/") {
-        newPath = "/";
-      } else if (path.startsWith("/cn/")) {
-        newPath = path.slice(3) || "/"; // 去掉 "/cn"
-      } else {
-        newPath = path; // 本来就是英文路径
-      }
-    }
-
-    // 还原结尾斜杠（可选：也可以统一都加 /）
-    if (hadTrailing && !newPath.endsWith("/")) newPath += "/";
-    if (!hadTrailing && newPath !== "/" && newPath.endsWith("/")) newPath = newPath.slice(0, -1);
-
-    // 拼回查询和哈希并跳转
-    const newUrl = newPath + (search || "") + (hash || "");
-    location.assign(newUrl);
-  }
-
-  // 使路径更干净：开头要 /，把多余连续斜杠合并，空路径视为 /
-  function normalizePath(p) {
-    if (!p) return "/";
-    // 合并重复斜杠（保留协议外情况，这里只处理路径）
-    p = p.replace(/\/{2,}/g, "/");
-    if (!p.startsWith("/")) p = "/" + p;
-    // 空路径 -> "/"
-    if (p === "") p = "/";
-    return p;
-  }
-});
-</script> -->
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const langDropdown = document.querySelector(".language-dropdown");
@@ -802,6 +709,8 @@ document.addEventListener("DOMContentLoaded", function () {
        
         
         <li><a href="<?= localizedPath('/about') ?>"><?= $texts['header']['aboutus'] ?></a></li>
+        <li><a href="<?= localizedPath('/blog') ?>"><?= $texts['header']['blog'] ?></a></li>
+        <li><a href="<?= localizedPath('/clubs') ?>"><?= $texts['header']['clubs'] ?></a></li>
         <li><a href="https://t.me/SuperBvvip?text=<?= $texts['header']['bomMsg'] ?>"><?= $texts['header']['bom'] ?></a></li> 
         <li><a href="<?= localizedPath('/contact-us') ?>"><?= $texts['header']['contactus'] ?></a></li>
         <!-- <li><a href="<?= localizedPath('/booking') ?>" class="booking-btn"><?= $texts['header']['booking'] ?></a></li>        -->
@@ -830,7 +739,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <p>Discreet & premium escort services</p>
     </div>
     <div class="mysticky-welcomebar-btn">
-      <a href="/booking" target="_blank">Book Now!</a>
+      <a href="/booking/" target="_blank">Book Now!</a>
     </div>
     <div class="mysticky-welcomebar-close" onclick="this.parentElement.style.display='none'">
     </div>

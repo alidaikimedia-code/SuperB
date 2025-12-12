@@ -15,10 +15,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
   <div class="banner-overlay">
     <h1><?= $texts['service']['bookingTitle'] ?></h1>
     <div class="banner-btn">
-      <a href="https://t.me/SuperBvvip" class="btn"><?= $texts['common']['telegram'] ?></a>
+      <a href="<?= env('TELEGRAM_CHANNEL') ?>" class="btn"><?= $texts['common']['telegram'] ?></a>
     </div>
     <div class="banner-btn">
-      <a href="https://t.me/SuperBvvip" class="btn"><?= $texts['common']['book_now'] ?></a>
+      <a href="<?= env('TELEGRAM_LINK') ?>" class="btn"><?= $texts['common']['book_now'] ?></a>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
         <?php foreach($texts['cities'] as $city_key => $city_name): ?>
         <div class="area-card">
           <i class="fas fa-map-marker-alt"></i> 
-          <a href="/cn/cities/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
+          <a href="/cn/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
         </div>
         <?php endforeach; ?>
       </div>
@@ -60,7 +60,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
                 <div class="package-content">
                   <div class="package-title"><?= $texts['service']['pkg1Title'] ?></div>
                   <div class="package-desc"><?= $texts['service']['pkg1Desc'] ?></div>
-                  <a href="https://t.me/SuperBvvip?url=&text=Hi, I would like to book the Party Only (5 Hours) package." class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg1Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
                 <div class="package-content">
                   <div class="package-title"><?= $texts['service']['pkg2Title'] ?></div>
                   <div class="package-desc"><?= $texts['service']['pkg2Desc'] ?></div>
-                  <a href="https://t.me/SuperBvvip?url=&text=Hi, I would like to book the Direct Shot (1 Hour) package." class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg2Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
                 <div class="package-content">
                   <div class="package-title"><?= $texts['service']['pkg3Title'] ?></div>
                   <div class="package-desc"><?= $texts['service']['pkg3Desc'] ?></div>
-                  <a href="https://t.me/SuperBvvip?url=&text=Hi, I would like to book the Party and Shot (6 Hours %2B 1s) package." class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg3Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
                 <div class="package-content">
                   <div class="package-title"><?= $texts['service']['pkg4Title'] ?></div>
                   <div class="package-desc"><?= $texts['service']['pkg4Desc'] ?></div>
-                  <a href="https://t.me/SuperBvvip?url=&text=Hi, I would like to book the Direct Overnight (8 Hours %2B 2s) package." class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg4Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
                   <div class="package-content">
                     <div class="package-title"><?= $texts['service']['pkg5Title'] ?></div>
                     <div class="package-desc"><?= $texts['service']['pkg5Desc'] ?></div>
-                    <a href="https://t.me/SuperBvvip?url=&text=Hi, I would like to book the Party Overnight (12 Hours %2B 2s) package." class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                    <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg5Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     </section>
 
     <div class="cta">
-      <a href="https://t.me/SuperBvvip" class="book-now-btn"><?= $texts['common']['book_now'] ?></a>
+      <a href="<?= env('TELEGRAM_LINK') ?>" class="book-now-btn"><?= $texts['common']['book_now'] ?></a>
     </div>
   </div>
 </main>

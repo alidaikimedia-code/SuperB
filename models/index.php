@@ -42,8 +42,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <p><?= $texts['models']['Malaysiaovernightmodelescortdesc'] ?></p>
   </div>
   <div class="booking-desc">
+    <h2><?= $texts['models']['ExperiencetheBestwithSuperbPartyGirl'] ?></h2>
+    <p><?= $texts['models']['ExperiencetheBestwithSuperbPartyGirlDesc'] ?></p>
+  </div>
+
+  <div class="booking-desc">
     <h2><?= $texts['models']['Malaysiamodelescorts'] ?></h2>
     <p><?= $texts['models']['Malaysiamodelescortsdesc'] ?></p>
+    <h2><?= $texts['models']['Elite Companionship That Feels Effortless'] ?></h2>
+    <p><?= $texts['models']['EliteCompanionshipThatFeelsEffortlessDesc'] ?></p>
+    <h2><?= $texts['models']['Enjoy Memorable Dark and Overnight Visits'] ?></h2>
+    <p><?= $texts['models']['EnjoyMemorableDarkandOvernightVisitsDesc'] ?></p>
+    <h2><?= $texts['models']['Your Trusted Escort Experience'] ?></h2>
+    <p><?= $texts['models']['YourTrustedEscortExperienceDesc'] ?></p>
   </div>
 </main>
 <script>
@@ -55,5 +66,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <script src="/assets/js/model_filter.js"></script>
 
 <?php
-include '../footer.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>

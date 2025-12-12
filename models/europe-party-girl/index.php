@@ -40,6 +40,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
       <p><?= $texts['europeModel']['EuropeanModelEscortPenangdesc'] ?></p>
       <h2><?= $texts['europeModel']['KualaLumpurEuropeangirlsforbooking'] ?></h2>
       <p><?= $texts['europeModel']['KualaLumpurEuropeangirlsforbookingDesc'] ?></p>
+      <h2><?= $texts['europeModel']['Charming Companionship, True Elegance'] ?></h2>
+      <p><?= $texts['europeModel']['CharmingCompanionshipTrueElegancedesc'] ?></p>
+      <h2><?= $texts['europeModel']['Book the Best European Girls Anytime'] ?></h2>
+      <p><?= $texts['europeModel']['BooktheBestEuropeanGirlsAnytimeDesc'] ?></p>
+      <h2><?= $texts['europeModel']['Superb Party Girl Vibes'] ?></h2>
+      <p><?= $texts['europeModel']['SuperbPartyGirlVibesdesc'] ?></p>
     </div>
   </div>
   
@@ -54,5 +60,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <script src="/assets/js/model_filter.js"></script>
 
 <?php
-include '../../footer.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>

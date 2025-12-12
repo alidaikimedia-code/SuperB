@@ -551,7 +551,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
         <?php foreach($texts['cities'] as $city_key => $city_name): ?>
         <div class="area-card">
           <i class="fas fa-map-marker-alt"></i> 
-          <a href="/cities/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
+          <a href="/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
         </div>
         <?php endforeach; ?>
       </div>

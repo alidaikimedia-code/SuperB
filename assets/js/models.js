@@ -45,6 +45,7 @@ const models = {
         "Big Booty",
         "Big Tits"
       ]
+
     },
     {
       id: "A03",
@@ -3637,7 +3638,8 @@ const models = {
         "Long Legs"
       ], 
       link: "/models/chinese-party-girl/c01-qingdao",
-      chineseLink: "/cn/models/chinese-party-girl/C01-青岛",
+      chineseLink: "/cn/models/chinese-party-girl/C01-青岛"
+           
     },
     {
       id: "C02",
@@ -4069,8 +4071,8 @@ const models = {
         "Energetic",
         "Clingy"
           ],
-      link: "/models/chinese-party-girl/c19-xiaoa",
-      chineseLink: "/cn/models/chinese-party-girl/C19-小爱",
+      link: "/models/chinese-party-girl/C19-xiaoai",
+      chineseLink: "/cn/models/chinese-party-girl/C19-小爱同学",
     },
     {
       id: "C20",
@@ -4189,7 +4191,7 @@ const models = {
         "GFE",
         "Clingy"
       ],
-      link: "/models/chinese-party-girl/c24-yoyo",
+      link: "/models/chinese-party-girl/C24_yoyo",
       chineseLink: "/cn/models/chinese-party-girl/C24-悠悠球",
     },
     {
@@ -4237,7 +4239,7 @@ const models = {
         "Charm Smile",
         "Student"
       ],
-      link: "/models/chinese-party-girl/c26-cici",
+      link: "/models/chinese-party-girl/C26-cici",
       chineseLink: "/cn/models/chinese-party-girl/C26-CICI",
     },
     {
@@ -4261,7 +4263,7 @@ const models = {
         "Student",
         "Moaning"
       ],
-      link: "/models/chinese-party-girl/c27-xiaowen",
+      link: "/models/chinese-party-girl/C27-xiaowen",
       chineseLink: "/cn/models/chinese-party-girl/C27-小雯小雯",
     },
     {
@@ -4309,7 +4311,7 @@ const models = {
         "Tiny waist",
         "Extrovert"
       ],
-      link: "/models/chinese-party-girl/c29-xiaoxiao",
+      link: "/models/chinese-party-girl/C29-xiaoxiao",
       chineseLink: "/cn/models/chinese-party-girl/C29-潇潇小小",
     },
     {

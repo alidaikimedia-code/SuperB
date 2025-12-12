@@ -38,7 +38,7 @@ include '../header.php';
         <?php foreach($texts['cities'] as $city_key => $city_name): ?>
         <div class="area-card">
           <i class="fas fa-map-marker-alt"></i> 
-          <a href="/cities/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
+          <a href="/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
         </div>
         <?php endforeach; ?>
       </div>
@@ -131,12 +131,27 @@ include '../header.php';
       <p>
         <?= $texts['service']['Privatepartyescortservicedesc'] ?>
       </p>
-      <h2><?= $texts['service']['whyChooseUs'] ?></h2>
+    </section>
+    <section class="why-choose">
+      <h2><?= $texts['service']['ExperiencetheBest'] ?></h2>
       <p>
-        <?= $texts['service']['whyChooseUsDesc'] ?>
+        <?= $texts['service']['ExperiencetheBestdesc'] ?>
+      </p>
+    </section>
+    <section class="why-choose">
+      <h2><?= $texts['service']['PrivatePartyGirlOvernightServices'] ?></h2>
+      <p>
+        <?= $texts['service']['PrivatePartyGirlOvernightServicesdesc'] ?>
+      </p>
+    </section>
+    <section class="why-choose">
+      <h2><?= $texts['service']['WhyChooseUs'] ?></h2>
+      <p>
+        <?= $texts['service']['WhyChooseUsDesc'] ?>
       </p>
       
     </section>
+
 
     <div class="cta">
       <a href="<?= env('TELEGRAM_LINK') ?>" class="book-now-btn"><?= $texts['common']['book_now'] ?></a>

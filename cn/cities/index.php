@@ -60,11 +60,11 @@ $available_cities = [
   'kotadamansara' => ['name' => '哥打白沙罗', 'display_name' => '哥打白沙罗', 'url' => 'kota-damansara', 'description' => '在哥打白沙罗与SuperB Party Girl体验顶级伴游服务。我们的伴侣性感撩人、热情奔放，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model1.webp'],
   'kualalumpur' => ['name' => '吉隆坡', 'display_name' => '吉隆坡', 'url' => 'kuala-lumpur', 'description' => '在吉隆坡与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model2.webp'],
   'montkiara' => ['name' => '满家乐', 'display_name' => '满家乐', 'url' => 'mont-kiara', 'description' => '在满家乐与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model3.webp'],
-  'petalingjaya' => ['name' => '八打灵再也', 'display_name' => '八打灵再也', 'url' => 'petalingjaya', 'description' => '在八打灵再也与SuperB Party Girl体验顶级伴游服务。我们的伴侣年轻性感、热情奔放，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model4.webp'],
+  'petalingjaya' => ['name' => '八打灵再也', 'display_name' => '八打灵再也', 'url' => 'petaling-jaya', 'description' => '在八打灵再也与SuperB Party Girl体验顶级伴游服务。我们的伴侣年轻性感、热情奔放，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model4.webp'],
   'puchong' => ['name' => '蒲种', 'display_name' => '蒲种', 'url' => 'puchong', 'description' => '在蒲种与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情似火、活力四射，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model5.webp'],
   'putrajaya' => ['name' => '布城', 'display_name' => '布城', 'url' => 'putrajaya', 'description' => '在布城与SuperB Party Girl体验顶级伴游服务。我们的伴侣性感浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model6.webp'],
-  'shahalam' => ['name' => '莎阿南', 'display_name' => '莎阿南', 'url' => 'shahalam', 'description' => '在莎阿南与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情似火，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model1.webp'],
-  'subangjaya' => ['name' => '梳邦再也', 'display_name' => '梳邦再也', 'url' => 'subangjaya', 'description' => '在梳邦再也与SuperB Party Girl体验顶级伴游服务。我们的伴侣风趣热情、魅力四射，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model2.webp']
+  'shahalam' => ['name' => '莎阿南', 'display_name' => '莎阿南', 'url' => 'shah-alam', 'description' => '在莎阿南与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情似火，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model1.webp'],
+  'subangjaya' => ['name' => '梳邦再也', 'display_name' => '梳邦再也', 'url' => 'subang-jaya', 'description' => '在梳邦再也与SuperB Party Girl体验顶级伴游服务。我们的伴侣风趣热情、魅力四射，提供B2B按摩、浪漫约会和私人会面。', 'image' => 'model2.webp']
 ];
 
 

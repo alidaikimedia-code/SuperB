@@ -60,7 +60,7 @@
                 <p>&copy; <?= date('Y') ?> Superb Party Girl. <?= $texts['footer']['all_rights_reserved'] ?>.</p>
                 <div class="footer-links">
                     <a href="<?= localizedPath('/privacy') ?>"><?= $texts['footer']['privacy_policy'] ?></a>
-                    <a href="<?= localizedPath('/terms') ?>"><?= $texts['footer']['terms_of_service'] ?></a>
+                    <a href="<?= localizedPath('/terms-of-service') ?>"><?= $texts['footer']['terms_of_service'] ?></a>
                     <a href="<?= localizedPath('/disclaimer') ?>"><?= $texts['footer']['disclaimer'] ?></a>
                 </div>
             </div>

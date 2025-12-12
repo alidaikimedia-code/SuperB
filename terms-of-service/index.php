@@ -5,7 +5,7 @@ $legal_section = 'terms_of_service';
 $lang = 'en-my';
 
 // Load config and language files
-include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+// include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/about.css">
@@ -130,7 +130,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <div class="about-cta">
       <p class="about-cta-text">Questions about our Terms of Service?</p>
       <p>If you have any questions about our terms and conditions, please don't hesitate to reach out to us.</p>
-      <a href="https://t.me/SuperBvvip" class="about-btn book-now-btn">Contact Us</a>
+      <a href="<?= env('TELEGRAM_LINK') ?>" class="about-btn book-now-btn">Contact Us</a>
     </div>
   </div>
 </main>

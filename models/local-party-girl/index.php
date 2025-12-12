@@ -50,5 +50,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <script src="/assets/js/model_filter.js"></script>
 
 <?php
-include '../../footer.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>

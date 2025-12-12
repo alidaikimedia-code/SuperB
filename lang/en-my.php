@@ -19,6 +19,7 @@ return [
     'contactus' => "Book Now",
     'aboutus'   => "About Us",
     'blog'      => "Blog",
+    'clubs'     => "Clubs",
     'premium_escort'    => "Premium Escort",
     'view_all_locations' => "View All Locations",
     'local_party_girls' => "Local Party Girls",
@@ -30,7 +31,7 @@ return [
   ],
 
   'cities' => [
-    'kuala_lumpur' => "Kuala Lumpur",
+    'kuala-lumpur' => "Kuala Lumpur",
     'ampang' => "Ampang",
     'cheras' => "Cheras",
     'cyberjaya' => "Cyberjaya",
@@ -39,24 +40,26 @@ return [
     'johor' => "Johor",
     'kepong' => "Kepong",
     'klang' => "Klang",
-    'kota_damansara' => "Kota Damansara",
-    'langkawi' => "Langkawi",
-    'local' => "Local",
-    'melaka' => "Melaka",
-    'mont_kiara' => "Mont Kiara",
-    'pahang' => "Pahang",
-    'penang' => "Penang",
-    'petaling_jaya' => "Petaling Jaya",
-    'port_dickson' => "Port Dickson",
+    'kota-damansara' => "Kota Damansara",
+    // 'langkawi' => "Langkawi",
+    // 'local' => "Local",
+    // 'melaka' => "Melaka",
+    'mont-kiara' => "Mont Kiara",
+    // 'pahang' => "Pahang",
+    // 'penang' => "Penang",
+    'petaling-jaya' => "Petaling Jaya",
+    // 'port-dickson' => "Port Dickson",
     'puchong' => "Puchong",
-    'sabah' => "Sabah",
-    'sarawak' => "Sarawak",
-    'serdang' => "Serdang",
-    'seremban' => "Seremban",
-    'setia_alam' => "Setia Alam",
-    'sri_petaling' => "Sri Petaling",
-    'subang' => "Subang",
-    'taiping' => "Taiping",
+    // 'sabah' => "Sabah",
+    // 'sarawak' => "Sarawak",
+    // 'serdang' => "Serdang",
+    // 'seremban' => "Seremban",
+    // 'setia-alam' => "Setia Alam",
+    // 'sri-petaling' => "Sri Petaling",
+    'subang-jaya' => "Subang Jaya",
+    // 'taiping' => "Taiping",
+    'bukit-bintang' => "Bukit Bintang",
+    'klang-valley' => "Klang Valley",
   ],
 
   'common' => [
@@ -108,6 +111,9 @@ return [
     'pgVSprDesc2'       => "The experience transforms from ordinary to extraordinary when you control everything. No competition or distractions, only pure connection and tremendous chemistry.",
     'premiumExceeds'    => "Premium Standards That Exceed Every Expectation",
     
+
+
+    
     'premiumExceedsL1'  => "Each Party Girl upholds the highest standards of discretion and intelligence.",
     'premiumExceedsL2'  => "Superb party girls are trained to understand that confidentiality is the key.",
     'premiumExceedsL3'  => "Your satisfaction becomes their primary mission from the first moment.",
@@ -120,7 +126,7 @@ return [
     'escapeLife'        => "Escape From Life's Relentless Pressure",
     'escapeLifeDesc'    => "Work stress melts away when her soft voice fills the silence. Her engaging presence provides the mental break your mind desperately craves. For precious hours, responsibilities fade into distant background noise completely.This isn't about complicated emotions or messy relationship drama whatsoever. Pure enjoyment flows naturally when someone focuses entirely on your pleasure.",
     'transformGather'   => "Transform Every Gathering Into Magnetic Moments",
-    'transformGatherDesc'=> "Business dinners become thrilling adventures when she's by your side. Professional networking feels effortless with her charming personality supporting you. Corporate events transform from boring obligations into anticipated experiences you'll remember. These private moments give you the excitement and satisfaction that are impossible to achieve in any other enjoyment. Her presence elevates ordinary gatherings into exclusive, intimate encounters worth treasuring.",
+    'transformGatherDesc'=> "Business dinners become thrilling adventures when she's by your side. Professional networking feels effortless with her charming personality supporting you. Corporate events transform from boring obligations into anticipated experiences you'll remember. These private moments with our private party escorts give you the excitement and satisfaction that are impossible to achieve in any other enjoyment. Her presence elevates ordinary gatherings into exclusive, intimate encounters worth treasuring.",
     'freedomEmo'        => "Freedom Without Emotional Complications",
     'freedomEmoDesc'    => "You would like these great arrangements without relationship baggage. Long-term obligations never complicate things.Dating turmoil is irrelevant when plans are simple.",
     'yourDesires'       => "Your Desires, Perfectly Customized",
@@ -128,7 +134,7 @@ return [
     'instantAccess'     => "Instant Access to Premium Companionship",
     'instantAccessDesc' => "Avoid time-wasting dating games for months. Quality companionship arrives when you need it most.Tonight might change everything for you.",
     'typesOfPG'         => "Types of Malaysia Party Girls",
-    'typesOfPGDesc'     => "Every man deeply desires something different. Others want mild comfort, while others want adventurous adventures. Our handpicked selection matches your wildest fantasies.  <a class='link' title='SuperB Party Girl Malaysia' href='https://superbpartygirl.com' target='_blank'>Each Party Girl</a> brings unique energy that transforms ordinary nights forever.",
+    'typesOfPGDesc'     => "Every man deeply desires something different. Others want mild comfort, while others want adventurous adventures. Our handpicked selection, including mixed-race model escorts, matches your wildest fantasies.  <a class='link' title='SuperB Party Girl Malaysia' href='https://superbpartygirl.com' target='_blank'>Each Party Girl</a> brings unique energy that transforms ordinary nights forever.",
 
     'physicalAttract'   => "Physical Attraction That Ignites Passion",
     'bigBootyDesc'      => "Big booty girls captivate men who appreciate curves that command attention. Her confident swagger makes every step a seductive dance. This Party Girl knows exactly how her silhouette drives you wild.",
@@ -149,7 +155,7 @@ return [
     'kolDesc'           => "KOL party girls bring social media glamour directly to your door. Her immaculate look makes you think you're dating a celebrity.",
     'howPGBooking'      => "How Party Girl Bookings Work",
     'findPerfect'       => "Find Your Perfect Girl Tonight:",
-    'findPerfectDesc'   => "Browse our online gallery of Malaysia's hottest Party Girls now. Filter by tags that match what you want most. Read profiles showing each girl's special skills and talents. Check who's free and see clear prices for everything.",
+    'findPerfectDesc'   => "Browse our online gallery of Malaysia's hottest Party Girls now. Filter by tags that match what you want most. Read profiles showing each girl's skills and talents. Check who's free and see clear Malaysia escort price details upfront.",
     'bookDream'         => "Book Your Dream Night Fast:",
     'bookDreamDesc'     => "Contact us through our private website or phone number today. Tell us your date, time, and where you want her. Say how long you want, plus any special things. Get quick approval with all the details you need.",
     'safeCheck'         => "Safe Check For Everyone:",
@@ -157,11 +163,11 @@ return [
     'getReady'          => "Getting Ready For You:",
     'getReadyDesc'      => "Your Party Girl gets ready and looks perfect beforehand. We handle travel so the party girl arrives on time exactly. The final call gives you her arrival time perfectly. Everything gets done right, so you just wait.",
     'perfectDeliver'    => "Perfect Delivery to Your Place:",
-    'perfectDeliverDesc'=> "Your girl comes straight to your private location tonight. A professional greeting starts everything perfectly from the first second. Service begins exactly as we agreed, with full attention. Flexible plans change with what you want over time.",
+    'perfectDeliverDesc'=> "Our outcall escort girls come straight to your private location tonight. A professional greeting starts everything perfectly from the first second. Service begins exactly as we agreed, with full attention. Flexible plans change with what you want over time.",
     'readyForAmazing'   => "Ready for your amazing night?",
     'contactUs'         => "Contact Us Now",
     'safetyDiscre'      => "Safety & Discretion",
-    'safetyDiscreDesc1' => "Your secrets stay locked away forever with us tonight. Every secret wish, desire, and fantasy is private. Our party girls receive thorough health checks before meeting any client. Physical safety comes first in everything we do, always. We care most about your health. Digital privacy is protected through encrypted communication systems only. Your personal details never get shared with anyone outside. Phone records and messages disappear after each completed session.",
+    'safetyDiscreDesc1' => "Your secrets stay locked away forever with us tonight. Every secret wish, desire, and fantasy is private. Our party girls act as a safe party escort, receiving thorough health checks before meeting any client. Physical safety comes first in everything we do, always. We care most about your health. Digital privacy is protected through encrypted communication systems only. Your personal details never get shared with anyone outside. Phone records and messages disappear after each completed session.",
     'safetyDiscreDesc2' => "Even your most embarrassing requests stay between you two. Judgment never enters our world of pure pleasure tonight. Whatever makes you happy becomes our only mission, always. Men who are married are at peace since their spouses never find out. We take care of the most sensitive circumstances for corporate leaders. You can go into banned locations without hurting your reputation. Nothing you say or do ever leaves the room.",
     'howChooseRepuPG'   => "How to Choose a Reputable Party Girl Platform in Malaysia?",
     'proQuality'        => "Professional Quality:",
@@ -171,7 +177,7 @@ return [
     'compPrivacy'       => "Complete Privacy:",
     'compPrivacyDesc'   => "Strong agreements keep your identity locked away from everyone. Secure data handling means your information stays completely private. Client details never get shared with anyone outside ever. Encrypted channels protect every message you send or receive.",
     'reviewMatters'     => "Reviews Matter:",
-    'reviewMattersDesc' => "Positive feedback shows other men found exactly what they wanted. Established track records in Malaysia prove long-term reliability. Trusted recommendations come from satisfied clients who return regularly.",
+    'reviewMattersDesc' => "Positive feedback shows other men found exactly what they wanted. Established track records in Malaysia prove long-term reliability. Trusted recommendations come from satisfied clients who return regularly, especially for our Johor Bahru private party escorts.",
     'transOperation'    => "Transparent Operations:",
     'transOperationDesc'=> "Clear terms prevent confusion about what you're actually getting. Upfront pricing means no shocking bills after your pleasure ends. Honest descriptions match exactly what arrives at your door.",
     'sayAboutUs'        => "What People Say About SuperB Party Girl Malaysia",
@@ -183,7 +189,7 @@ return [
     'comment2Title'     => "Party Liveliness",
     'comment2Person'    => "Ahmad",
     'comment2Desc1'     => "Private parties might be difficult, but SuperB Party Girl Malaysia made it easy. I book a KL party girl to my villa, and the vibe changed immediately. She had this magnetic energy that brought laughter and life to the room.",
-    'comment2Desc2'     => "She easily interacted with my guests, danced to the night, and helped us set up beverages and music. She was unrivaled at making an evening effortless and memorable. My buddies raved about how the party felt alive like never before. Excellent Party Girl Malaysia is where the magic happens, so book now.",
+    'comment2Desc2'     => "She easily interacted with my guests, danced to the night, and proved why we are trusted for social escorts with female models. She was unrivaled at making an evening effortless and memorable. My buddies raved about how the party felt alive like never before. Excellent Party Girl Malaysia is where the magic happens, so book now.",
     'comment3Title'     => "Sailing into Bliss",
     'comment3Person'    => "Ryo",
     'comment3Location'  => "Japan",
@@ -218,10 +224,10 @@ return [
   ],
 
   'models'  => [
-    'title'             => "Party Girl Models | Local, Chinese, Japanese, Korean, Etc",
+    'title'             => "Malaysia Overnight Model Escorts | Superb Party Girl",
     'description'       => "Malaysia’s premier model escorts for parties, overnight stays, and events. Select verified companions for luxury experiences with trusted arrangements.",
     'canonical_link'    => "https://superbpartygirl.com/models/",
-    'og_title'          => "Party Girl Models | Local, Chinese, Japanese, Korean, Etc",
+    'og_title'          => "Malaysia Overnight Model Escorts | Superb Party Girl",
     'og_description'    => "Malaysia’s premier model escorts for parties, overnight stays, and events. Select verified companions for luxury experiences with trusted arrangements.",
     'modelsTitle'       => "Party Girl Models",
     'modelsSubTitle'    => "All Party Girls",
@@ -275,17 +281,24 @@ return [
     'fullListMsg'       => "Hi, I want a full list.",
     'Malaysiaovernightmodelescort'=> "Malaysia overnight model escort",
     'Malaysiaovernightmodelescortdesc'=>"Discover the elegance and charm of our Malaysia overnight model escort services, designed for clients who seek premium companionship with complete privacy and comfort. Our models are professional, discreet, and available for overnight stays, making them the perfect choice for business events, social gatherings, or private celebrations.",
+    
+    'ExperiencetheBestwithSuperbPartyGirlDesc'=>"At Superb Party Girl, we make every event brighter with our professional and friendly companions. Whether it’s a celebration, dinner, or social gathering, our guests enjoy clear and reliable Malaysia escort price details so you always know what to expect without hidden surprises.",
     'Malaysiamodelescorts'=> "Malaysia model escorts",
     'Malaysiamodelescortsdesc'=>"At Superb Party Girl, we provide a wide selection of Malaysia model escorts who combine beauty, sophistication, and professionalism. Whether you are looking for a companion in Kuala Lumpur, Penang, or Johor Bahru, our model escorts ensure unforgettable experiences with style, safety, and discretion. Book today to enjoy the company of Malaysia’s most trusted party girls and overnight escorts.",
-
+    'Elite Companionship That Feels Effortless'=>"Elite Companionship That Feels Effortless",
+    'EliteCompanionshipThatFeelsEffortlessDesc'=>"Meet beautiful and assured Malaysia model escorts who convey fashion, attraction and a welcoming presence to every social gathering. They add sophistication to your parties, occasions and celebrations making every second sense vibrant and enjoyable.",
+    'Enjoy Memorable Dark and Overnight Visits'=>"Enjoy Memorable Dark and Overnight Visits",
+    'EnjoyMemorableDarkandOvernightVisitsDesc'=>"Whether you’re website is hosting a different dinner, a private party, or a special night out, our Malaysia overnight model escort carrier ensures a unbroken and beautiful experience. Enjoy a pleasant employer, attractive verbal exchange, and a sense of ease that makes each hour unforgettable.",
+    'Your Trusted Escort Experience'=>"Your Trusted Escort Experience",
+    'YourTrustedEscortExperienceDesc'=>"At Superb Party Girl, we blend elegance with entertainment. Each Malaysia model escort represents grace, personality, and genuine connection creating an atmosphere where guests feel comfortable, valued, and uplifted throughout your event.",
   ],
 
   'localModel' => [
     'title'             => "Local Party Girl | Find Your Perfect Party Girls in Malaysia",
-    'description'       => "Find your perfect local party girl in Malaysia, including glamorous Malaysian influencers. Book beauty and charismatic girls enhance your nightlife with unforgettable experiences.",
+    'description'       => "Know about the Malaysia’s best local party girls for events, parties, or private bookings. Enjoy vibrant companionship and unforgettable nightlife experiences.",
     'canonical_link'    => "https://superbpartygirl.com/models/local-party-girl/",
     'og_title'          => "Local Party Girl | Find Your Perfect Party Girls in Malaysia",
-    'og_description'    => "Find your perfect local party girl in Malaysia, including glamorous Malaysian influencers. Book beauty and charismatic girls enhance your nightlife with unforgettable experiences.",
+    'og_description'    => "Know about the Malaysia’s best local party girls for events, parties, or private bookings. Enjoy vibrant companionship and unforgettable nightlife experiences.",
     'modelsTitle'       => "Local Party Girl",
     //'modelsSubTitle'    => "Local Party Girls (Malaysia)",
 	  'modelsSubTitle'    => "Contact Customer Service for More Info (PVP)",
@@ -305,10 +318,10 @@ return [
 
   'koreaModel' => [
     'title'             => "Party Girl from Korea | Korean Party Girls in Malaysia",
-    'description'       => "Discover the beauty and charm of Korean party girls in Malaysia. Book stunning, idol-like companions who bring glamour, sophistication, and unforgettable moments to your nightlife.",
+    'description'       => "Meet beautiful Korean party girls in Malaysia. Book top Korean models for exclusive parties, social gatherings, or private entertainment experiences.",
     'canonical_link'    => "https://superbpartygirl.com/models/korea-party-girl/",
     'og_title'          => "Party Girl from Korea | Korean Party Girls in Malaysia",
-    'og_description'    => "Discover the beauty and charm of Korean party girls in Malaysia. Book stunning, idol-like companions who bring glamour, sophistication, and unforgettable moments to your nightlife.",
+    'og_description'    => "Meet beautiful Korean party girls in Malaysia. Book top Korean models for exclusive parties, social gatherings, or private entertainment experiences.",
     'modelsTitle'       => "Party Girl from Korea",
     'modelsSubTitle'    => "Korean Party Girl",
     'koreaFullListMsg'  => "Hi, I want a full list of Korean party girl.",
@@ -316,17 +329,17 @@ return [
 
   'japanModel' => [
     'title'             => "Party Girl from Japan | Japanese AV Party Girls in Malaysia",
-    'description'       => "Choose and book Japanese AV party girls in Malaysia for exclusive nightlife experiences. Explore profiles of stunning party girls ready to make your night unforgettable.",
+    'description'       => "Find stunning Japanese AV party girls in Malaysia. Book elegant Japanese models for exclusive parties, nightlife events, and personalized companionship.",
     'canonical_link'    => "https://superbpartygirl.com/models/japan-party-girl/",
     'og_title'          => "Party Girl from Japan | Japanese AV Party Girls in Malaysia",
-    'og_description'    => "Choose and book Japanese AV party girls in Malaysia for exclusive nightlife experiences. Explore profiles of stunning party girls ready to make your night unforgettable.",
+    'og_description'    => "Find stunning Japanese AV party girls in Malaysia. Book elegant Japanese models for exclusive parties, nightlife events, and personalized companionship.",
     'modelsTitle'       => "Party Girl from Japan",
     'modelsSubTitle'    => "Japanese Party Girl",
     'japanFullListMsg'  => "Hi, I want a full list of Japan party girl.",
   ],
 
   'chinaModel' => [
-    'title'             => "Book ke Chinese Party Girls & Escort Reservations | Superb Party Girl",
+    'title'             => "Book Chinese Party Girls & Escort Reservations | Superb Party Girl",
     'description'       => "Hire Chinese party girls online for private events and parties. Verified models in Malaysia offering safe, stylish, and professional companion services anytime.",
     'canonical_link'    => "https://superbpartygirl.com/models/chinese-party-girl/",
     'og_title'          => "Book Chinese Party Girls & Escort Reservations | Superb Party Girl",
@@ -337,7 +350,13 @@ return [
     'BookChinesepartygirlsonline'=> "Book Chinese party girls online",
     'BookChinesepartygirlsonlinedesc'=> "social events, or exclusive gatherings in Malaysia. Our professional and discreet Chinese models are available for both short-term and overnight services, ensuring a safe and enjoyable experience. Whether you are planning a private celebration in Kuala Lumpur or Penang, our online booking system allows you to choose the perfect companion effortlessly. Book Chinese party girls online today and enjoy premium service with well-trained, charming, and reliable escorts who prioritize your comfort, privacy, and satisfaction.",
     'HireChinesepartygirls'=>"Hire Chinese party girls",
-    'HireChinesepartygirlsDesc'=>"Looking to hire Chinese party girls for an overnight stay or special celebration? Our companions are available in Kuala Lumpur, Penang, and Johor Bahru, offering discreet services with complete privacy. Choose from our selection of charming Chinese escorts who are dedicated to making your party unforgettable with elegance, fun, and professionalism."
+    'HireChinesepartygirlsDesc'=>"Looking to hire Chinese party girls for an overnight stay or special celebration? Our companions are available in Kuala Lumpur, Penang, and Johor Bahru, offering discreet services with complete privacy. Choose from our selection of charming Chinese escorts who are dedicated to making your party unforgettable with elegance, fun, and professionalism.",
+    'Meet Charming Chinese Party Girls for Unforgettable Nights'=>"Meet Charming Chinese Party Girls for Unforgettable Nights",
+    'MeetCharmingChinesePartyGirlsforUnforgettableNightsDesc'=>"When you Hire Chinese party girls, you’re choosing beauty, self-belief, and a lively spirit in your event. Each of our gifted performers brings energy, style and a friendly vibe that makes every celebration shine.",
+    'Perfect Choice for Every Occasion'=>"Perfect Choice for Every Occasion",
+    'PerfectChoiceforEveryOccasionDesc'=>"From themed parties and corporate gatherings to private celebrations, our Chinese birthday celebration ladies understand the way to keep the surroundings vibrant and tasty. They’re a laugh-loving, expert and constantly ready to decorate your occasion with charm and enthusiasm.",
+    'Book Today with Confidence'=>"Book Today with Confidence",
+    'BookTodaywithConfidenceDesc'=>"At Superb Party Girl, we make it smooth and stable to book Chinese party girls online. Our crew ensures clean coordination, dependable provider, and an enjoyable experience from start to complete. Add a touch of class and fun to your next event because each tremendous birthday celebration merits high-quality business enterprise.",
   ],
 
   'europeModel' => [
@@ -353,7 +372,13 @@ return [
     'EuropeanModelEscortPenang' =>"European Model Escort Penang",
     'EuropeanModelEscortPenangdesc'=> "Experience luxury and elegance with our European model escort in Penang, perfect for private parties, social gatherings, and overnight bookings. Our European escorts are professional, discreet, and well-trained to ensure that every event is truly memorable.",
     'KualaLumpurEuropeangirlsforbooking'=>"Kuala Lumpur European girls for booking",
-    'KualaLumpurEuropeangirlsforbookingDesc'=>"Superb Party Girl also offers Kuala Lumpur European girls for booking, giving you the chance to enjoy the company of stylish companions in Malaysia’s capital. Whether you need a model escort for a business event, nightclub outing, or a private celebration, our European girls deliver charm, sophistication, and complete privacy. Book today for an unforgettable experience."
+    'KualaLumpurEuropeangirlsforbookingDesc'=>"Superb Party Girl also offers Kuala Lumpur European girls for booking, giving you the chance to enjoy the company of stylish companions in Malaysia’s capital. Whether you need a model escort for a business event, nightclub outing, or a private celebration, our European girls deliver charm, sophistication, and complete privacy. Book today for an unforgettable experience.",
+    'Charming Companionship, True Elegance'=>"Charming Companionship, True Elegance",
+    'CharmingCompanionshipTrueElegancedesc'=>"Experience charm, fashion, and colorful electricity with our European Model Escort Penang girls, known for their self-assurance, elegance, and active spirit. Each persona adds a hint of sophistication and warmth to social activities, celebrations, or personal gatherings, making each interaction herbal and fun.",
+    'Book the Best European Girls Anytime'=> "Book the Best European Girls Anytime",
+    'BooktheBestEuropeanGirlsAnytimeDesc'=> "Whether it's a weekend party, formal dinner or luxury celebration our Kuala Lumpur European girls for booking deliver a mix of sophistication and fun. They know how to create the proper atmosphere, fashionable, enticing and usually friendly, making your time together seem easy and remarkable.",
+    'Superb Party Girl Vibes'=>"Superb Party Girl Vibes",
+    'SuperbPartyGirlVibesdesc'=>"Where elegance meets excitement, our European companions offer genuine connection and lively company. Perfect for social occasions, parties, or high-end events, they embody grace with an approachable, upbeat attitude, redefining what it means to enjoy true European-style companionship.",
   ],
 
   'service' => [
@@ -387,7 +412,16 @@ return [
     'whyChooseUs'       => "Why Choose Us?",
     'whyChooseUsDesc'   => "Attention to detail distinguishes <a class='link' title='SuperB Party Girl Malaysia' href='https://superbpartygirl.com/models/chinese-party-girl' target='_blank'>SuperB Party Girl Malaysia</a>. Every experience is customized. We know discretion and trustworthiness are important; thus, our party girls always ensure your privacy and comfort. Trust us to deliver a seamless, interesting, customized experience. Do not wait to make your night special.<br> Hire a <a class='link' title='SuperB Party Girl Malaysia' href='https://superbpartygirl.com' target='_blank'>SuperB party girl</a> in Malaysia, immediately to make your night unforgettable!",
     'Privatepartyescortservice'=> "Private party escort service",
-    'Privatepartyescortservicedesc'=> "At Superb Party Girl, we specialize in providing a premium private party escort service tailored to your needs. Whether you are looking for the best escort service in Penang, intimate escort services, or Penang high-end escorts, our companions are trained to make every event memorable. We offer a wide range of escort service packages, including evening escort services, model escort services, and private party girl overnight services. From men’s party and social services in Kuala Lumpur to private escort service for business or leisure, our escorts ensure elegance, discretion, and complete satisfaction. Book today to enjoy the finest party girls Malaysia has to offer."
+    'Privatepartyescortservicedesc'=> "At Superb Party Girl, we specialize in providing a premium private party escort service tailored to your needs. Whether you are looking for the best escort service in Penang, intimate escort services, or Penang high-end escorts, our companions are trained to make every event memorable. We offer a wide range of escort service packages, including evening escort services, model escort services, and private party girl overnight services. From men’s party and social services in Kuala Lumpur to private escort service for business or leisure, our escorts ensure elegance, discretion, and complete satisfaction. Book today to enjoy the finest party girls Malaysia has to offer.",
+    'ExperiencetheBest'=>"Exclusive Fun with Superb Party Girl",
+    'ExperiencetheBestdesc'=>"Superb Party Girl brings strength and pleasure to each party with customized Escort service packages made for any event. Whether it’s a private occasion, birthday bash or unique night with friends, our group ensures each moment is filled with laughter, charm and unforgettable amusing.",
+    'PrivatePartyGirlOvernightServices'=>"Private Party Girl Overnight Services",
+    'PrivatePartyGirlOvernightServicesdesc'=>"We consciousness on amusement, visitor interaction, and growing a lively, relaxed atmosphere where each person feels included. Each enjoy is planned with care to make your night easy, glad, and complete with high-quality reminiscences.",
+    'WhyChooseUs'=>"Why Choose Us?",
+    'WhyChooseUsDesc'=>"Attention to detail distinguishes <a class='link' title='SuperB Party Girl Malaysia' href='https://superbpartygirl.com/models/chinese-party-girl' target='_blank'>SuperB Party Girl Malaysia</a>. Every experience is customized. We know discretion and trustworthiness are important; thus, our party girls always ensure your privacy and comfort. Trust us to deliver a seamless, interesting, customized experience. Do not wait to make your night special.<br> Hire a <a class='link' title='SuperB Party Girl Malaysia' href='https://superbpartygirl.com' target='_blank'>SuperB party girl</a> in Malaysia, immediately to make your night unforgettable!
+    We believe parties should feel effortless and enjoyable. Our Superb Party Girl service combines friendliness, reliability, and vibrant energy helping you host events that stand out.
+With Superb Party Girl, every gathering becomes brighter, smoother, and more fun turning your celebrations into lasting memories.
+",
   ],
 
   'events' => [
@@ -498,6 +532,13 @@ return [
     'bookingSubTitle'   => "Book a Party Girl",
     'Kuala Lumpur party girl booking ' => "Kuala Lumpur party girl booking ",
     'Kuala Lumpur party girl booking Desc' => "Superb Party Girl makes Kuala Lumpur party girl booking simple, secure, and convenient. Whether you want a companion for a private party, nightclub, or special celebration, our professional escorts are available to book anytime. With our nightclub girl booking option, you can easily reserve a stylish companion to join you for an evening full of fun and entertainment. We also provide a seamless party girl online booking service that lets you choose your preferred model in just a few clicks. Every booking is handled with complete discretion, ensuring safety, privacy, and a premium experience. Book your party girl today and enjoy an unforgettable night in Malaysia.",
+    'BookYourPerfectPartyExperienceToday'=>"Book Your Perfect Party Experience Today",
+    'BookYourPerfectPartyExperienceTodayDesc'=>"With party girl online booking from Superb Party Girl, planning entertainment for your event has never been easier. Our talented, high-energy team brings fun, confidence, and vibrant performances that keep the crowd engaged all night long.",
+    'Trusted Nightclub Girl Booking Service'=>"Trusted Nightclub Girl Booking Service",
+    'TrustedNightclubGirlBookingServiceDesc'=>"Whether it’s a club event, company celebration, or personal birthday celebration, our Nightclub girl booking provider guarantees an easy, dependable experience. You can anticipate punctual, professional performers who realize how to set the proper mood for your venue. No hidden costs, simply clean conversation and seamless coordination.
+
+At Superb Party Girl, every booking means expert entertainment, great vibes, and a night your guests will always remember.
+",
     'nationality'       => "Nationality",
     'local'             => "Local Party Girls",
     'vietnam'           => "Vietnamese Party Girls",
@@ -540,10 +581,10 @@ return [
 
   'contact' => [
     'title'             => "Contact Us | Call Out Party Girls Malaysia Now",
-    'description'       => "Need the best party girls in Malaysia? Contact us now to book and bring unforgettable fun and charm to your nights!",
+    'description'       => "Contact SuperbPartyGirl Malaysia today. Call or message us to book your preferred model for events, parties, or private companionship experiences.",
     'canonical_link'    => "https://superbpartygirl.com/contact-us/",
     'og_title'          => "Contact Us | Call Out Party Girls Malaysia Now",
-    'og_description'    => "Need the best party girls in Malaysia? Contact us now to book and bring unforgettable fun and charm to your nights!",
+    'og_description'    => "Contact SuperbPartyGirl Malaysia today. Call or message us to book your preferred model for events, parties, or private companionship experiences.",
     'contactTitle'      => "Contact Us For Booking Party Girls",
     'contactSubTitle'   => "Call Out Party Girls Process",
     'calloutDesc1'      => '<a class="link" title="SuperB Party Girl Malaysia" href="https://superbpartygirl.com/" target="_blank"><span class="highlight">SuperB Party Girl Malaysia</span></a> makes booking a party girl easy, fast, and customized.<br>For a night out or a private occasion, our straightforward call-out process ensures a smooth encounter.<br>
@@ -601,7 +642,7 @@ return [
   'blogs' => [
     'title'             => "Escort Blogs & Lifestyle Insights | SuperB Party Girl",
     'description'       => "Read exclusive articles about premium companions, luxury nightlife, and tips to make every evening unforgettable with SuperB Party Girl Malaysia.",
-    'canonical_link'    => "https://superbpartygirl.com/blogs",
+    'canonical_link'    => "https://superbpartygirl.com/blogs/",
     'og_title'          => "Escort Blogs & Lifestyle Insights | SuperB Party Girl",
     'og_description'    => "Read exclusive articles about premium companions, luxury nightlife, and tips to make every evening unforgettable with SuperB Party Girl Malaysia.",
     'heroTitle'         => "Escort Blogs & Lifestyle Insights",
@@ -706,7 +747,7 @@ return [
   'blog_escort_packages_tailored' => [
     'title' => "Escort Packages Tailored for Luxury Travelers and Executives | SuperB Party Girl",
     'description' => "Tailored escort packages crafted for luxury travelers and businessmen, ensuring privacy, comfort, and premium companionship during trips or corporate stays.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/escort-packages-tailored-for-luxury-travelers-and-businessmen",
+    'canonical_link' => "https://superbpartygirl.com/blogs/escort-packages-tailored-for-luxury-travelers-and-businessmen/",
     'og_title' => "Escort Packages Tailored for Luxury Travelers and Businessmen",
     'og_description' => "Tailored escort packages crafted for luxury travelers and businessmen, ensuring privacy, comfort, and premium companionship during trips or corporate stays.",
     'hero_title' => "Escort Packages Tailored for Luxury Travelers and Businessmen",
@@ -761,7 +802,7 @@ return [
   'blog_private_party_escorts_redefine' => [
     'title' => "How Private Party Escorts Redefine Luxury Entertainment Today | SuperB Party Girl",
     'description' => "Discover how private party escorts redefine luxury entertainment, offering elegance, charm, and professionalism that elevate events into memorable experiences.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/how-private-party-escorts-redefine-luxury-entertainment",
+    'canonical_link' => "https://superbpartygirl.com/blogs/how-private-party-escorts-redefine-luxury-entertainment/",
     'og_title' => "How Private Party Escorts Redefine Luxury Entertainment Today",
     'og_description' => "Discover how private party escorts redefine luxury entertainment, offering elegance, charm, and professionalism that elevate events into memorable experiences.",
     'hero_title' => "How Private Party Escorts Redefine Luxury Entertainment",
@@ -859,7 +900,7 @@ return [
   'blog_why_mixed_race_demand' => [
     'title' => "Why Mixed-Race Model Escorts Are in High Demand | SuperB Party Girl",
     'description' => "Discover why mixed-race model escorts are increasingly in demand, admired for their unique looks, charm, and elegance, creating unforgettable client experiences.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/why-mixed-race-model-escorts-are-in-high-demand",
+    'canonical_link' => "https://superbpartygirl.com/blogs/why-mixed-race-model-escorts-are-in-high-demand/",
     'og_title' => "Why Mixed-Race Model Escorts Are in High Demand",
     'og_description' => "Discover why mixed-race model escorts are increasingly in demand, admired for their unique looks, charm, and elegance, creating unforgettable client experiences.",
     'hero_title' => "Why Mixed-Race Model Escorts Are in High Demand",
@@ -910,7 +951,7 @@ return [
   'blog_holiday_party_girls' => [
     'title' => "How Holiday Party Girls Reservations Work for Private Events | SuperB Party Girl",
     'description' => "Learn how holiday party girls reservations work for private events, offering style, charm, and professionalism to create memorable and stress-free celebrations.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/how-holiday-party-girls-reservations-work-for-private-events",
+    'canonical_link' => "https://superbpartygirl.com/blogs/how-holiday-party-girls-reservations-work-for-private-events/",
     'og_title' => "How Holiday Party Girls Reservations Work for Private Events",
     'og_description' => "Learn how holiday party girls reservations work for private events, offering style, charm, and professionalism to create memorable and stress-free celebrations.",
     'hero_title' => "How Holiday Party Girls Reservations Work for Private Events",
@@ -961,7 +1002,7 @@ return [
   'blog_european_model_escorts' => [
     'title' => "Why European Model Escorts Are So Popular for Private Parties Today | SuperB Party Girl",
     'description' => "Discover why European model escorts are highly popular for private parties, offering elegance, charm, and sophistication that create memorable and luxurious experiences.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/why-european-model-escorts-are-popular-for-private-parties",
+    'canonical_link' => "https://superbpartygirl.com/blogs/why-european-model-escorts-are-popular-for-private-parties/",
     'og_title' => "Why European Model Escorts Are So Popular for Private Parties Today",
     'og_description' => "Discover why European model escorts are highly popular for private parties, offering elegance, charm, and sophistication that create memorable and luxurious experiences.",
     'hero_title' => "Why European Model Escorts Are Popular for Private Parties",
@@ -1012,7 +1053,7 @@ return [
   'blog_mens_party_social_services' => [
     'title' => "How Men's Party and Social Services Add Spark to Events | SuperB Party Girl",
     'description' => "Men's party and social services bring energy, style, and entertainment, creating memorable experiences that make private gatherings and events truly special.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/how-mens-party-and-social-services-add-spark-to-events",
+    'canonical_link' => "https://superbpartygirl.com/blogs/how-mens-party-and-social-services-add-spark-to-events/",
     'og_title' => "How Men's Party and Social Services Add Spark to Events",
     'og_description' => "Men's party and social services bring energy, style, and entertainment, creating memorable experiences that make private gatherings and events truly special.",
     'hero_title' => "How Men's Party & Social Services Add Spark to Events",
@@ -1067,7 +1108,7 @@ return [
   'blog_outcall_escorts_enhance' => [
     'title' => "Outcall Escorts Enhance the Private Celebration Experience | SuperB Party Girl",
     'description' => "Outcall escorts elevate private celebrations with elegance, charm, and personalized companionship, making every event more memorable and enjoyable.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/outcall-escorts-enhance-the-private-celebration-experience",
+    'canonical_link' => "https://superbpartygirl.com/blogs/outcall-escorts-enhance-the-private-celebration-experience/",
     'og_title' => "Outcall Escorts Enhance the Private Celebration Experience",
     'og_description' => "Outcall escorts elevate private celebrations with elegance, charm, and personalized companionship, making every event more memorable and enjoyable.",
     'hero_title' => "Outcall Escorts Enhance the Private Celebration Experience",
@@ -1116,7 +1157,7 @@ return [
   'blog_escorts_business_events' => [
     'title' => "How Escorts Adapt to Business Events and Corporate Functions | SuperB Party Girl",
     'description' => "Escorts adapt seamlessly to business events and corporate functions, offering sophistication, discretion, and charm that enhance professional gatherings.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/how-escorts-adapt-to-business-events-and-corporate-functions",
+    'canonical_link' => "https://superbpartygirl.com/blogs/how-escorts-adapt-to-business-events-and-corporate-functions/",
     'og_title' => "How Escorts Adapt to Business Events and Corporate Functions",
     'og_description' => "Escorts adapt seamlessly to business events and corporate functions, offering sophistication, discretion, and charm that enhance professional gatherings.",
     'hero_title' => "How Escorts Adapt to Business Events and Corporate Functions",
@@ -1165,7 +1206,7 @@ return [
   'blog_private_escort_services_elevate' => [
     'title' => "How Private Escort Services Elevate Elite Nightlife Experiences | SuperB Party Girl",
     'description' => "Private escort services elevate elite nightlife with luxury, discretion, and charm, creating unforgettable evenings for clients in exclusive social settings.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/how-private-escort-services-elevate-elite-nightlife-experiences",
+    'canonical_link' => "https://superbpartygirl.com/blogs/how-private-escort-services-elevate-elite-nightlife-experiences/",
     'og_title' => "How Private Escort Services Elevate Elite Nightlife Experiences",
     'og_description' => "Private escort services elevate elite nightlife with luxury, discretion, and charm, creating unforgettable evenings for clients in exclusive social settings.",
     'hero_title' => "How Private Escort Services Elevate Elite Nightlife Experiences",
@@ -1210,7 +1251,7 @@ return [
   'blog_online_booking_platforms' => [
     'title' => "Why Online Escort Booking Platforms Are Gaining Popularity | SuperB Party Girl",
     'description' => "Online escort booking platforms are on the rise, offering privacy, convenience, and secure connections that make arranging services simpler and safer.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/why-online-escort-booking-platforms-are-rising-in-popularity",
+    'canonical_link' => "https://superbpartygirl.com/blogs/why-online-escort-booking-platforms-are-rising-in-popularity/",
     'og_title' => "Why Online Escort Booking Platforms Are Rising in Popularity",
     'og_description' => "Online escort booking platforms are on the rise, offering privacy, convenience, and secure connections that make arranging services simpler and safer.",
     'hero_title' => "Why Online Escort Booking Platforms Are Rising in Popularity",
@@ -1265,7 +1306,7 @@ return [
   'blog_gala_nights_yacht_parties' => [
     'title' => "Escorts in Elite Social Circles: Gala Nights & Yacht Parties | SuperB Party Girl",
     'description' => "Step into elite social circles where escorts bring elegance to gala nights and yacht parties, offering charm, sophistication, and unforgettable moments.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/from-gala-nights-to-yacht-parties-escorts-in-elite-social-circles",
+    'canonical_link' => "https://superbpartygirl.com/blogs/from-gala-nights-to-yacht-parties-escorts-in-elite-social-circles/",
     'og_title' => "From Gala Nights to Yacht Parties: Escorts in Elite Social Circles",
     'og_description' => "Step into elite social circles where escorts bring elegance to gala nights and yacht parties, offering charm, sophistication, and unforgettable moments.",
     'hero_title' => "From Gala Nights to Yacht Parties: Escorts in Elite Social Circles",
@@ -1318,7 +1359,7 @@ return [
   'blog_health_safety_standards' => [
     'title' => "Health & Safety Standards in Premium Luxury Escort Services | SuperB Party Girl",
     'description' => "Step into elite social circles where escorts bring elegance to gala nights and yacht parties, offering charm, sophistication, and unforgettable moments.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/health-and-safety-standards-in-luxury-escort-services",
+    'canonical_link' => "https://superbpartygirl.com/blogs/health-and-safety-standards-in-luxury-escort-services/",
     'og_title' => "Health and Safety Standards in Luxury Escort Services",
     'og_description' => "Step into elite social circles where escorts bring elegance to gala nights and yacht parties, offering charm, sophistication, and unforgettable moments.",
     'hero_title' => "Health and Safety Standards in Luxury Escort Services",
@@ -1371,7 +1412,7 @@ return [
   'blog_digital_privacy_protection' => [
     'title' => "How Escort Services Safeguard Client Privacy in Digital Era | SuperB Party Girl",
     'description' => "Escort services apply strict measures to safeguard client privacy in the digital era, ensuring security, confidentiality, and discretion at every step.",
-    'canonical_link' => "https://superbpartygirl.com/blogs/how-escort-services-protect-client-privacy-in-the-digital-era",
+    'canonical_link' => "https://superbpartygirl.com/blogs/how-escort-services-protect-client-privacy-in-the-digital-era/",
     'og_title' => "How Escort Services Protect Client Privacy in the Digital Era",
     'og_description' => "Escort services apply strict measures to safeguard client privacy in the digital era, ensuring security, confidentiality, and discretion at every step.",
     'hero_title' => "How Escort Services Protect Client Privacy in the Digital Era",
@@ -1423,7 +1464,7 @@ return [
 'blog_sex_enchancement_kl_escort_girls' => [
   'title' => "KL Escort Services: Enhance Intimacy with Gorgeous Companions",
   'description' => "Experience sensual enhancement with Kuala Lumpur’s finest escort companions. Discover luxury, connection, and unforgettable moments tailored to your desires.",
-  'canonical_link' => "https://superbpartygirl.com/sex-enchancement-with-our-gorgeous-kl-escort-girls",
+  'canonical_link' => "https://superbpartygirl.com/sex-enchancement-with-our-gorgeous-kl-escort-girls/",
   'og_title' => "KL Escort Services: Enhance Intimacy with Gorgeous Companions",
   'og_description' => "Experience sensual enhancement with Kuala Lumpur’s finest escort companions. Discover luxury, connection, and unforgettable moments tailored to your desires.",
   'hero_title' => "Sex Enhancement with Our Gorgeous KL Escort Girls",
@@ -1452,7 +1493,7 @@ return [
 'kl-party-escorts-add-adventure-to-your-festival-experiences' => [
   'title' => "KL Party Escorts Add Adventure to Your Festival Experiences | SuperB Party Girl",
   'description' => "Celebrate Kuala Lumpur’s festival season with stunning KL party escorts. Add excitement, style, and unforgettable memories to every festive experience.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/kl-party-escorts-add-adventure-to-your-festival-experiences",
+  'canonical_link' => "https://superbpartygirl.com/blogs/kl-party-escorts-add-adventure-to-your-festival-experiences/",
   'og_title' => "KL Party Escorts Add Adventure to Your Festival Experiences",
   'og_description' => "Add excitement, style, and unforgettable memories to every festive experience.",
   'hero_title' => "KL Party Escorts Add Adventure to Your Festival Experiences",
@@ -1480,7 +1521,7 @@ return [
 'party-with-kuala-lumpurs-vibrant-nightlife-scene' => [
   'title' => "Unleash the Night: Explore Kuala Lumpur’s Hottest Party Scene | SuperB Party Girl",
   'description' => "Dive into Kuala Lumpur’s vibrant nightlife scene filled with energy, music, and excitement. Discover the best spots to party and make unforgettable memories.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/party-with-kuala-lumpurs-vibrant-nightlife-scene",
+  'canonical_link' => "https://superbpartygirl.com/blogs/party-with-kuala-lumpurs-vibrant-nightlife-scene/",
   'og_title' => "Unleash the Night: Explore Kuala Lumpur’s Hottest Party Scene",
   'og_description' => "Energy, music, and excitement—discover KL’s hottest nightlife and party spots.",
   'hero_title' => "Party with Kuala Lumpur’s Vibrant Nightlife Scene",
@@ -1508,7 +1549,7 @@ return [
 'discover-kuala-lumpur-with-a-kl-party-girl-escort-a-date-to-remember' => [
   'title' => "Explore Kuala Lumpur with a Glamorous KL Party Girl Escort | SuperB Party Girl",
   'description' => "Explore Kuala Lumpur like never before with a charming KL party girl escort. Enjoy elegance, excitement, and unforgettable moments in the city’s vibrant nightlife.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/discover-kuala-lumpur-with-a-kl-party-girl-escort-a-date-to-remember",
+  'canonical_link' => "https://superbpartygirl.com/blogs/discover-kuala-lumpur-with-a-kl-party-girl-escort-a-date-to-remember/",
   'og_title' => "Explore Kuala Lumpur with a Glamorous KL Party Girl Escort",
   'og_description' => "Elegant, exciting, and unforgettable moments exploring Kuala Lumpur at night.",
   'hero_title' => "Discover Kuala Lumpur with a KL Party Girl Escort – A Date to Remember",
@@ -1539,7 +1580,7 @@ return [
 'kl-escort-girls-for-parties-and-events' => [
   'title' => "Glamorous KL Escorts: Perfect Companions for Parties & Events | SuperB Party Girl",
   'description' => "Discover glamorous KL escort girls ready to elevate your parties and events. Experience elegance, charm, and unforgettable companionship in Kuala Lumpur.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/kl-escort-girls-for-parties-and-events",
+  'canonical_link' => "https://superbpartygirl.com/blogs/kl-escort-girls-for-parties-and-events/",
   'og_title' => "Glamorous KL Escorts: Perfect Companions for Parties & Events",
   'og_description' => "Elegance, charm, and unforgettable companionship for KL parties and events.",
   'hero_title' => "KL Escort Girls for Parties and Events",
@@ -1571,7 +1612,7 @@ return [
 'luxury-kl-escorts-revealing-elegance-in-the-world-of-the-refined' => [
   'title' => "Elegant Luxury KL Escorts: Where Beauty Meets Refinement | SuperB Party Girl",
   'description' => "Discover the world of luxury KL escorts — where sophistication, beauty, and discretion define the ultimate refined companionship experience in Kuala Lumpur.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/luxury-kl-escorts-revealing-elegance-in-the-world-of-the-refined",
+  'canonical_link' => "https://superbpartygirl.com/blogs/luxury-kl-escorts-revealing-elegance-in-the-world-of-the-refined/",
   'og_title' => "Elegant Luxury KL Escorts: Where Beauty Meets Refinement",
   'og_description' => "Sophistication, beauty, and discretion in Kuala Lumpur’s refined companionship scene.",
   'hero_title' => "Luxury KL Escorts: Revealing Elegance in the World of the Refined",
@@ -1597,7 +1638,7 @@ return [
 'top-kl-escorts-the-path-to-achieving-success' => [
   'title' => "Top KL Escorts: The Path to Confidence, Class & Success | SuperB Party Girl",
   'description' => "Discover how top KL escorts embody elegance, ambition, and charm. Learn the secrets behind their success and the art of confidence in Kuala Lumpur’s elite scene.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/top-kl-escorts-the-path-to-achieving-success",
+  'canonical_link' => "https://superbpartygirl.com/blogs/top-kl-escorts-the-path-to-achieving-success/",
   'og_title' => "Top KL Escorts: The Path to Confidence, Class & Success",
   'og_description' => "Elegance, ambition, and charm—discover the traits behind top KL escorts’ success.",
   'hero_title' => "Top KL Escorts: The Path to Achieving Success",
@@ -1625,7 +1666,7 @@ return [
 'discover-the-chill-vibes-and-hidden-delights-of-cove-private-bar-at-banyan-tree-kuala-lumpur' => [
   'title' => "Chill Vibes & Hidden Delights at Cove Private Bar Kuala Lumpur | SuperB Party Girl",
   'description' => "Unwind at Cove Private Bar, Banyan Tree Kuala Lumpur with your party girl. Enjoy chill vibes, fine cocktails, and an intimate escape in the city’s skyline.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/discover-the-chill-vibes-and-hidden-delights-of-cove-private-bar-at-banyan-tree-kuala-lumpur",
+  'canonical_link' => "https://superbpartygirl.com/blogs/discover-the-chill-vibes-and-hidden-delights-of-cove-private-bar-at-banyan-tree-kuala-lumpur/",
   'og_title' => "Chill Vibes & Hidden Delights at Cove Private Bar Kuala Lumpur",
   'og_description' => "Chill vibes, crafted cocktails, and an intimate escape above Kuala Lumpur.",
   'hero_title' => "Discover the Chill Vibes and Hidden Delights of Cove Private Bar at Banyan Tree Kuala Lumpur",
@@ -1651,7 +1692,7 @@ return [
 'take-your-party-girl-on-a-glamorous-glamping-adventure-in-malaysia' => [
   'title' => "Glamorous Glamping Adventure in Malaysia with Party Girl | SuperB Party Girl",
   'description' => "Escape into nature with your stunning party girl and enjoy a glamorous glamping retreat in Malaysia. Experience luxury, romance, and adventure under the stars.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/take-your-party-girl-on-a-glamorous-glamping-adventure-in-malaysia",
+  'canonical_link' => "https://superbpartygirl.com/blogs/take-your-party-girl-on-a-glamorous-glamping-adventure-in-malaysia/",
   'og_title' => "Glamorous Glamping Adventure in Malaysia with Party Girl",
   'og_description' => "Luxury, romance, and adventure under the stars with your party girl.",
   'hero_title' => "Take Your Party Girl on a Glamorous Glamping Adventure in Malaysia",
@@ -1677,7 +1718,7 @@ return [
 'discover-the-vibe-bites-and-sips-with-your-party-girl' => [
   'title' => "Party Nights & Gourmet Delights with Your Stunning Party Girl | SuperB Party Girl",
   'description' => "Indulge in the city’s finest nightlife, flavors, and cocktails alongside your gorgeous party girl. Experience vibrant vibes, gourmet bites, and endless fun together.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/discover-the-vibe-bites-and-sips-with-your-party-girl",
+  'canonical_link' => "https://superbpartygirl.com/blogs/discover-the-vibe-bites-and-sips-with-your-party-girl/",
   'og_title' => "Party Nights & Gourmet Delights with Your Stunning Party Girl",
   'og_description' => "Indulge in the city’s finest nightlife, flavors, and cocktails alongside your gorgeous party girl.",
   'hero_title' => "Discover the Vibe, Bites, and Sips with Your Party Girl",
@@ -1705,7 +1746,7 @@ return [
 'a-day-on-the-greens-with-a-party-girl-companion-at-kuala-lumpur-golf-and-country-club' => [
   'title' => "A Day on the Greens with Party Girl Companion at KLGCC | SuperB Party Girl",
   'description' => "Spend an unforgettable day at Kuala Lumpur Golf & Country Club with a stunning party girl companion. Enjoy charm, class, and elite leisure in a refined setting.",
-  'canonical_link' => "https://superbpartygirl.com/blogs/a-day-on-the-greens-with-a-party-girl-companion-at-kuala-lumpur-golf-and-country-club",
+  'canonical_link' => "https://superbpartygirl.com/blogs/a-day-on-the-greens-with-a-party-girl-companion-at-kuala-lumpur-golf-and-country-club/",
   'og_title' => "A Day on the Greens with Party Girl Companion at KLGCC",
   'og_description' => "Elite leisure at KLGCC with a party girl companion—golf, glamour, and great company.",
   'hero_title' => "A Day on the Greens with a Party Girl Companion at Kuala Lumpur Golf ",
@@ -1731,7 +1772,7 @@ return [
 'a-day-of-vibrant-dining-live-music-with-a-party-girl-companion-at-annabel-kl' => [
   'title' => "Dining & Music with a Party Girl at Annabel KL | SuperB Party Girl",
   'description' => "Enjoy vibrant dining and live music at Annabel KL with a stunning party girl companion. Indulge in great food, rhythm, and unforgettable moments in the city.",
-  'canonical_link' => "https://superbpartygirl.com/a-day-of-vibrant-dining-live-music-with-a-party-girl-companion-at-annabel-kl",
+  'canonical_link' => "https://superbpartygirl.com/a-day-of-vibrant-dining-live-music-with-a-party-girl-companion-at-annabel-kl/",
   'og_title' => "Dining & Music with a Party Girl at Annabel KL",
   'og_description' => "Enjoy vibrant dining and live music at Annabel KL with a stunning party girl companion.",
   'hero_title' => "A Day of Vibrant Dining & Live Music with a Party Girl Companion at Annabel KL",
@@ -1758,7 +1799,7 @@ return [
 'what-to-know-before-exploring-your-sexuality-with-an-escort' => [
   'title' => "Explore Your Sexuality Safely: Trusted Escort Guidance & Insights",
   'description' => "Learn what to expect before exploring your sexuality with an escort. Get trusted advice, set boundaries, and enjoy a respectful, fulfilling experience with confidence.",
-  'canonical_link' => "https://superbpartygirl.com/what-to-know-before-exploring-your-sexuality-with-an-escort",
+  'canonical_link' => "https://superbpartygirl.com/what-to-know-before-exploring-your-sexuality-with-an-escort/",
   'og_title' => "Explore Your Sexuality Safely: Trusted Escort Guidance & Insights",
   'og_description' => "Learn what to expect before exploring your sexuality with an escort. Get trusted advice, set boundaries, and enjoy a respectful, fulfilling experience with confidence.",
   'hero_title' => "What to Know Before Exploring Your Sexuality with an Escort",
@@ -1787,7 +1828,7 @@ return [
 'kl-party-girl-experience-making-your-nights-in-kuala-lumpur-unforgettable' => [
   'title' => "KL Party Girl Experience: Unforgettable Nights in Kuala Lumpur | SuperB Party Girl",
   'description' => "Enjoy the ultimate KL party girl experience. Discover vibrant nightlife, elite companionship, and unforgettable evenings in the heart of Kuala Lumpur.",
-  'canonical_link' => "https://superbpartygirl.com/kl-party-girl-experience-making-your-nights-in-kuala-lumpur-unforgettable",
+  'canonical_link' => "https://superbpartygirl.com/kl-party-girl-experience-making-your-nights-in-kuala-lumpur-unforgettable/",
   'og_title' => "KL Party Girl Experience: Unforgettable Nights in Kuala Lumpur",
   'og_description' => "Enjoy the ultimate KL party girl experience. Discover vibrant nightlife, elite companionship, and unforgettable evenings in the heart of Kuala Lumpur.",
   'hero_title' => "KL Party Girl Experience: Making Your Nights in Kuala Lumpur Unforgettable",
@@ -1815,7 +1856,7 @@ return [
 'luxurious-kl-escort-couple-service-make-your-night-unforgettable' => [
   'title' => "KL Escort Couple Service: Luxurious Nights You’ll Never Forget | SuperB Party Girl",
   'description' => "Indulge in KL’s finest escort couple service. Enjoy luxurious companionship, tailored intimacy, and unforgettable nights designed for discerning couples and individuals.",
-  'canonical_link' => "https://superbpartygirl.com/luxurious-kl-escort-couple-service-make-your-night-unforgettable",
+  'canonical_link' => "https://superbpartygirl.com/luxurious-kl-escort-couple-service-make-your-night-unforgettable/",
   'og_title' => "KL Escort Couple Service: Luxurious Nights You’ll Never Forget",
   'og_description' => "Indulge in KL’s finest escort couple service. Enjoy luxurious companionship, tailored intimacy, and unforgettable nights designed for discerning couples and individuals.",
   'hero_title' => "Luxurious KL Escort Couple Service: Make Your Night Unforgettable",
@@ -1935,7 +1976,7 @@ return [
     
     'title' => 'Ampang Party Girl | Ampang Call Girls and Exclusive Escort Companions',
     'description' => 'Experience top rated escort services in Ampang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Ampang Point, Taman Nirwana, Taman Dagang. Book your Ampang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/ampang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-ampang',
     'og_title' => 'Ampang Party Girl | Ampang Call Girls and Exclusive Escort Companions',
     'og_description' => 'Experience top rated escort services in Ampang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Ampang Escorts – SuperB Party Girl Premium Companionship in KL
@@ -1965,7 +2006,7 @@ Our Ampang escorts are chosen by expats, business executives, diplomats, and eli
   'cheras' => [
     'title' => 'Cheras Party Girl | Cheras Call Girls and Exclusive Escort Companions',
     'description' => 'Experience top rated escort services in Cheras with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Taman Connaught Night Market, Leisure Mall Taman Segar, Taman Midah. Book your Cheras call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/cheras',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-cheras',
     'og_title' => 'Cheras Party Girl | Cheras Call Girls and Exclusive Escort Companions',
     'og_description' => 'Experience top rated escort services in Cheras with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Cheras Escorts – SuperB Party Girl Hot Companionship in KL
@@ -1994,7 +2035,7 @@ Young professionals, creatives, and adventurous men who crave companions that ar
   'cyberjaya' => [
     'title' => 'Elite Cyberjaya Escorts and B2B Massage | SuperB Party Girl Cyberjaya',
     'description' => 'Experience top rated escort services in Cyberjaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include DPulze Mall, Shaftsbury Square, Tamarind Square. Book your Cyberjaya call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/cyberjaya',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-cyberjaya',
     'og_title' => 'Elite Cyberjaya Escorts and B2B Massage | SuperB Party Girl Cyberjaya',
     'og_description' => 'Experience top rated escort services in Cyberjaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Cyberjaya Escorts – SuperB Party Girl Erotic Companionship
@@ -2023,7 +2064,7 @@ Professionals, expats, and students who desire intelligent, engaging companionsh
   'genting' => [
     'title' => 'Elite Genting Escorts and B2B Massage | SuperB Party Girl Genting',
     'description' => 'Experience top rated escort services in Genting with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Resorts World Genting, First World Plaza, SkyAvenue. Book your Genting call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/genting',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-genting',
     'og_title' => 'Elite Genting Escorts and B2B Massage | SuperB Party Girl Genting',
     'og_description' => 'Experience top rated escort services in Genting with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Genting Escorts – SuperB Party Girl Sexual Companionship
@@ -2052,7 +2093,7 @@ High rollers, couples, and thrill seekers who crave more than games – they wan
   'ipoh' => [
     'title' => 'Elite Ipoh Escorts and B2B Massage | SuperB Party Girl Ipoh',
     'description' => 'Experience top rated escort services in Ipoh with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Ipoh Parade, Concubine Lane Old Town, Greentown Business Centre. Book your Ipoh call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/ipoh',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-ipoh',
     'og_title' => 'Elite Ipoh Escorts and B2B Massage | SuperB Party Girl Ipoh',
     'og_description' => 'Experience top rated escort services in Ipoh with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Ipoh Escorts – SuperB Party Girl Erotic Companionship
@@ -2079,7 +2120,7 @@ Professionals, travellers, and couples who want an elegant yet sexually intense 
   'johor' => [
     'title' => 'Elite Johor Escorts and B2B Massage | SuperB Party Girl Johor',
     'description' => 'Experience top rated escort services in Johor with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include City Square JBCC, R&F Mall, KSL City Mall. Book your Johor call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/johor',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-johor',
     'og_title' => 'Elite Johor Escorts and B2B Massage | SuperB Party Girl Johor',
     'og_description' => 'Experience top rated escort services in Johor with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Johor Bahru Escorts – SuperB Party Girl Premium Companionship
@@ -2107,7 +2148,7 @@ Executives traveling from Singapore, young professionals, and thrill-seeking cou
   'kepong' => [
     'title' => 'Elite Kepong Escorts and B2B Massage | SuperB Party Girl Kepong',
     'description' => 'Experience top rated escort services in Kepong with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Kepong Baru, Metro Prima, Kepong Village Mall. Book your Kepong call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/kepong',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-kepong',
     'og_title' => 'Elite Kepong Escorts and B2B Massage | SuperB Party Girl Kepong',
     'og_description' => 'Experience top rated escort services in Kepong with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Kepong Escorts – SuperB Party Girl Romantic Companionship
@@ -2134,7 +2175,7 @@ Young professionals, locals, and expats who want a perfect mix of romance and fi
   'klang' => [
     'title' => 'Elite Klang Escorts and B2B Massage | SuperB Party Girl Klang',
     'description' => 'Experience top rated escort services in Klang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Klang Parade, GM Klang Wholesale City, Little India Klang. Book your Klang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/klang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-klang',
     'og_title' => 'Elite Klang Escorts and B2B Massage | SuperB Party Girl Klang',
     'og_description' => 'Experience top rated escort services in Klang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Klang Escorts – SuperB Party Girl Erotic Companionship
@@ -2161,7 +2202,7 @@ Professionals, locals, and travellers who desire intimacy mixed with fire. Klang
   'kota-damansara' => [
     'title' => 'Elite Kota Damansara Escorts and B2B Massage | SuperB Party Girl Kota Damansara',
     'description' => 'Experience top rated escort services in Kota Damansara with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Sunway Giza, The Strand, Tropicana Gardens Mall. Book your Kota Damansara call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/kota-damansara',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-kota-damansara',
     'og_title' => 'Elite Kota Damansara Escorts and B2B Massage | SuperB Party Girl Kota Damansara',
     'og_description' => 'Experience top rated escort services in Kota Damansara with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Kota Damansara Escorts – SuperB Party Girl Sensual Companionship
@@ -2190,7 +2231,7 @@ Young professionals, executives, and creative souls who want more than conversat
   'kuala-lumpur' => [
     'title' => 'Kuala Lumpur Escort Services | Premium Kuala Lumpur Party Girl and B2B Massage',
     'description' => 'Experience top rated escort services in Kuala Lumpur with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include KLCC and Avenue K, Bukit Bintang and Pavilion, Changkat nightlife. Book your Kuala Lumpur call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/premium-escort-kuala-lumpur',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-kuala-lumpur',
     'og_title' => 'Kuala Lumpur Escort Services | Premium Kuala Lumpur Party Girl and B2B Massage',
     'og_description' => 'Experience top rated escort services in Kuala Lumpur with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Kuala Lumpur Escorts – SuperB Party Girl Premium Companionship
@@ -2218,7 +2259,7 @@ Executives, travellers, and expats who want the ultimate mix of companionship an
   'mont-kiara' => [
     'title' => 'Mont Kiara Party Girl | Mont Kiara Call Girls and Exclusive Escort Companions',
     'description' => 'Experience top rated escort services in Mont Kiara with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include 1 Mont Kiara, Arcoris Plaza, 163 Retail Park. Book your Mont Kiara call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/mont-kiara',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-mont-kiara',
     'og_title' => 'Mont Kiara Party Girl | Mont Kiara Call Girls and Exclusive Escort Companions',
     'og_description' => 'Experience top rated escort services in Mont Kiara with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Mont Kiara Escorts – SuperB Party Girl Premium Companionship
@@ -2251,7 +2292,7 @@ Mont Kiara attracts expats, business elites, and luxury travellers who want more
   'petaling-jaya' => [
     'title' => 'Petaling Jaya Escort and B2B Massage | Romantic Companions in Petaling Jaya',
     'description' => 'Experience top rated escort services in Petaling Jaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include One Utama and Bandar Utama, Paradigm Mall, Jaya One and Section 13. Book your Petaling Jaya call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/petaling-jaya',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-petaling-jaya',
     'og_title' => 'Petaling Jaya Escort and B2B Massage | Romantic Companions in Petaling Jaya',
     'og_description' => 'Experience top rated escort services in Petaling Jaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Petaling Jaya Escorts – SuperB Party Girl Hot Companionship
@@ -2281,7 +2322,7 @@ Petaling Jaya attracts professionals, students, and locals who love a mix of fun
   'port-dickson' => [
     'title' => 'Elite Port Dickson Escorts and B2B Massage | SuperB Party Girl Port Dickson',
     'description' => 'Experience top rated escort services in Port Dickson with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Port Dickson Waterfront, PD Walk, Avillion Port Dickson. Book your Port Dickson call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/port-dickson',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-port-dickson',
     'og_title' => 'Elite Port Dickson Escorts and B2B Massage | SuperB Party Girl Port Dickson',
     'og_description' => 'Experience top rated escort services in Port Dickson with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Port Dickson Escorts – SuperB Party Girl Romantic Companionship
@@ -2313,7 +2354,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Po
   'puchong' => [
     'title' => 'Elite Puchong Escorts and B2B Massage | SuperB Party Girl Puchong',
     'description' => 'Experience top rated escort services in Puchong with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include IOI Mall, SetiaWalk, Bandar Puteri, Puchong Jaya. Book your Puchong call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/puchong',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-puchong',
     'og_title' => 'Elite Puchong Escorts and B2B Massage | SuperB Party Girl Puchong',
     'og_description' => 'Experience top rated escort services in Puchong with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Puchong Escorts – SuperB Party Girl Erotic Companionship
@@ -2344,7 +2385,7 @@ Locals, professionals, and travellers who want discreet yet passionate encounter
   'sabah' => [
     'title' => 'Elite Sabah Escorts and B2B Massage | SuperB Party Girl Sabah',
     'description' => 'Experience top rated escort services in Sabah with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Kota Kinabalu, Sandakan, Tawau. Book your Sabah call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/sabah',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sabah',
     'og_title' => 'Elite Sabah Escorts and B2B Massage | SuperB Party Girl Sabah',
     'og_description' => 'Experience top rated escort services in Sabah with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Sabah Escorts – SuperB Party Girl Exotic Companionship
@@ -2376,7 +2417,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Sa
   'sarawak' => [
     'title' => 'Elite Sarawak Escorts and B2B Massage | SuperB Party Girl Sarawak',
     'description' => 'Experience top rated escort services in Sarawak with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Kuching, Miri, Sibu. Book your Sarawak call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/sarawak',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sarawak',
     'og_title' => 'Elite Sarawak Escorts and B2B Massage | SuperB Party Girl Sarawak',
     'og_description' => 'Experience top rated escort services in Sarawak with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Sarawak Escorts – SuperB Party Girl Exotic Companionship
@@ -2408,7 +2449,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Sa
   'serdang' => [
     'title' => 'Elite Serdang Escorts and B2B Massage | SuperB Party Girl Serdang',
     'description' => 'Experience top rated escort services in Serdang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include UPM, Serdang Raya, Taman Universiti. Book your Serdang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/serdang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-serdang',
     'og_title' => 'Elite Serdang Escorts and B2B Massage | SuperB Party Girl Serdang',
     'og_description' => 'Experience top rated escort services in Serdang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Serdang Escorts – SuperB Party Girl Academic Companionship
@@ -2440,7 +2481,7 @@ Students, professionals, and academics who want romance and sex in equal measure
   'seremban' => [
     'title' => 'Elite Seremban Escorts and B2B Massage | SuperB Party Girl Seremban',
     'description' => 'Experience top rated escort services in Seremban with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Seremban 2, Terminal 1, Seremban Parade. Book your Seremban call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/seremban',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-seremban',
     'og_title' => 'Elite Seremban Escorts and B2B Massage | SuperB Party Girl Seremban',
     'og_description' => 'Experience top rated escort services in Seremban with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Seremban Escorts – SuperB Party Girl Royal Companionship
@@ -2472,7 +2513,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Se
   'setia-alam' => [
     'title' => 'Elite Setia Alam Escorts and B2B Massage | SuperB Party Girl Setia Alam',
     'description' => 'Experience top rated escort services in Setia Alam with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Setia City Mall, Setia Eco Park, Setia Alam Central. Book your Setia Alam call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/setia-alam',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-setia-alam',
     'og_title' => 'Elite Setia Alam Escorts and B2B Massage | SuperB Party Girl Setia Alam',
     'og_description' => 'Experience top rated escort services in Setia Alam with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Setia Alam Escorts – SuperB Party Girl Eco Companionship
@@ -2504,7 +2545,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Se
   'sri-petaling' => [
     'title' => 'Elite Sri Petaling Escorts and B2B Massage | SuperB Party Girl Sri Petaling',
     'description' => 'Experience top rated escort services in Sri Petaling with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Sri Petaling Mall, Taman OUG, Old Klang Road. Book your Sri Petaling call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/sri-petaling',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sri-petaling',
     'og_title' => 'Elite Sri Petaling Escorts and B2B Massage | SuperB Party Girl Sri Petaling',
     'og_description' => 'Experience top rated escort services in Sri Petaling with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Sri Petaling Escorts – SuperB Party Girl Vibrant Companionship
@@ -2536,7 +2577,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Sr
   'subang' => [
     'title' => 'Subang Escort and B2B Massage | Romantic Companions in Subang',
     'description' => 'Experience top rated escort services in Subang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include SS15, Sunway Pyramid, Subang Parade. Book your Subang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/subang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-subang',
     'og_title' => 'Subang Escort and B2B Massage | Romantic Companions in Subang',
     'og_description' => 'Experience top rated escort services in Subang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Subang Jaya Escorts – SuperB Party Girl Hot Companionship
@@ -2565,7 +2606,7 @@ Students, young professionals, and executives who crave playful yet intense sexu
   'taiping' => [
     'title' => 'Elite Taiping Escorts and B2B Massage | SuperB Party Girl Taiping',
     'description' => 'Experience top rated escort services in Taiping with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Taiping Lake Gardens, Taiping Mall, Taiping Sentral. Book your Taiping call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/taiping',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-taiping',
     'og_title' => 'Elite Taiping Escorts and B2B Massage | SuperB Party Girl Taiping',
     'og_description' => 'Experience top rated escort services in Taiping with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Taiping Escorts – SuperB Party Girl Heritage Companionship
@@ -2597,7 +2638,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Ta
   'putrajaya' => [
     'title' => 'Elite Putrajaya Escorts and B2B Massage | SuperB Party Girl Putrajaya',
     'description' => 'Experience top rated escort services in Putrajaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Putrajaya Lake, Presint 1-15, IOI City Mall. Book your Putrajaya call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/putrajaya',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-putrajaya',
     'og_title' => 'Elite Putrajaya Escorts and B2B Massage | SuperB Party Girl Putrajaya',
     'og_description' => 'Experience top rated escort services in Putrajaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Putrajaya Escorts – SuperB Party Girl Romantic Companionship
@@ -2627,7 +2668,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Pu
   'subang-jaya' => [
     'title' => 'Elite Subang Jaya Escorts and B2B Massage | SuperB Party Girl Subang Jaya',
     'description' => 'Experience top rated escort services in Subang Jaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include SS15, Sunway Pyramid, Subang Parade. Book your Subang Jaya call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/subang-jaya',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-subang-jaya',
     'og_title' => 'Elite Subang Jaya Escorts and B2B Massage | SuperB Party Girl Subang Jaya',
     'og_description' => 'Experience top rated escort services in Subang Jaya with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Subang Jaya Escorts – SuperB Party Girl Hot Companionship
@@ -2657,7 +2698,7 @@ Students, young professionals, and executives who crave playful yet intense sexu
   'shah-alam' => [
     'title' => 'Elite Shah Alam Escorts and B2B Massage | SuperB Party Girl Shah Alam',
     'description' => 'Experience top rated escort services in Shah Alam with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include i-City Shah Alam, Setia Alam, Plaza Shah Alam. Book your Shah Alam call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/shah-alam',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-shah-alam',
     'og_title' => 'Elite Shah Alam Escorts and B2B Massage | SuperB Party Girl Shah Alam',
     'og_description' => 'Experience top rated escort services in Shah Alam with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Shah Alam Escorts – SuperB Party Girl Premium Companionship
@@ -2688,7 +2729,7 @@ Shah Alam attracts professionals, businessmen, and locals who want discreet yet 
   'klang-valley' => [
     'title' => 'Elite Klang Valley Escorts and B2B Massage | SuperB Party Girl Klang Valley',
     'description' => 'Experience top rated escort services in Klang Valley with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Damansara Uptown, Bangsar, Bukit Bintang, Sunway Pyramid. Book your Klang Valley call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/klang-valley',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-klang-valley',
     'og_title' => 'Elite Klang Valley Escorts and B2B Massage | SuperB Party Girl Klang Valley',
     'og_description' => 'Experience top rated escort services in Klang Valley with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Klang Valley Escorts – SuperB Party Girl Hot Companionship
@@ -2719,7 +2760,7 @@ Businessmen, travellers, and locals who want escorts that can keep up with the f
   'damansara' => [
     'title' => 'Elite Damansara Escorts and B2B Massage | SuperB Party Girl Damansara',
     'description' => 'Experience top rated escort services in Damansara with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Mutiara Damansara, Damansara Uptown, Kota Damansara, Tropicana. Book your Damansara call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/damansara',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-damansara',
     'og_title' => 'Elite Damansara Escorts and B2B Massage | SuperB Party Girl Damansara',
     'og_description' => 'Experience top rated escort services in Damansara with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Damansara Escorts – SuperB Party Girl Romantic Companionship
@@ -2750,7 +2791,7 @@ Professionals, expats, and locals who crave romance mixed with hot, unforgettabl
   'bangsar' => [
     'title' => 'Elite Bangsar Escorts and B2B Massage | SuperB Party Girl Bangsar',
     'description' => 'Experience top rated escort services in Bangsar with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Telawi, Bangsar Village, Jalan Maarof, Mid Valley. Book your Bangsar call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/bangsar',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-bangsar',
     'og_title' => 'Elite Bangsar Escorts and B2B Massage | SuperB Party Girl Bangsar',
     'og_description' => 'Experience top rated escort services in Bangsar with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Bangsar Escorts – SuperB Party Girl Sexy Companionship
@@ -2780,7 +2821,7 @@ Party-goers, travellers, and businessmen who want escorts who can keep up with B
   'bukit-bintang' => [
     'title' => 'Elite Bukit Bintang Escorts and B2B Massage | SuperB Party Girl Bukit Bintang',
     'description' => 'Experience top rated escort services in Bukit Bintang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Pavilion KL, Changkat Bukit Bintang, Jalan Alor, Lot 10. Book your Bukit Bintang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/cities/bukit-bintang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-bukit-bintang',
     'og_title' => 'Elite Bukit Bintang Escorts and B2B Massage | SuperB Party Girl Bukit Bintang',
     'og_description' => 'Experience top rated escort services in Bukit Bintang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Bukit Bintang Escorts – SuperB Party Girl Luxury Companionship
@@ -2818,6 +2859,15 @@ Travellers, businessmen, and nightlife lovers who want escorts as wild as the ci
     'bookNow'           => "Book Now",
     'learnMore'         => "Learn More"
   ],
+
+  'cities_page' => [
+    'title' => 'Malaysia Cities | Premium Escort Services Across Malaysia\'s Most Vibrant Cities',
+    'description' => 'Discover premium escort services across Malaysia\'s most vibrant cities. From Kuala Lumpur to Penang, from Genting to Ipoh, we provide elegant and discreet premium escort services for every city. Book your exclusive city escort experience now.',
+    'canonical_link' => 'https://superbpartygirl.com/cities',
+    'og_title' => 'Malaysia Cities | Premium Escort Services Across Malaysia\'s Most Vibrant Cities',
+    'og_description' => 'Discover premium escort services across Malaysia\'s most vibrant cities. From Kuala Lumpur to Penang, from Genting to Ipoh, we provide elegant and discreet premium escort services for every city.',
+  ],
+
   'hotel' => [
     'title'                => "Free Marriott Hotel Upgrade in KL | SuperB VIP Perks",
     'description'          => "Experience luxury at Marriott International hotels in Kuala Lumpur. Enjoy complimentary suite upgrades and VIP benefits with Superb Party Girl’s tailored booking service.",
@@ -2969,10 +3019,8 @@ Travellers, businessmen, and nightlife lovers who want escorts as wild as the ci
       'City lights plus Liya equals instant magic'
     ],
 
-    'Styling And Wardrobe
-' => 'Dress Liya in bodycon minis, satin slip dresses, and wrap silhouettes. Red, emerald, and black look powerful on her. For soft romantic scenes use blush pink or cream with glossy makeup. Add strappy heels to stretch the leg line. Simple jewelry keeps the focus on her face and 36D shape.',
-    'Photo And Video Ideas
-' => 'Golden hour rooftop with wind in her hair and a tight red dress. Garden path walk with a bouquet and a soft smile, romantic close ups. Car seat glam with a side profile and mirror flick, perfect for reels. Poolside chair pose that highlights long legs and a slim waist. Slow turn video that shows front, side, and back for complete angles.',
+    'Styling And Wardrobe' => 'Dress Liya in bodycon minis, satin slip dresses, and wrap silhouettes. Red, emerald, and black look powerful on her. For soft romantic scenes use blush pink or cream with glossy makeup. Add strappy heels to stretch the leg line. Simple jewelry keeps the focus on her face and 36D shape.',
+    'Photo And Video Ideas' => 'Golden hour rooftop with wind in her hair and a tight red dress. Garden path walk with a bouquet and a soft smile, romantic close ups. Car seat glam with a side profile and mirror flick, perfect for reels. Poolside chair pose that highlights long legs and a slim waist. Slow turn video that shows front, side, and back for complete angles.',
     'signature_look' => 'Liya shines with long slim legs and a full top line that fills the frame. Her face is soft and photogenic with bright eyes and a playful smile. She can switch from sweet girl next door to glamorous party queen in one outfit change. Think silky dresses, fitted tops, and camera ready hair that falls around her shoulders.',
     
     
@@ -4465,11 +4513,527 @@ Travellers, businessmen, and nightlife lovers who want escorts as wild as the ci
       'title' => 'Contact',
       'description' => 'For questions about this Disclaimer please contact us through the Contact page or our official messaging channel.'
     ]
-  ]
-],
+    ]
+  ],
+
+  // Clubs Data
+  'clubs' => [
+    'title' => 'Premium Nightlife Clubs',
+    'subtitle' => 'Discover Malaysia\'s top nightlife destinations with Superb Party Girl',
+    'description' => 'Explore the best clubs and nightlife venues in Malaysia. Experience premium party experiences with our professional companions.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/',
+     'og_title' => 'Premium Nightlife Clubs | Superb Party Girl Malaysia',
+     'og_description' => 'Explore the best clubs and nightlife venues in Malaysia. Experience premium party experiences with our professional companions.',
+     'hero_title' => 'Premium Nightlife Clubs | Superb Party Girl Malaysia',
+     'hero_description' => 'Discover Malaysia\'s top nightlife destinations with Superb Party Girl',
+  ],
+
+  'zouk_kl_nightlife' => [
+    'title' => 'Zouk KL Nightlife | Party Girl Companion Near Me – Superb Party Girl Malaysia',
+    'description' => 'Feel the pulse of Zouk KL at TREC Kuala Lumpur. Step into Malaysia\'s top club with Superb Party Girl, where light, sound, and connection ignite the night.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/zouk-kl-nightlife/',
+    'og_title' => 'Zouk KL Nightlife | Party Girl Companion Near Me – Superb Party Girl Malaysia',
+    'og_description' => 'Feel the pulse of Zouk KL at TREC Kuala Lumpur. Step into Malaysia\'s top club with Superb Party Girl, where light, sound, and connection ignite the night.',
+    'hero_title' => 'Zouk KL Nightlife – Premium Party Girl Companion in Kuala Lumpur',
+    'hero_description' => 'When Kuala Lumpur\'s skyline softens into a neon haze, Zouk KL wakes up. Set inside TREC Kuala Lumpur along Jalan Tun Razak, it\'s not just a club, it\'s a current that sweeps you off balance.',
+    'hero_image' => '/clubs-images/zouk-kl.jpg',
+    'hero_image_alt' => 'Zouk KL Nightlife Club',
+    'url_slug' => '/zouk-kl-nightlife',
+    'short_description' => 'Experience Zouk KL like never before. Malaysia\'s top club at TREC Kuala Lumpur where light, sound, and connection ignite the night.',
+    'content' => [
+      'intro' => 'When Kuala Lumpur\'s skyline softens into a neon haze, Zouk KL wakes up. Set inside TREC Kuala Lumpur along Jalan Tun Razak, it\'s not just a club, it\'s a current that sweeps you off balance. The sound hits first: deep, flawless bass rolling under your skin. Then the lights, ribbons of violet and gold moving like heartbeat tracers. You don\'t simply arrive at Zouk; you surrender to it. The music breathes, the crowd glows, and every glance feels charged. Most people come here to dance. You\'re here to own the night. With Superb Party Girl, you don\'t stand at the edge of the floor, you become part of its rhythm.',
+      'section1_title' => 'Zouk KL, The Epicentre of Malaysia\'s Nightlife',
+      'section1_content' => 'Tucked inside TREC, surrounded by rooftop lounges and after-hours dining, Zouk KL divides its energy into several realms: Main Room for grand EDM surges, Velvet Underground for smooth house and R&B, Apex Lounge for cocktails and whispers, Phuture for the trend-setters, and Empire by Zouk for the bold. Every weekend, international DJs sculpt the soundscape, from Afrobeats to techno. The crowd is a fusion of KLCC executives, Bukit Bintang influencers, travellers chasing the next story. Together they create the heartbeat of Kuala Lumpur nightlife.',
+      'section2_title' => 'Why Go With a Superb Party Girl',
+      'section2_content' => 'Picture this: the bass rises, champagne mist in the air, strangers catching light across mirrored walls. Then she appears, poised, effortless, magnetic. People seem to turn without knowing why. She isn\'t loud, but the rhythm bends slightly around her, like the music itself has found its muse. A Superb Party Girl doesn\'t compete with the music; she amplifies it. Her laughter syncs with the beat. Her confidence draws glances that somehow make you both the centre of gravity. Her voice is as soft as warm honey. The "jagged edges of her collarbone" might hint at something you\'d want to tap into. You follow the sound, the scent of citrus and smoke, the faint brush of fabric as she moves past. At the edge of the dance floor, the strobe catches her face for half a second, a half-smile, a challenge, a question. She\'s the spark that turns a good night into something memorable, stylish, private, unforgettable. This is the story the night wants to tell. Why it works: Elevates your presence inside Zouk\'s VIP and dance zones. Transforms moments into connection and story. Ideal for celebrations or spontaneous escapes. Seamless, discreet, professionally coordinated. Because great music feels different when shared with someone who knows how to move through it.',
+      'section3_title' => 'Inside Zouk KL',
+      'section3_content' => 'Expect: Immersive lighting that paints motion in colour. World-class acoustics tuned for emotion. Multiple rooms for every rhythm. Bottle service and private booths with skyline views. An elegant, international crowd that glows with confidence. The first few minutes can overwhelm. That\'s part of the charm. A Superb Party Girl knows how to navigate it, where to stand, when to move, how to make the night flow like it was designed for you.',
+      'section4_title' => 'Location & Nearby Hotspots',
+      'section4_content' => 'Address: Zouk KL, 436 Jalan Tun Razak, TREC Kuala Lumpur, 50400 KL. Landmarks: Moments from KLCC Twin Towers, Pavilion Mall, and Bukit Bintang nightlife. Getting there: Valet at TREC or a five-minute Grab ride from KLCC. Nearby "club near me" attractions: 2 mins from TREC parking, 5 mins from KLCC district, 10 mins from Changkat Bukit Bintang.',
+      'conclusion_title' => 'Ready to Make Your Night Legendary?',
+      'conclusion_content' => 'The city hums outside, the lights tremble inside, and somewhere between the two is your story waiting to unfold. Let Zouk KL be more than a place, let it be the moment the night turns toward you. Choose your Superb Party Girl. Confidence. Chemistry. Connection, all in one night. Browse Available Companions →'
+    ],
+    'faqs' => [
+      [
+        'question' => 'Why did Zouk KL close?',
+        'answer' => 'It paused during the 2020–2021 lockdown but has reopened stronger than ever at TREC, hosting global DJs each weekend.'
+      ],
+      [
+        'question' => 'How much does it cost to enter?',
+        'answer' => 'Entry RM60–RM100 depending on lineup. VIP tables start RM1,500 – RM3,000.'
+      ],
+      [
+        'question' => 'Where is Zouk KL located?',
+        'answer' => 'At TREC Kuala Lumpur on Jalan Tun Razak, five minutes from KLCC and Bukit Bintang. Easy Grab access plus valet.'
+      ],
+      [
+        'question' => 'Can girls wear shorts to Zouk KL?',
+        'answer' => 'Yes, smart-casual rules apply. Dress with style; confidence is the real code.'
+      ],
+      [
+        'question' => 'Is Zouk KL hard to get into?',
+        'answer' => 'Weekend queues fill early. Guestlist or table booking makes entry effortless, which your Superb Party Girl can coordinate seamlessly.'
+      ],
+      [
+        'question' => 'Why is Zouk KL famous?',
+        'answer' => 'It\'s Malaysia\'s flagship club brand, sibling to Zouk Singapore, regularly listed among the world\'s top venues.'
+      ]
+    ]
+  ],
+
+  'kyo_kl_nightlife' => [
+    'title' => 'Kyo KL Nightlife | Premium Companion Experience – Superb Party Girl Malaysia',
+    'description' => 'Descend beneath Kuala Lumpur\'s skyline into Kyo KL at Mandarin Oriental, a hypnotic world of bass, shadows, and chemistry guided by the aura of a Superb Party Girl.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/kyo-kl-nightlife/',
+    'og_title' => 'Kyo KL Nightlife | Premium Companion Experience – Superb Party Girl Malaysia',
+    'og_description' => 'Descend beneath Kuala Lumpur\'s skyline into Kyo KL at Mandarin Oriental, a hypnotic world of bass, shadows, and chemistry guided by the aura of a Superb Party Girl.',
+    'hero_title' => 'Kyo KL Nightlife – The Undercurrent of Kuala Lumpur',
+    'hero_description' => 'Beneath the City\'s Pulse. At street level, Kuala Lumpur hums. But one floor down, the sound changes shape.',
+    'hero_image' => '/clubs-images/kyo-kl.jpg',
+    'hero_image_alt' => 'Kyo KL Nightlife Club',
+    'url_slug' => '/kyo-kl-nightlife',
+    'short_description' => 'Descend beneath Kuala Lumpur\'s skyline into Kyo KL at Mandarin Oriental, a hypnotic world of bass, shadows, and chemistry.',
+    'content' => [
+      'intro' => 'At street level, Kuala Lumpur hums. But one floor down, the sound changes shape. A low throb rolls through the marble corridors of Mandarin Oriental; the elevator doors open, and the scent of amber and rhythm spill out. This is Kyo KL, the city\'s hidden frequency, where every flash of light feels like a heartbeat and every shadow promises motion. Inside, the music is darker, slower, and deliberately dangerous. The crowd moves in waves, sequins, perfume, silhouettes. The DJ doesn\'t play songs; he builds tension, note by note, until the room forgets to breathe.',
+      'section1_title' => 'The Kyo Mood',
+      'section1_content' => 'Kyo isn\'t a spectacle. It\'s immersion. A cavern of sound that eats time. Afrohouse slides into techno, then breaks into something smooth and smoky. The walls shimmer with reflection; glasses catch the light like tiny constellations. You can\'t see the whole room at once, and that\'s the point. It\'s a place built for discovery.',
+      'section2_title' => 'The Superb Party Girl, A Hypothetical Presence',
+      'section2_content' => 'Imagine someone who belongs to this pulse as naturally as light belongs to glass. She isn\'t introduced; she\'s noticed. A flicker of motion near the bar, the turn of her wrist catching the glow, a half-smile that lands like a lyric. She embodies what the night is trying to say. Standing beside her, conversation flows like rhythm, fluent, effortless, quietly electric. She doesn\'t lead or follow; she aligns, and suddenly the space feels choreographed around you. That\'s the Superb Party Girl ideal: not an escort, but an energy, confidence dressed in motion, mystery wrapped in laughter.',
+      'section3_title' => 'A Moment at Kyo',
+      'section3_content' => 'The DJ drops the tempo. The crowd folds inward. The lights fade to indigo, and for a breath, everything stills. She turns, a strand of hair catching the beam; you trade glances and the room sharpens, sound stretching into silence before the bass erupts again. It isn\'t romance, not yet. It\'s recognition, two frequencies matching in a room built for resonance. Then the beat returns, harder now, and the night exhales.',
+      'section4_title' => 'Inside Kyo KL',
+      'section4_content' => 'Location: Basement Level, Mandarin Oriental Hotel, near KLCC Park. Sound: Techno · Afrohouse · R&B. Crowd: International · Elegant · Understated. Vibe: Dim · Seductive · Intimate. Kyo is for those who crave depth over volume, sensation over spectacle.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'The city above may sleep, but down here, the night is very much awake. If Zouk is fireworks, Kyo is firelight, smaller, closer, more dangerous in its calm. Find your rhythm. Let Superb Party Girl guide the night.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'Where is Kyo KL located?',
+        'answer' => 'Kyo KL is located at the Basement Level of the Mandarin Oriental Hotel, near KLCC Park, in the heart of Kuala Lumpur City Centre (KLCC). It\'s part of the city\'s luxury nightlife triangle between Bukit Bintang and Jalan Tun Razak.'
+      ],
+      [
+        'question' => 'What type of music does Kyo KL play?',
+        'answer' => 'Kyo\'s soundscape shifts between techno, Afrohouse, R&B, and deep bass-driven beats curated by international and resident DJs. Every night builds its own mood, hypnotic, layered, and impossible to replicate.'
+      ],
+      [
+        'question' => 'What is the dress code at Kyo KL?',
+        'answer' => 'The dress code is smart-casual with edge. Think black, minimalist, sleek, no flip-flops, no sleeveless shirts. The atmosphere is elevated, and style is part of the experience.'
+      ],
+      [
+        'question' => 'Is Kyo KL expensive?',
+        'answer' => 'Entry fees range between RM50–RM80, depending on the event. Bottle service or VIP tables start around RM1,200. Prices may vary on DJ nights.'
+      ],
+      [
+        'question' => 'What makes Kyo KL different from Zouk KL?',
+        'answer' => 'Where Zouk is a spectacle of lights and grand scale, Kyo is intimate, darker, deeper, and designed for those who prefer a more underground, luxurious rhythm.'
+      ],
+      [
+        'question' => 'Is Kyo KL still open?',
+        'answer' => 'Yes. After brief closures during lockdown, Kyo KL has fully reopened and remains one of Kuala Lumpur\'s most sought-after nightlife venues, especially for its curated sound and moody ambience.'
+      ],
+      [
+        'question' => 'How do I make the most of my night at Kyo KL?',
+        'answer' => 'Arrive before 11 PM to avoid queues. Secure a VIP booth or table for space and visibility. Bring confidence, style, and the right energy, the rest flows naturally.'
+      ]
+    ]
+  ],
+
+  'spark_kl_nightlife' => [
+    'title' => 'Spark KL Nightlife | Companion Experience Near Me – Superb Party Girl Malaysia',
+    'description' => 'Enter Spark KL at TREC Kuala Lumpur, where light, rhythm, and luxury collide. Feel the city\'s electric heartbeat beside the aura of a Superb Party Girl.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/spark-kl-nightlife/',
+    'og_title' => 'Spark KL Nightlife | Companion Experience Near Me – Superb Party Girl Malaysia',
+    'og_description' => 'Enter Spark KL at TREC Kuala Lumpur, where light, rhythm, and luxury collide. Feel the city\'s electric heartbeat beside the aura of a Superb Party Girl.',
+    'hero_title' => 'Spark KL Nightlife – Electric Energy at TREC Kuala Lumpur',
+    'hero_description' => 'Where the City Catches Fire. Across TREC Kuala Lumpur, the night hums. Then you hear it, sharp percussion, laughter that rings like glass, bass rolling over asphalt.',
+    'hero_image' => '/clubs-images/Spark-kl.webp',
+    'hero_image_alt' => 'Spark KL Nightlife Club',
+    'url_slug' => '/spark-kl-nightlife',
+    'short_description' => 'Enter Spark KL at TREC Kuala Lumpur, where light, rhythm, and luxury collide. Feel the city\'s electric heartbeat beside the aura of a Superb Party Girl.',
+    'content' => [
+      'intro' => 'Across TREC Kuala Lumpur, the night hums. Then you hear it, sharp percussion, laughter that rings like glass, bass rolling over asphalt. That\'s Spark KL: a surge of sound and motion framed in neon. It doesn\'t wait for midnight; it becomes midnight. Glass walls flash pink and chrome. The DJ commands the room from a halo of LEDs. Bartenders spin bottles midair; dancers orbit the bar in sequined blurs. It\'s glamour turned kinetic, nothing hidden, everything alive.',
+      'section1_title' => 'The Spark Atmosphere',
+      'section1_content' => 'Spark is the extrovert of the city\'s nightlife triangle. Inside, the lighting is liquid gold. The air smells of citrus, smoke, and high voltage. EDM melts into house, then crashes into pop remixes that everyone somehow knows the words to. People come here for spectacle and stay for chemistry: travelers chasing stories, locals celebrating wins, strangers meeting as if by choreography. Every beat pulls you closer until you\'re part of the lightshow itself.',
+      'section2_title' => 'The Superb Party Girl – Hypothetical Energy',
+      'section2_content' => 'Imagine a figure moving through that storm of sound. Not loud, magnetic. She\'s laughter that cuts through bass, confidence traced in silhouette. When she turns, conversation slows a second too long. She\'s not here to perform; she\'s here to amplify. The Superb Party Girl is the idea of effortless connection made visible: poised, playful, impossible to forget. Standing beside her, the lights seem to favor you. The music hits different. The night starts speaking your language.',
+      'section3_title' => 'A Scene at Spark',
+      'section3_content' => 'You\'re near the balcony overlooking TREC. KL\'s skyline hums, glass towers shimmering beyond the haze. Inside, the crowd erupts as the drop lands. She leans closer, voice almost lost in the noise, words half-heard, all felt. Champagne arcs through the strobe light; laughter breaks like percussion. For a heartbeat the city, the club, and the two of you are a single pulse. Then the moment passes, but the charge stays under your skin.',
+      'section4_title' => 'Inside Spark KL',
+      'section4_content' => 'Location: TREC Kuala Lumpur, Jalan Tun Razak. Music: EDM · House · Top 40. Crowd: High-energy · International · Trend-forward. Mood: Bright · Fast · Luxurious. Spark is the city\'s adrenaline hit, where elegance moves at 120 beats per minute.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'Spark doesn\'t ask for attention, it demands it. If Kyo is candlelight, Spark is lightning: instant, brilliant, unforgettable. Step into the glow. Let Superb Party Girl ignite the night beside you.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'Where is Spark KL located?',
+        'answer' => 'Spark KL sits inside TREC Kuala Lumpur, 436 Jalan Tun Razak, Malaysia\'s premier nightlife district minutes from KLCC and Bukit Bintang.'
+      ],
+      [
+        'question' => 'What music does Spark KL play?',
+        'answer' => 'Expect EDM, progressive house, and crowd-pleasing remixes mixed by regional and international DJs every weekend.'
+      ],
+      [
+        'question' => 'What\'s the dress code for Spark KL?',
+        'answer' => 'Smart-casual with polish: heels, blazers, minimal streetwear. Spark\'s light loves good fabric.'
+      ],
+      [
+        'question' => 'Is there an entry fee?',
+        'answer' => 'Entry ranges from RM50–RM90. VIP tables start near RM1,000, depending on the night and bottle selection.'
+      ],
+      [
+        'question' => 'What makes Spark KL special?',
+        'answer' => 'It\'s TREC\'s heartbeat, open design, panoramic balcony, and visuals that rival a festival stage. It\'s nightlife turned spectacle.'
+      ],
+      [
+        'question' => 'How late is Spark KL open?',
+        'answer' => 'Usually until 3 AM on weekends. The energy peaks between 12 and 2, when DJs stack their biggest drops.'
+      ],
+      [
+        'question' => 'Is Spark KL safe for newcomers?',
+        'answer' => 'Yes. Security and crowd management are strong; the vibe is vibrant but respectful. Arrive early for smoother entry.'
+      ]
+    ]
+  ],
+
+  'rootz_kl_nightlife' => [
+    'title' => 'Rootz KL Nightlife | Exclusive Companion Experience – Superb Party Girl Malaysia',
+    'description' => 'Step above the city into Rootz KL at Lot 10. Velvet, skyline, and rhythm fuse into royal nightlife, experienced best beside the aura of a Superb Party Girl.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/rootz-kl-nightlife/',
+    'og_title' => 'Rootz KL Nightlife | Exclusive Companion Experience – Superb Party Girl Malaysia',
+    'og_description' => 'Step above the city into Rootz KL at Lot 10. Velvet, skyline, and rhythm fuse into royal nightlife, experienced best beside the aura of a Superb Party Girl.',
+    'hero_title' => 'Rootz KL Nightlife – The Crown of Kuala Lumpur',
+    'hero_description' => 'Above the City, Beneath the Stars. At the top of Lot 10 Bukit Bintang, the elevator opens into another century.',
+    'hero_image' => '/clubs-images/Rootz-kl.jpg',
+    'hero_image_alt' => 'Rootz KL Nightlife Club',
+    'url_slug' => '/rootz-kl-nightlife',
+    'short_description' => 'Step above the city into Rootz KL at Lot 10. Velvet, skyline, and rhythm fuse into royal nightlife, experienced best beside the aura of a Superb Party Girl.',
+    'content' => [
+      'intro' => 'At the top of Lot 10 Bukit Bintang, the elevator opens into another century. Gold trim, velvet curtains, chandeliers that hum with bass, Rootz KL feels like an opera house that learned to dance. The crowd here doesn\'t rush; it arrives. Champagne glasses tilt, the skyline flickers through the glass roof, and every reflection carries the promise of another story. It\'s Kuala Lumpur\'s rooftop theatre, where glamour finds its rhythm.',
+      'section1_title' => 'The Rootz Atmosphere',
+      'section1_content' => 'Rootz is built for spectacle. Classical arches, carved wood, mirrored ceilings, then the contrast: a DJ spinning modern remixes beneath chandeliers. It\'s decadent and deliberately slow. The kind of place where conversation is half flirtation, half performance. House and R&B ripple through the hall, bass softened by velvet acoustics. From the balcony, Bukit Bintang shimmers below like a circuit board of light. Inside, laughter folds into the music; outside, the city hums approval.',
+      'section2_title' => 'The Superb Party Girl – A Hypothetical Muse',
+      'section2_content' => 'Imagine her standing near the grand staircase, one hand tracing the polished banister, eyes catching the chandelier\'s fire. She\'s poised but untouchable, grace distilled into movement. The Superb Party Girl isn\'t there to be seen; she\'s there to elevate everything around her. Her calm pulls focus, her presence reframes the room. Beside her, you don\'t feel like a guest, you feel like the headline act.',
+      'section3_title' => 'A Scene at Rootz',
+      'section3_content' => 'A breeze slips through the rooftop doors. The DJ slows the tempo, strings blending into deep percussion. You\'re leaning against the balcony rail; the city below glows amber. She joins you, perfume soft as smoke. The glass clinks between you, crystal meeting crystal, and for a heartbeat, the world balances on that sound. Then the beat returns, gold light spilling across her face, and the rooftop becomes your private ballroom suspended above the city.',
+      'section4_title' => 'Inside Rootz KL',
+      'section4_content' => 'Location: Rooftop Level, Lot 10 Shopping Centre, Bukit Bintang. Music: House · R&B · Modern remixes. Crowd: Sophisticated · Fashion-forward · Cosmopolitan. Mood: Luxurious · Intimate · Theatrical. Rootz is where elegance and rhythm share a stage.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'Some clubs pulse; Rootz glows. From marble floor to skyline glass, every detail is built to seduce the senses, tastefully, artfully, endlessly. Rise above the city. Let Superb Party Girl turn the night into theatre.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'Where is Rootz KL located?',
+        'answer' => 'Rootz KL crowns Lot 10 Shopping Centre in Bukit Bintang, Kuala Lumpur\'s premier retail and nightlife district.'
+      ],
+      [
+        'question' => 'What makes Rootz KL unique?',
+        'answer' => 'Its design: European aristocracy meets modern nightlife. The chandeliers, the woodwork, and the rooftop view create a cinematic setting.'
+      ],
+      [
+        'question' => 'What kind of music does Rootz KL play?',
+        'answer' => 'Mostly house, R&B, and remixed pop, balancing elegance with energy.'
+      ],
+      [
+        'question' => 'What is the dress code for Rootz KL?',
+        'answer' => 'Strictly smart and glamorous, think evening dresses, jackets, polished shoes. The club\'s aesthetic demands style.'
+      ],
+      [
+        'question' => 'Is there an entry fee?',
+        'answer' => 'Cover charge usually RM60–RM100, with VIP tables starting near RM1,500 depending on bottle selection.'
+      ],
+      [
+        'question' => 'What time does Rootz KL open?',
+        'answer' => 'Typically from 9 PM to 3 AM, with the crowd peaking around midnight.'
+      ],
+      [
+        'question' => 'Is Rootz KL good for dates or events?',
+        'answer' => 'Yes. Its rooftop view and interior make it ideal for celebrations or sophisticated nights out.'
+      ]
+    ]
+  ],
+
+ 
 
 
 
+
+  'havana_kl_nightlife' => [
+    'title' => 'Havana KL Nightlife | Tropical Companion Experience – Superb Party Girl Malaysia',
+    'description' => 'Feel the rhythm of Havana KL in Changkat Bukit Bintang. A colonial-style mansion where Latin beats, cocktails, and connection pulse through the night.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/havana-kl-nightlife/',
+    'og_title' => 'Havana KL Nightlife | Tropical Companion Experience – Superb Party Girl Malaysia',
+    'og_description' => 'Feel the rhythm of Havana KL in Changkat Bukit Bintang. A colonial-style mansion where Latin beats, cocktails, and connection pulse through the night.',
+    'hero_title' => 'Havana KL Nightlife – Latin Heat in the Heart of Bukit Bintang',
+    'hero_description' => 'Where Kuala Lumpur Learns to Dance',
+    'hero_image' => '/clubs-images/havana-kl.jpg',
+    'hero_image_alt' => 'Havana KL Nightlife Club',
+    'url_slug' => '/havana-kl-nightlife',
+    'short_description' => 'Feel the rhythm of Havana KL in Changkat Bukit Bintang. A colonial-style mansion where Latin beats, cocktails, and connection pulse through the night.',
+    'content' => [
+      'intro' => 'Down the slope of Changkat Bukit Bintang, strings of lights sway between palm leaves. The music floats before you even reach the door, trumpet, conga, a heartbeat wrapped in melody. Inside, Havana KL glows like an ember: exposed brick, carved wood, fans tracing slow circles in the humid air. It feels part bar, part time machine, a piece of old Havana reimagined for Kuala Lumpur. Laughter, clinking glasses, a DJ sliding seamlessly from salsa to reggaeton. You don\'t walk into Havana KL; you step into rhythm.',
+      'section1_title' => 'The Havana Mood',
+      'section1_content' => 'Havana KL blurs the line between lounge and club. Downstairs, the crowd gathers around the mahogany bar, sipping mojitos under amber lamps. Upstairs, the terrace breathes, open sky, city hum, and a view that melts into neon. The music never shouts; it invites. Each beat feels like warm air brushing skin. Couples spin, strangers clap in time, and the city outside seems to slow for a song or two.',
+      'section2_title' => 'The Superb Party Girl – Hypothetical Muse',
+      'section2_content' => 'She\'s rhythm given form, a figure who moves like she\'s listening to something only she can hear. Not the loudest, not the first to dance, but the one whose smile makes people follow. That\'s the Superb Party Girl ideal here: poised yet playful, elegance wrapped in energy. When she leans against the balcony rail, hair catching the light, the scene changes temperature. The night\'s tempo bends around her. Beside her, conversation flows like music; every laugh feels rehearsed by the band below.',
+      'section3_title' => 'A Scene at Havana KL',
+      'section3_content' => 'The DJ shifts from Latin jazz to house-salsa fusion. You\'re on the upper deck, warm air against your neck, rum glass beading condensation. She turns, the city lights mirrored in her eyes. Someone shouts "Otra vez!" and the crowd answers; the floor below bursts into motion. For a heartbeat, it\'s you, her, and a rhythm old as the tropics, alive, endless, impossible to bottle.',
+      'section4_title' => 'Inside Havana KL',
+      'section4_content' => 'Location: Changkat Bukit Bintang, Kuala Lumpur. Music: Salsa · Reggaeton · Latin House · R&B. Crowd: Mixed · Vibrant · World-travelled. Vibe: Tropical · Warm · Romantic. Havana KL is a postcard come to life: heritage charm wrapped in nightlife heat.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'Havana KL doesn\'t sell a night out, it offers a feeling: sunlight reborn as sound. Here, the city\'s edge softens into warmth, and every laugh carries a rhythm. Raise your glass. Let Superb Party Girl turn the night into a dance you won\'t forget.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'Where is Havana KL located?',
+        'answer' => 'At Changkat Bukit Bintang, within Kuala Lumpur\'s main entertainment district, minutes from Pavilion Mall and KLCC.'
+      ],
+      [
+        'question' => 'What kind of music does Havana KL play?',
+        'answer' => 'A mix of Latin, reggaeton, R&B, and house, often with live DJs and themed dance nights.'
+      ],
+      [
+        'question' => 'Is there a dress code?',
+        'answer' => 'Yes, smart-casual tropical. Linen, light fabrics, dresses, or collared shirts; no flip-flops.'
+      ],
+      [
+        'question' => 'Is there an entry fee?',
+        'answer' => 'Usually RM30–RM60, depending on events. VIP terrace packages start around RM800.'
+      ],
+      [
+        'question' => 'What makes Havana KL special?',
+        'answer' => 'Its colonial-style architecture, open-air terrace, and Latin heartbeat make it one of Bukit Bintang\'s most distinctive nightlife spots.'
+      ],
+      [
+        'question' => 'What time does Havana KL close?',
+        'answer' => 'Around 3 AM on weekends, with live DJs or percussionists keeping the crowd moving past midnight.'
+      ],
+      [
+        'question' => 'Is Havana KL good for first-timers?',
+        'answer' => 'Absolutely. Friendly staff, lively but relaxed atmosphere, and music that invites even shy guests to move.'
+      ]
+    ]
+  ],
+
+  'soho_free_house_penang' => [
+    'title' => 'Soho Free House Penang | Nightlife Companion Experience – Superb Party Girl Malaysia',
+    'description' => 'Step into Penang\'s iconic Soho Free House, a timeless nightlife legend where music, laughter, and chemistry light up the island with Superb Party Girl.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/soho-free-house-penang/',
+    'og_title' => 'Soho Free House Penang | Nightlife Companion Experience – Superb Party Girl Malaysia',
+    'og_description' => 'Step into Penang\'s iconic Soho Free House, a timeless nightlife legend where music, laughter, and chemistry light up the island with Superb Party Girl.',
+    'hero_title' => 'Soho Free House Penang – The Island\'s Legendary Night Pulse',
+    'hero_description' => 'Where Penang Learned to Stay Awake',
+    'hero_image' => '/clubs-images/soho-kl.jpg',
+    'hero_image_alt' => 'Soho Free House Penang Nightlife',
+    'url_slug' => '/soho-free-house-penang',
+    'short_description' => 'Step into Penang\'s iconic Soho Free House, a timeless nightlife legend where music, laughter, and chemistry light up the island with Superb Party Girl.',
+    'content' => [
+      'intro' => 'Along Upper Penang Road, between colonial facades and modern bars, stands a place that has seen every kind of night. Soho Free House isn\'t new. It\'s eternal, the first to open, the last to close, and always the heartbeat of the island\'s party district. The air carries stories: of music that never stopped, of travelers who came for one drink and stayed until dawn, of laughter that rose above the bassline and lingered in the street. This isn\'t just a bar; it\'s Penang\'s memory of how to feel alive.',
+      'section1_title' => 'The Soho Atmosphere',
+      'section1_content' => 'Inside, the vibe is vintage rebellion. Dark wood, brass accents, and neon that glows like nostalgia. The playlist is unpredictable, 90s rock, deep house, retro remixes, all stitched together by instinct rather than order. Crowds spill from the bar to the sidewalk, voices tangling with the rhythm. You\'ll see everyone here: old friends on their ritual Friday, new travelers discovering that the island\'s nightlife has teeth. Soho doesn\'t perform; it happens.',
+      'section2_title' => 'The Superb Party Girl – Hypothetical Spark',
+      'section2_content' => 'She appears like she belongs to the music, effortless, magnetic, lit from within. Not staged, not seeking, just existing in a way that draws the eye. Her laughter rises above the bass, and suddenly the noise turns into rhythm again. That\'s the Superb Party Girl idea here: a pulse inside the pulse. She\'s the reminder that connection doesn\'t need invitation, only timing. Beside her, every track feels like your favorite, every stranger like an ally, every moment like the start of something too interesting to end.',
+      'section3_title' => 'A Scene at Soho Free House',
+      'section3_content' => 'It\'s late. The ceiling fans whirl. Someone behind the bar pours whiskey like water. She leans over the counter, the neon catching in her eyes; her grin dares you to keep up. The crowd shouts when the DJ drops a classic. For a second, the island\'s history, the sea air, and the heat of the room fold together into one long breath of freedom. And that\'s Soho, it doesn\'t promise romance or luxury. It promises aliveness.',
+      'section4_title' => 'Inside Soho Free House Penang',
+      'section4_content' => 'Location: Upper Penang Road, Georgetown. Music: Rock · Retro · House · Indie. Crowd: Mixed · Expats · Locals · Travelers. Vibe: Vintage · Loud · Magnetic. Soho Free House is Penang\'s old soul with a young heartbeat, the place where every night starts and rarely ends.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'Penang\'s nights begin where the stories never stop. The drinks are honest, the laughter loud, and the rhythm older than memory. Step into the island\'s heartbeat. Let Superb Party Girl turn the night into legend.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'Where is Soho Free House located?',
+        'answer' => 'In the center of Upper Penang Road, Georgetown, surrounded by Penang\'s oldest nightlife venues.'
+      ],
+      [
+        'question' => 'What kind of music does Soho Free House play?',
+        'answer' => 'A rotating mix of rock, retro, and house, curated by local DJs who\'ve been soundtracking Penang nights for decades.'
+      ],
+      [
+        'question' => 'Is there an entry fee?',
+        'answer' => 'No cover charge on most nights. Special events or live music nights may charge RM20–RM30.'
+      ],
+      [
+        'question' => 'Is Soho Free House suitable for tourists?',
+        'answer' => 'Yes, it\'s often the first stop for travelers and locals alike, known for its open energy and friendly crowd.'
+      ],
+      [
+        'question' => 'What makes Soho Free House famous?',
+        'answer' => 'Its longevity. It\'s one of Penang\'s oldest nightlife landmarks, known for its easy charm and no-pretence fun.'
+      ]
+    ]
+  ],
+
+  'slippery_senoritas_penang' => [
+    'title' => 'Slippery Senoritas with Superb Party Girl | Penang Nightlife',
+    'description' => 'Experience Slippery Senoritas with Superb Party Girl, Latin beats, sultry rhythms, and unforgettable Penang nights await.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/slippery-senoritas-penang/',
+    'og_title' => 'Slippery Senoritas with Superb Party Girl | Penang Nightlife',
+    'og_description' => 'Experience Slippery Senoritas with Superb Party Girl, Latin beats, sultry rhythms, and unforgettable Penang nights await.',
+    'hero_title' => 'Slippery Senoritas',
+    'hero_description' => 'Step into a world of fire and rhythm where the night pulses with energy. Latin beats, hypnotic hip-hop, and electric vibes invite you to move, flirt, and immerse yourself in Penang\'s most wild and unforgettable nightlife.',
+    'hero_image' => '/clubs-images/slippery-senoritas-kl.jpg',
+    'hero_image_alt' => 'Slippery Senoritas Penang Nightlife',
+    'url_slug' => '/slippery-senoritas-penang',
+    'short_description' => 'Experience Slippery Senoritas with Superb Party Girl, Latin beats, sultry rhythms, and unforgettable Penang nights await.',
+    'content' => [
+      'intro' => 'Slippery Senoritas (SS) is a playground for thrill-seekers and nightlife lovers. Every detail is designed to create excitement and indulgence:',
+      'section1_title' => 'About the Club',
+      'section1_content' => 'Music & Beats: DJs spin Latin rhythms, reggaeton, and high-energy hip-hop, blending sultry salsa with irresistible bass drops. The dance floor never stops moving, syncing heartbeats to every beat. Vibe & Crowd: Energetic, playful, and magnetic, the crowd radiates chemistry. Guests come to dance, laugh, and flirt, creating an atmosphere that\'s lively and spontaneous. Interiors & Lighting: Neon lights, shimmering surfaces, and a mix of red and gold tones set a seductive scene. Spotlights sweep across the floor, adding drama and intimacy to every corner. Whether it\'s the main dance floor or a tucked-away booth, every space hums with possibilities. The air feels charged, and every glance can spark a connection.',
+      'section2_title' => 'With Superb Party Girl',
+      'section2_content' => 'Bring a Superb Party Girl into the mix, and Slippery Senoritas transforms into a magnetic playground: Whispered secrets and laughter over pulsating beats. Subtle touches as you move together through the crowd. Eyes locking under neon haze, inviting shared smiles and playful intrigue. With her, every dance becomes a private conversation. Every toast and glance feels intimate, and the club\'s rhythm aligns with your shared energy.',
+      'section3_title' => 'The Fantasy',
+      'section3_content' => 'Picture a velvet booth at the edge of the dance floor. Crystal champagne flutes glimmer under neon lights. The DJ drops a reggaeton hit, and your hands brush across the table. Her laughter rises over the music as shadows dance across glistening skin. The crowd sways, but it feels like you\'re in a world made just for the two of you, every moment charged with excitement, flirtation, and magnetic allure.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'The night is alive, the beat is calling, and adventure waits. Claim your unforgettable experience with Superb Party Girl at Slippery Senoritas tonight.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'What makes Slippery Senoritas a top nightlife spot in Penang?',
+        'answer' => 'Its unbeatable combination of Latin beats, hip-hop energy, lively crowd, and neon-lit interiors make it perfect for unforgettable nights.'
+      ],
+      [
+        'question' => 'Can I enjoy a VIP experience at Slippery Senoritas?',
+        'answer' => 'Yes, the club offers private booths and exclusive seating, ideal for a Superb Party Girl experience or a more intimate night out.'
+      ],
+      [
+        'question' => 'What type of music is played at Slippery Senoritas?',
+        'answer' => 'Expect a mix of reggaeton, Latin rhythms, salsa, and high-energy hip-hop that keeps the floor moving all night.'
+      ],
+      [
+        'question' => 'How does a Superb Party Girl enhance the club experience?',
+        'answer' => 'Her presence adds energy, flirtation, and elegance. Shared glances, whispered laughter, and subtle touches make every moment more memorable.'
+      ]
+    ]
+  ],
+
+  'mansion_32_penang' => [
+    'title' => 'Mansion 32 with Superb Party Girl | Penang Nightlife',
+    'description' => 'Mansion 32 by the sea with Superb Party Girl, luxury ocean views, romantic vibes, and unforgettable Penang nights await.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/mansion-32-penang/',
+    'og_title' => 'Mansion 32 with Superb Party Girl | Penang Nightlife',
+    'og_description' => 'Mansion 32 by the sea with Superb Party Girl, luxury ocean views, romantic vibes, and unforgettable Penang nights await.',
+    'hero_title' => 'Mansion 32',
+    'hero_description' => 'Moonlight shimmers on the ocean as you enter Mansion 32. Soft candlelight, smooth music, and a gentle sea breeze create an intimate, glamorous ambiance. Every glance, every step, feels like the start of an unforgettable night.',
+    'hero_image' => '/clubs-images/manson-32-kl.jpg',
+    'hero_image_alt' => 'Mansion 32 Penang Nightlife',
+    'url_slug' => '/mansion-32-penang',
+    'short_description' => 'Mansion 32 by the sea with Superb Party Girl, luxury ocean views, romantic vibes, and unforgettable Penang nights await.',
+    'content' => [
+      'intro' => 'Mansion 32 is Penang\'s upscale oceanfront hotspot, combining luxury with playful energy:',
+      'section1_title' => 'About the Club',
+      'section1_content' => 'Music & Beats: Smooth house, chill-out lounge, and melodic deep beats create a refined rhythm. DJs mix subtle lounge tracks with occasional peaks for spontaneous dancing. Vibe & Crowd: Stylish, fun-loving, and effortlessly charming, guests savor the elegant interiors, ocean views, and warm candlelit corners. Conversation flows, smiles linger, and flirtation is subtle yet magnetic. Interiors & Ambiance: Plush velvet seating, polished wooden floors, golden accents, and ambient lighting reflect luxury. Floor-to-ceiling windows frame breathtaking ocean views, turning every glance into a memory. The energy here is sophisticated yet playful, perfect for private conversations, laughter, and intimate connections.',
+      'section2_title' => 'With Superb Party Girl',
+      'section2_content' => 'A Superb Party Girl makes the night at Mansion 32 unforgettable: Soft laughter shared over sparkling wine. Subtle touches that spark excitement and intrigue. Eyes meeting across the balcony, reflecting the moonlight and the sea. With her, every glance, every gesture, becomes part of a shared story. Music, waves, and laughter intertwine, turning the night into a romantic, electrifying experience.',
+      'section3_title' => 'The Fantasy',
+      'section3_content' => 'Picture a private corner by the balcony, champagne in hand. The waves crash softly below while moonlight dances on the water. Her laughter floats in the night air as your hands brush ever so lightly. Every movement is electric, every glance intimate. The world outside fades, here, it\'s just the music, the ocean, and a night made for two. Mansion 32 isn\'t just a club; it\'s a stage for glamour, intimacy, and unforgettable memories.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'Romance and glamour await. Book Superb Party Girl at Mansion 32 tonight and make your Penang night magical.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'What makes Mansion 32 a top nightlife destination in Penang?',
+        'answer' => 'Its combination of oceanfront views, luxurious interiors, smooth music, and sophisticated crowd creates a perfect setting for romance and fun.'
+      ],
+      [
+        'question' => 'Can I have a private experience at Mansion 32?',
+        'answer' => 'Yes, Mansion 32 offers private booths, balcony seating, and VIP options, ideal for a Superb Party Girl experience or a more intimate night out.'
+      ],
+      [
+        'question' => 'What kind of music is played at Mansion 32?',
+        'answer' => 'DJs spin smooth house, chill-out lounge, and select deep beats that blend perfectly with the oceanfront ambiance.'
+      ],
+      [
+        'question' => 'How does a Superb Party Girl enhance the night at Mansion 32?',
+        'answer' => 'Her presence adds energy, charm, and a touch of flirtation. Shared smiles, laughter, and subtle touches elevate the experience into something unforgettable.'
+      ]
+    ]
+  ],
+
+  'three_sixty_penang' => [
+    'title' => 'Three Sixty Sky Bar with Superb Party Girl | Penang Nightlife',
+    'description' => 'Reach new heights with Superb Party Girl at Three Sixty Sky Bar, panoramic views, glamour, and unforgettable nights in Penang.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/three-sixty-penang/',
+    'og_title' => 'Three Sixty Sky Bar with Superb Party Girl | Penang Nightlife',
+    'og_description' => 'Reach new heights with Superb Party Girl at Three Sixty Sky Bar, panoramic views, glamour, and unforgettable nights in Penang.',
+    'hero_title' => 'Three Sixty Revolving Restaurant & Sky Bar',
+    'hero_description' => 'Rise above the city and let the skyline seduce you. Floor-to-ceiling windows, spinning panoramic views, and a smooth rhythm set the stage for a glamorous, unforgettable night. At Three Sixty, every moment turns into a story of allure, style, and desire.',
+    'hero_image' => '/clubs-images/sixty-revolving-kl.jpg',
+    'hero_image_alt' => 'Three Sixty Sky Bar Penang Nightlife',
+    'url_slug' => '/three-sixty-penang',
+    'short_description' => 'Reach new heights with Superb Party Girl at Three Sixty Sky Bar, panoramic views, glamour, and unforgettable nights in Penang.',
+    'content' => [
+      'intro' => 'Three Sixty Sky Bar is Penang\'s ultimate rooftop nightlife destination, blending elegance, excitement, and breathtaking views:',
+      'section1_title' => 'About the Club',
+      'section1_content' => 'Music & Beats: DJs mix smooth house, chill electronic tracks, and select upbeat hits to complement the revolving cityscape. The atmosphere balances lively energy with moments of intimate calm. Vibe & Crowd: Stylish, confident, and social, the crowd exudes glamour and sophistication. Guests are drawn to the rooftop\'s stunning views, signature cocktails, and the electric ambiance. Interiors & Ambiance: Glass panels showcase the city lights, polished wood floors, sleek furniture, and ambient lighting create an elegant and inviting setting. Every rotation brings a new perspective, both inside and out. The energy is elevated yet refined, perfect for couples, friends, or VIP gatherings.',
+      'section2_title' => 'With Superb Party Girl',
+      'section2_content' => 'With a Superb Party Girl by your side, Three Sixty Sky Bar transforms into a playground of charm and intimacy: Whispered conversation over sparkling cocktails as the skyline spins beneath you. Soft touches and shared laughter that sync with the rhythm of the city lights. Eyes locking across the bar, smiles reflecting the glow of the night. Her presence makes every rotation feel like a private, shared adventure. The combination of city views, music, and her energy creates a night to remember.',
+      'section3_title' => 'The Fantasy',
+      'section3_content' => 'Imagine a secluded corner booth by the glass panels. Crystal cocktails glimmer as the skyline rotates slowly beneath you. Her laughter blends with smooth house music, fingers brushing lightly across the table. Neon reflections catch her eyes, and the city lights shimmer on the horizon. The world outside fades, here, it\'s just the music, the view, and a connection that feels electric, private, and unforgettable.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'The city lights are calling, the skyline awaits. Reserve your night with Superb Party Girl at Three Sixty Sky Bar and elevate your Penang nightlife experience.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'What makes Three Sixty Sky Bar unique in Penang?',
+        'answer' => 'Its revolving rooftop design offers panoramic city views, paired with elegant interiors, smooth music, and an unforgettable nightlife experience.'
+      ],
+      [
+        'question' => 'Can I book a private table at Three Sixty Sky Bar?',
+        'answer' => 'Yes, VIP seating and private booths are available, perfect for enjoying the night with a Superb Party Girl or a more intimate experience.'
+      ],
+      [
+        'question' => 'What kind of music is played at Three Sixty Sky Bar?',
+        'answer' => 'Expect a blend of smooth house, chill electronic, and occasional upbeat tracks that complement the revolving rooftop experience.'
+      ],
+      [
+        'question' => 'How does a Superb Party Girl enhance the night at Three Sixty Sky Bar?',
+        'answer' => 'She adds charm, playful energy, and intimate sparks, turning panoramic views and cocktails into an unforgettable, shared adventure.'
+      ]
+    ]
+  ],
+
+  'le_dream_penang' => [
+    'title' => 'Le Dream Sky Bar with Superb Party Girl | Penang Nightlife',
+    'description' => 'Le Dream Sky Bar + Superb Party Girl, trendsetting cocktails, rooftop vibes, and seductive nights in Georgetown, Penang.',
+    'canonical_link' => 'https://superbpartygirl.com/clubs/le-dream-penang/',
+    'og_title' => 'Le Dream Sky Bar with Superb Party Girl | Penang Nightlife',
+    'og_description' => 'Le Dream Sky Bar + Superb Party Girl, trendsetting cocktails, rooftop vibes, and seductive nights in Georgetown, Penang.',
+    'hero_title' => 'Le Dream Sky Bar',
+    'hero_description' => 'Sip cocktails above the city, where lights shimmer beneath you and music pulses through the night air. Le Dream Sky Bar combines style, energy, and rooftop glamour, perfect for a night that lingers in memory long after dawn.',
+    'hero_image' => '/clubs-images/le-dreams-kl.jpeg',
+    'hero_image_alt' => 'Le Dream Sky Bar Penang Nightlife',
+    'url_slug' => '/le-dream-penang',
+    'short_description' => 'Le Dream Sky Bar + Superb Party Girl, trendsetting cocktails, rooftop vibes, and seductive nights in Georgetown, Penang.',
+    'content' => [
+      'intro' => 'Le Dream Sky Bar is Georgetown\'s hotspot for chic nightlife, where trendy vibes meet panoramic views:',
+      'section1_title' => 'About the Club',
+      'section1_content' => 'Music & Beats: DJs mix modern electronic, pop, and smooth house tracks to keep the crowd energized. The music complements the rooftop\'s airy, vibrant atmosphere. Vibe & Crowd: Young, stylish, and sociable, the crowd exudes energy and charm. Guests are drawn to the rooftop\'s trendy aesthetic, signature cocktails, and the infectious buzz of nightlife. Interiors & Ambiance: Sleek furniture, ambient lighting, and glass panels frame sweeping city views. Neon accents add a playful, seductive touch, creating a scene that\'s both elegant and lively. From the bar to corner booths, every space offers a new angle of the city and a fresh opportunity for connection.',
+      'section2_title' => 'With Superb Party Girl',
+      'section2_content' => 'Add a Superb Party Girl to the night, and the rooftop transforms into a stage of charm and intimacy: Shared laughter over handcrafted cocktails, her energy syncing with yours. Gentle touches and fleeting glances that spark excitement. Eyes meeting across the bar, reflecting neon lights and city shimmer. Her presence turns every movement, every toast, into an intimate moment shared above the city\'s pulse.',
+      'section3_title' => 'The Fantasy',
+      'section3_content' => 'Picture a private corner near the glass panels, the city glittering below. Champagne flutes catch neon reflections as her laughter mixes with the music. Fingers brush softly across the table. Music hums, cocktails sparkle, and the night stretches endlessly, a private adventure framed by rooftop lights and starlit skies. Every glance, every smile, feels electric and unforgettable.',
+      'conclusion_title' => 'The Invitation',
+      'conclusion_content' => 'The city sparkles just for you. Reserve your night with Superb Party Girl at Le Dream Sky Bar and make Georgetown\'s skyline your playground.'
+    ],
+    'faqs' => [
+      [
+        'question' => 'What makes Le Dream Sky Bar a must-visit in Georgetown?',
+        'answer' => 'Its combination of panoramic city views, trendy rooftop vibe, energetic music, and stylish crowd makes it perfect for nightlife lovers.'
+      ],
+      [
+        'question' => 'Can I book a private area at Le Dream Sky Bar?',
+        'answer' => 'Yes, VIP booths and private seating options are available, ideal for enjoying a Superb Party Girl experience or an intimate rooftop night.'
+      ],
+      [
+        'question' => 'What type of music is played at Le Dream Sky Bar?',
+        'answer' => 'DJs spin modern electronic, pop, and smooth house tracks that keep the rooftop lively and vibrant.'
+      ],
+      [
+        'question' => 'How does a Superb Party Girl enhance the experience at Le Dream Sky Bar?',
+        'answer' => 'She brings charm, flirtation, and energy, turning cocktails and city views into a night filled with intimate moments and unforgettable memories.'
+      ]
+    ]
+  ],
 
 ];
 

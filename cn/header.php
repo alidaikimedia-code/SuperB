@@ -536,7 +536,7 @@ $page_meta = [
        
         
         <li><a href="<?= localizedPath('/about') ?>"><?= $texts['header']['aboutus'] ?></a></li>
-        <li><a href="https://t.me/SuperBvvip?text=<?= $texts['header']['bomMsg'] ?>"><?= $texts['header']['bom'] ?></a></li> 
+        <li><a href="<?= env('TELEGRAM_LINK') ?>?text=<?= $texts['header']['bomMsg'] ?>"><?= $texts['header']['bom'] ?></a></li> 
         <li><a href="<?= localizedPath('/contact-us') ?>"><?= $texts['header']['contactus'] ?></a></li>
         <!-- <li><a href="<?= localizedPath('/booking') ?>" class="booking-btn"><?= $texts['header']['booking'] ?></a></li>        -->
         <li class="dropdown">

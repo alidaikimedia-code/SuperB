@@ -314,7 +314,7 @@ if (file_exists($cities_file)) {
       <?php if (isset($random_cities) && !empty($random_cities)): ?>
         <?php foreach ($random_cities as $city_key): ?>
           <?php if (isset($available_cities[$city_key])): ?>
-            <div class="city-card" onclick="window.location.href='/cn/cities/premium-escort-<?= $available_cities[$city_key]['url'] ?>/'">
+            <div class="city-card" onclick="window.location.href='/cn/premium-escort-<?= $available_cities[$city_key]['url'] ?>/'">
               <div class="city-content">
                 <h3>高级伴游 <?= $available_cities[$city_key]['display_name'] ?></h3>
               </div>
@@ -323,7 +323,7 @@ if (file_exists($cities_file)) {
         <?php endforeach; ?>
       <?php else: ?>
         <!-- 如果动态加载失败，则使用备用城市 -->
-        <div class="city-card" onclick="window.location.href='/cn/cities/premium-escort-kuala-lumpur/'">
+        <div class="city-card" onclick="window.location.href='/cn/premium-escort-kuala-lumpur/'">
          
           <div class="city-content">
             <h3>高级伴游 吉隆坡</h3>
@@ -331,7 +331,7 @@ if (file_exists($cities_file)) {
           </div>
         </div>
         
-        <div class="city-card" onclick="window.location.href='/cn/cities/premium-escort-petaling-jaya/'">
+        <div class="city-card" onclick="window.location.href='/cn/premium-escort-petaling-jaya/'">
           
           <div class="city-content">
             <h3>高级伴游 八打灵再也</h3>
@@ -339,7 +339,7 @@ if (file_exists($cities_file)) {
           </div>
         </div>
         
-        <div class="city-card" onclick="window.location.href='/cn/cities/premium-escort-bangsar/'">
+        <div class="city-card" onclick="window.location.href='/cn/premium-escort-bangsar/'">
           
           <div class="city-content">
             <h3>高级伴游 孟沙</h3>
@@ -347,7 +347,7 @@ if (file_exists($cities_file)) {
           </div>
         </div>
         
-        <div class="city-card" onclick="window.location.href='/cn/cities/premium-escort-bukit-bintang/'">
+        <div class="city-card" onclick="window.location.href='/cn/premium-escort-bukit-bintang/'">
           
           <div class="city-content">
             <h3>高级伴游 武吉免登</h3>
@@ -355,7 +355,7 @@ if (file_exists($cities_file)) {
           </div>
         </div>
         
-        <div class="city-card" onclick="window.location.href='/cn/cities/premium-escort-damansara/'">
+        <div class="city-card" onclick="window.location.href='/cn/premium-escort-damansara/'">
           
           <div class="city-content">
             <h3>高级伴游 白沙罗</h3>

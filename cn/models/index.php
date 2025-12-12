@@ -14,10 +14,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
   <div class="banner-overlay">
     <h1><?= $texts['models']['modelsTitle'] ?></h1>
     <div class="banner-btn">
-      <a href="https://t.me/superBlocalgirls" class="btn"><?= $texts['common']['telegram'] ?></a>
+      <a href="<?= env('TELEGRAM_CHANNEL') ?>" class="btn"><?= $texts['common']['telegram'] ?></a>
     </div>
     <div class="banner-btn">
-      <a href="https://t.me/m/PY3Xovo4N2Vl" class="btn"><?= $texts['common']['book_now'] ?></a>
+      <a href="<?= env('TELEGRAM_LINK') ?>" class="btn"><?= $texts['common']['book_now'] ?></a>
     </div>
   </div>
 </div>
@@ -39,7 +39,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <div id="pagination"></div>
 
     <div class="cta">
-      <a href="https://t.me/SuperBbaby?text=<?= $texts['models']['fullListMsg'] ?>"><?= $texts['models']['contactFullList'] ?></a>
+      <a href="<?= env('TELEGRAM_LINK') ?>?text=<?= $texts['models']['fullListMsg'] ?>"><?= $texts['models']['contactFullList'] ?></a>
     </div>
   </div>
 </main>

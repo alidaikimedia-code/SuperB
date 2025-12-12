@@ -17,7 +17,7 @@ $model_name = $model_data['name'] ?? 'Model';
 $model_title = $model_data['title'] ?? $model_name;
 ?>
 
-<link rel="stylesheet" href="/assets/css/cities.css"> 
+<link rel="stylesheet" href="/assets/css/cities.css">
 <link rel="stylesheet" href="/assets/css/index.css">
 
 <!-- Hero Section -->
@@ -36,7 +36,7 @@ $model_title = $model_data['title'] ?? $model_name;
       <!-- Model Profile Card with Image -->
       <div class="model-profile-card">
         <div class="profile-image-section">
-          <img src="<?= htmlspecialchars($model_data['image'] ?? '/modelsimages/model4.webp') ?>" alt="<?= htmlspecialchars($model_name) ?>" class="model-profile-img">
+          <img src="<?= htmlspecialchars($model_data['image'] ?? '/wp-content/uploads/2024/12/Party-Girl-Logo-01.png') ?>" alt="<?= htmlspecialchars($model_name) ?>" class="model-profile-img">
           <div class="image-overlay">
             <div class="overlay-text"><?= htmlspecialchars($model_name) ?></div>
           </div>
@@ -598,8 +598,8 @@ $model_title = $model_data['title'] ?? $model_name;
           <h2 class="book-title">Book Your Experience</h2>
           <p class="book-text"><?= htmlspecialchars($model_data['booking_info'] ?? 'Contact us to book ' . $model_name . ' for your next event.') ?></p>
           <div class="book-buttons">
-            <a href="<?= env('TELEGRAM_LINK') ?>" class="btn-primary">Book Now</a>
-            <!-- <a href="#" class="btn-secondary">Call Now</a> -->
+            <a href="https://t.me/SuperBbaby" class="btn-primary">Book Now</a>
+            <a href="tel:+60123456789" class="btn-secondary">Call Now</a>
           </div>
         </div>
       </div>

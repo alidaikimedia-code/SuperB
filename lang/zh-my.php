@@ -19,6 +19,7 @@ return [
     'contactus' => "联系我们",
     'aboutus'   => "关于我们",
     'blog'      => "博客",
+    // 'clubs'     => "夜店",
     'cities'    => "马来西亚城市",
     'view_all_locations' => "查看所有地点",
     'bom'       => "成为我们的伴游",
@@ -29,7 +30,7 @@ return [
   ],
 
   'cities' => [
-    'kuala_lumpur' => "吉隆坡",
+    'kuala-lumpur' => "吉隆坡",
     'ampang' => "安邦",
     'cheras' => "蕉赖",
     'cyberjaya' => "赛城",
@@ -38,27 +39,26 @@ return [
     'johor' => "柔佛",
     'kepong' => "甲洞",
     'klang' => "巴生",
-    'kota_damansara' => "哥打白沙罗",
-    'langkawi' => "兰卡威",
-    'local' => "本地",
-    'melaka' => "马六甲",
-    'mont_kiara' => "满家乐",
-    'pahang' => "彭亨",
-    'penang' => "槟城",
-    'petaling_jaya' => "八打灵再也",
-    'port_dickson' => "波德申",
+    'kota-damansara' => "哥打白沙罗",
+    // 'langkawi' => "兰卡威",
+    // 'local' => "本地",
+    // 'melaka' => "马六甲",
+    // 'pahang' => "彭亨",
+    // 'penang' => "槟城",
+    'petaling-jaya' => "八打灵再也",
+    // 'port-dickson' => "波德申",
     'puchong' => "蒲种",
-    'sabah' => "沙巴",
-    'sarawak' => "砂拉越",
-    'serdang' => "沙登",
-    'seremban' => "芙蓉",
-    'setia_alam' => "实达阿南",
-    'sri_petaling' => "大城堡",
-    'subang' => "梳邦",
-    'taiping' => "太平",
-    'montkiara' => "满家乐",
-    'bukitbintang' => "武吉免登",
-    'klangvalley' => "巴生谷",
+    // 'sabah' => "沙巴",
+    // 'sarawak' => "砂拉越",
+    // 'serdang' => "沙登",
+    // 'seremban' => "芙蓉",
+    // 'setia-alam' => "实达阿南",
+    // 'sri-petaling' => "大城堡",
+    'subang-jaya' => "梳邦再也",
+    // 'taiping' => "太平",
+    'mont-kiara' => "满家乐",
+    'bukit-bintang' => "武吉免登",
+    'klang-valley' => "巴生谷",
   ],
 
   'common' => [
@@ -72,7 +72,7 @@ return [
     'description'       => "探索我们的高端商务伴游服务：\"派对而已\"、\"直接一炮\"、\"派对+一炮\"或\"派对+包夜\"选项。专为提升您的夜晚体验，带来欢乐、激情和难忘的浪漫时刻！",
     'canonical_link'    => "https://superbpartygirl.com/cn/",
     'og_title'          => "高端商务伴游 | 马来西亚最高端外围平台",
-    'og_description'    => "通过马来西亚高端私人商务伴游平台，尽享槟城、柔佛、吉隆坡等的商务KTV体验，包括吉隆坡外围、上门、陪酒、陪坐与陪玩。本地大学生和网红将提升你的夜场体验！",
+    'og_description'    => "精英派对女郎服务，提供中、韩、日、欧式伴游服务。立即预订，开启充满魅力、乐趣和专属回忆的难忘夜晚。",
     'homeTitle'         => "SuperB高端外围 - 商务KTV、陪酒、陪玩",
     'homeSubTitle'      => "马来西亚VVIP高端商务伴游 (本地网红, 槟城、柔佛、吉隆坡)",
     'homeDesc1'         => "为了确保您拥有终极的夜场体验，让我们为您联系在柔佛、槟城、吉隆坡上门最优秀的本地大学生、网红的私人伴游！我们的女孩们热切并准备好满足您的需求！",
@@ -216,10 +216,10 @@ return [
 
   'models'  => [
     'title'             => "高端伴游 | 本地、中国、日本、韩国、越南等",
-    'description'       => "预订来自多个国家的高端伴游，包括本地、中国、日本、韩国、越南等。让您的派对和夜晚难忘！",
+    'description'       => "探索多元化的派对女郎伴游，从亚洲美女到优雅的欧洲伴游，为您找到精彩活动的完美伴侣，打造难忘的夜生活。",
     'canonical_link'    => "https://superbpartygirl.com/cn/models/",
     'og_title'          => "高端伴游 | 本地、中国、日本、韩国、越南等",
-    'og_description'    => "预订来自多个国家的高端伴游，包括本地、中国、日本、韩国、越南等。让您的派对和夜晚难忘！",
+    'og_description'    => "探索多元化的派对女郎伴游，从亚洲美女到优雅的欧洲伴游，为您找到精彩活动的完美伴侣，打造难忘的夜生活。",
     'modelsTitle'       => "高端商务伴游",
     'modelsSubTitle'    => "高端私人伴游",
     'showFilters'       => "显示筛选",
@@ -278,10 +278,10 @@ return [
 
   'localModel' => [
     'title'             => "本地高端伴游 | 马来西亚网红，本地大学生陪酒，陪玩",
-    'description'       => "在马来西亚找到您理想的本地高端伴游，包括迷人的本地网红，本地大学生。预订美丽且充满魅力的女孩，为您的夜场带来难忘的体验。",
+    'description'       => "魅力四射、活力四射的本地派对端伴游，提供真挚的友谊和愉悦的氛围。与美丽的本地女郎共度真挚的陪伴和激动人心的时刻。",
     'canonical_link'    => "https://superbpartygirl.com/cn/models/local-party-girl",
     'og_title'          => "本地高端伴游 | 马来西亚网红，本地大学生陪酒，陪玩",
-    'og_description'    => "在马来西亚找到您理想的本地高端伴游，包括迷人的本地网红，本地大学生。预订美丽且充满魅力的女孩，为您的夜场带来难忘的体验。",
+    'og_description'    => "魅力四射、活力四射的本地派对端伴游，提供真挚的友谊和愉悦的氛围。与美丽的本地女郎共度真挚的陪伴和激动人心的时刻。",
     'modelsTitle'       => "本地高端伴游",
     //'modelsSubTitle'    => "马来西亚高端模特，网红，大学生 ",
 	'modelsSubTitle'    =>"联系客服了解更多信息（PVP）",
@@ -354,10 +354,10 @@ return [
 
   'service' => [
     'title'             => "马来西亚高端商务伴游服务：派对而已、直接一炮、派对+一炮、派对+包夜",
-    'description'       => "探索我们的高端商务伴游服务：\"派对而已\"、\"直接一炮\"、\"派对+一炮\"或\"派对+包夜\"选项。专为提升您的夜晚体验，带来欢乐、激情和难忘的浪漫时刻！",
+    'description'       => "探索高级服务：派对女郎陪伴、个性化活动和私人娱乐。我们注重细节和私密性，为您打造难忘的派对回忆。",
     'canonical_link'    => "https://superbpartygirl.com/cn/service/",
     'og_title'          => "马来西亚高端商务伴游服务：派对而已、直接一炮、派对+一炮、派对+包夜",
-    'og_description'    => "探索我们的高端商务伴游服务：\"派对而已\"、\"直接一炮\"、\"派对+一炮\"或\"派对+包夜\"选项。专为提升您的夜晚体验，带来欢乐、激情和难忘的浪漫时刻！",
+    'og_description'    => "探索高级服务：派对女郎陪伴、个性化活动和私人娱乐。我们注重细节和私密性，为您打造难忘的派对回忆。",
     'bookingTitle'      => "马来西亚高端商务伴游服务",
     'bookingSubTitle'   => "我们的高端商务伴游服务",
     'bookingSubDesc1'   => "想要一个难忘的夜晚，充满乐趣、兴奋和优雅？",
@@ -434,10 +434,10 @@ return [
 
   'booking' => [
     'title'             => "预订马来西亚商务KTV | 立即呼叫公主陪玩",
-    'description'       => "轻松预订您在马来西亚的完美商务伴游！按杯罩尺寸、个性特征（可爱、性感、优雅）及饮酒偏好自定义您的选择。打造难忘的理想外围体验——立即开始挑选女孩！",
+    'description'       => "轻松、私密、安全地在线预订派对高端伴游。从多元化的模特和灵活的时间安排中进行选择，确保预订过程顺畅，打造奢华的派对之夜。",
     'canonical_link'    => "https://superbpartygirl.com/cn/booking/",
     'og_title'          => "预订马来西亚商务KTV | 立即呼叫公主陪玩",
-    'og_description'    => "轻松预订您在马来西亚的完美商务伴游！按杯罩尺寸、个性特征（可爱、性感、优雅）及饮酒偏好自定义您的选择。打造难忘的理想外围体验——立即开始挑选女孩！",
+    'og_description'    => "轻松、私密、安全地在线预订派对高端伴游。从多元化的模特和灵活的时间安排中进行选择，确保预订过程顺畅，打造奢华的派对之夜。",
     'bookingTitle'      => "预订马来西亚商务伴游",
     'bookingSubTitle'   => "选择您的私人商务KTV",
     'nationality'       => "国籍",
@@ -571,6 +571,11 @@ return [
   'legal' => [
     'last_updated' => '最后更新：2025年10月23日',
     'document_info' => '本文档包含马来西亚Superb Party Girl的隐私政策、服务条款和免责声明。',
+    'title' => '隐私政策 | Superb Party Girl',
+    'description' => '了解Superb Party Girl Malaysia隐私政策。我们尊重您的隐私并解释我们如何收集、使用和保护您的个人数据。',
+    'canonical_link' => 'https://superbpartygirl.com/cn/privacy/',
+    'og_title' => '隐私政策 | Superb Party Girl',
+    'og_description' => '了解Superb Party Girl Malaysia隐私政策。我们尊重您的隐私并解释我们如何收集、使用和保护您的个人数据。',
     
     'privacy' => [
       'title' => '隐私政策 | Superb Party Girl',
@@ -1499,7 +1504,7 @@ return [
   'ampang' => [
     'title' => '安邦伴游 | 安邦商务伴游及高端私人伴侣',
     'description' => '在安邦与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅、谨慎，提供B2B按摩、浪漫约会和私人会面。热门区域包括安邦路、安邦希尔尔、德萨班丹。立即预订您的安邦伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/ampang',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-ampang',
     'og_title' => '安邦商务伴游 | 安邦伴游及高端私人伴侣',
     'og_description' => '在安邦与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅、谨慎，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '安邦伴游 – 吉隆坡顶级商务伴游高级陪伴
@@ -1528,7 +1533,7 @@ return [
 'cheras' => [
     'title' => '蕉赖伴游 | 蕉赖商务伴游及高端私人伴侣',
     'description' => '在蕉赖与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情、性感，提供B2B按摩、浪漫约会和私人会面。热门区域包括康诺特花园、双威伟乐城、马鲁里。立即预订您的蕉赖伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/cheras',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-cheras',
     'og_title' => '蕉赖商务伴游 | 蕉赖伴游及高端私人伴侣',
     'og_description' => '在蕉赖与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情、性感，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '蕉赖伴游 – 吉隆坡超棒的商务伴游火辣陪伴
@@ -1561,7 +1566,7 @@ return [
 'cyberjaya' => [
     'title' => '赛城伴游 – 超棒的商务伴游情色陪伴',
     'description' => '赛城时尚现代，处处是静谧的角落，是尽情享受的理想场所。有了SuperB Party Girl伴游，赛城就不再只是一座智慧之城，而是一座激情之城。我们这里的伴游都受过良好教育，经验丰富，性感撩人。她们知道如何让您在咖啡里开怀大笑，在丝绸床单下尽情尖叫。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/cyberjaya',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-cyberjaya',
     'og_title' => '赛城商务伴游 | 赛城伴游及高端私人伴侣',
     'og_description' => '在赛城与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅、谨慎，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '赛城伴游 – 超棒的商务伴游情色陪伴
@@ -1590,7 +1595,7 @@ DPulze购物中心
 'genting' => [
     'title' => '云顶伴游——超棒的商务伴游性伴侣',
     'description' => '云顶高原是马来西亚的游乐场，汇聚了灯光、赌场和山间空气。我们的伴游性感撩人，大胆前卫，提供B2B按摩、浪漫约会和私人会面。热门区域包括云顶名胜世界、天空大道、吴东再也。立即预订您的云顶伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/genting',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-genting',
     'og_title' => '云顶商务伴游 | 云顶伴游及高端私人伴侣',
     'og_description' => '在云顶与SuperB Party Girl体验顶级伴游服务。我们的伴侣性感撩人、大胆前卫，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '云顶伴游——超棒的商务伴游性伴侣
@@ -1619,7 +1624,7 @@ DPulze购物中心
 'ipoh' => [
     'title' => '怡保伴游 – 超棒的商务伴游情色陪伴',
     'description' => '怡保表面上魅力十足，但在其殖民时期的魅力背后，隐藏着一座充满诱惑的城市。我们的伴游热情浪漫，床上激情四射，提供B2B按摩、浪漫约会和私人会面。热门区域包括怡保旧城区、拉帕特山、双威城。立即预订您的怡保伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/ipoh',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-ipoh',
     'og_title' => '怡保商务伴游 | 怡保伴游及高端私人伴侣',
     'og_description' => '在怡保与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情浪漫、床上激情四射，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '怡保伴游 – 超棒的商务伴游情色陪伴
@@ -1645,10 +1650,10 @@ DPulze购物中心
     ]
 ],
 
-'johorbahru' => [
+'johor' => [
     'title' => '新山伴游 – SuperB Party Girl 高级陪伴',
     'description' => '新山是马来西亚南部的明珠，充满激情与浪漫。我们的伴游热情似火，提供B2B按摩、浪漫约会和私人会面。热门区域包括金海湾、美迪尼依斯干达、公主港。立即预订您的新山伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/johorbahru',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-johor',
     'og_title' => '新山商务伴游 | 新山伴游及高端私人伴侣',
     'og_description' => '在新山与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情似火、优雅撩人，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '新山伴游 – SuperB Party Girl 高级陪伴
@@ -1676,7 +1681,7 @@ DPulze购物中心
 'kepong' => [
     'title' => '甲洞伴游 – 超级商务伴游浪漫陪伴',
     'description' => '甲洞是绿色休闲胜地与现代夜生活的完美结合，适合秘密恋情和激情冒险。我们的伴游风趣迷人，提供B2B按摩、浪漫约会和私人会面。热门区域包括德萨公园城、斯里白沙罗、门贾拉拉。立即预订您的甲洞伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/kepong',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-kepong',
     'og_title' => '甲洞商务伴游 | 甲洞伴游及高端私人伴侣',
     'og_description' => '在甲洞与SuperB Party Girl体验顶级伴游服务。我们的伴侣风趣迷人、热情浪漫，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '甲洞伴游 – 超级商务伴游浪漫陪伴
@@ -1704,7 +1709,7 @@ DPulze购物中心
 'klang' => [
     'title' => '巴生伴游 – 超棒的商务伴游情色陪伴',
     'description' => '巴生是一座传统与现代诱惑交织的城市。我们的伴游热情似火，提供B2B按摩、浪漫约会和私人会面。热门区域包括班达尔植物园、塞蒂亚·巴尤马斯、武吉丁宜镇。立即预订您的巴生伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/klang',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-klang',
     'og_title' => '巴生商务伴游 | 巴生伴游及高端私人伴侣',
     'og_description' => '在巴生与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情似火、优雅撩人，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '巴生伴游 – 超棒的商务伴游情色陪伴
@@ -1729,10 +1734,10 @@ DPulze购物中心
         '是否承诺谨慎？总是。'
     ]
 ],
-'kotadamansara' => [
+'kota-damansara' => [
     'title' => '哥打白沙罗伴游 – 超棒的商务伴游感官陪伴',
     'description' => '哥打白沙罗时尚、活力四射，是享受纵情狂欢的完美之选。我们的伴游性感撩人，热情奔放，提供B2B按摩、浪漫约会和私人会面。热门区域包括双威吉萨、斯特兰德、热带花园。立即预订您的哥打白沙罗伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/kotadamansara',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-kota-damansara',
     'og_title' => '哥打白沙罗商务伴游 | 哥打白沙罗伴游及高端私人伴侣',
     'og_description' => '在哥打白沙罗与SuperB Party Girl体验顶级伴游服务。我们的伴侣性感撩人、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '哥打白沙罗伴游 – 超棒的商务伴游感官陪伴
@@ -1760,7 +1765,7 @@ DPulze购物中心
 'kuala-lumpur' => [
     'title' => '吉隆坡伴游 – SuperB Party Girl 高级陪伴',
     'description' => '吉隆坡是魅力、夜生活和激情的都城。我们的伴游优雅、浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。热门区域包括吉隆坡城中城、武吉免登、昌卡。立即预订您的吉隆坡伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/kualalumpur',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-kuala-lumpur',
     'og_title' => '吉隆坡商务伴游 | 吉隆坡伴游及高端私人伴侣',
     'og_description' => '在吉隆坡与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '吉隆坡伴游 – SuperB Party Girl 高级陪伴
@@ -1785,10 +1790,10 @@ DPulze购物中心
         '是否提供自由裁量权？总是。'
     ]
 ],
-'montkiara' => [
+'mont-kiara' => [
     'title' => 'Mont Kiara 伴游 – 超级商务伴游高级陪伴',
     'description' => '满家乐是吉隆坡外籍人士的游乐场，以豪华公寓和独特夜生活闻名。我们的伴游魅力四射，提供B2B按摩、浪漫约会和私人会面。热门区域包括Arcoris Mont Kiara、Solaris Mont Kiara、Kiara 163。立即预订您的满家乐伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/montkiara',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-mont-kiara',
     'og_title' => '满家乐商务伴游 | 满家乐伴游及高端私人伴侣',
     'og_description' => '在满家乐与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => 'Mont Kiara 伴游 – 超级商务伴游高级陪伴
@@ -1820,7 +1825,7 @@ Mont Kiara 的图书
 'petaling-jaya' => [
     'title' => '八打灵再也伴游 – 超级商务伴游火辣陪伴',
     'description' => '八打灵再也（PJ）是马来西亚美食、夜生活和隐秘度假胜地的游乐场。我们的伴游年轻、性感、富有冒险精神，提供B2B按摩、浪漫约会和私人会面。热门区域包括白沙罗上城、SS2、万达镇。立即预订您的八打灵再也伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/petalingjaya',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-petaling-jaya',
     'og_title' => '八打灵再也商务伴游 | 八打灵再也伴游及高端私人伴侣',
     'og_description' => '在八打灵再也与SuperB Party Girl体验顶级伴游服务。我们的伴侣年轻性感、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '八打灵再也伴游 – 超级商务伴游火辣陪伴
@@ -1851,7 +1856,7 @@ Tropicana伴游，为您带来夜生活乐趣
 'puchong' => [
     'title' => '蒲种伴游 – 超棒的商务伴游情色陪伴',
     'description' => '蒲种是一座充满夜生活和青春活力的城市。我们的伴游热情似火，提供B2B按摩、浪漫约会和私人会面。热门区域包括IOI购物中心、SetiaWalk、公主城。立即预订您的蒲种伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/puchong',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-puchong',
     'og_title' => '蒲种商务伴游 | 蒲种伴游及高端私人伴侣',
     'og_description' => '在蒲种与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情似火、活力四射，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '蒲种伴游 – 超棒的商务伴游情色陪伴
@@ -1881,7 +1886,7 @@ SetiaWalk 高级伴游
 'putrajaya' => [
     'title' => '布城伴游 – 超级商务伴游浪漫陪伴',
     'description' => '布城是马来西亚的美丽之城，遍布花园、湖泊和标志性建筑。我们的伴游性感浪漫，提供B2B按摩、浪漫约会和私人会面。热门区域包括布城湖、IOI City Mall、布城中央。立即预订您的布城伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/putrajaya',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-putrajaya',
     'og_title' => '布城商务伴游 | 布城伴游及高端私人伴侣',
     'og_description' => '在布城与SuperB Party Girl体验顶级伴游服务。我们的伴侣性感浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '布城伴游 – 超级商务伴游浪漫陪伴
@@ -1909,10 +1914,10 @@ IOI City Mall 高级伴游
     ]
 ],
 
-'subangjaya' => [
+'subang-jaya' => [
   'title' => '梳邦再也伴游 – 超级商务伴游火辣陪伴',
   'description' => '梳邦再也年轻活力，生机勃勃，充满夜生活。我们的伴游风趣热情、魅力四射，提供B2B按摩、浪漫约会和私人会面。热门区域包括SS15、USJ、双威。立即预订您的梳邦再也伴游，享受难忘的体验。',
-  'canonical_link' => 'https://superbpartygirl.com/cities/subangjaya',
+  'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-subang-jaya',
   'og_title' => '梳邦再也商务伴游 | 梳邦再也伴游及高端私人伴侣',
   'og_description' => '在梳邦再也与SuperB Party Girl体验顶级伴游服务。我们的伴侣风趣热情、魅力四射，提供B2B按摩、浪漫约会和私人会面。',
   'content' => '梳邦再也伴游 – 超级商务伴游火辣陪伴
@@ -1940,10 +1945,10 @@ USJ 陪同人员
   ]
 ],
 
-'shahalam' => [
+'shah-alam' => [
   'title' => '莎阿南伴游 – SuperB Party Girl 高级陪伴',
   'description' => '莎阿南是一座充满文化与现代生活的城市。我们的伴游经验丰富，优雅而热情，提供B2B按摩、浪漫约会和私人会面。热门区域包括i-City、Setia Alam、Plaza Shah Alam。立即预订您的莎阿南伴游，享受难忘的体验。',
-  'canonical_link' => 'https://superbpartygirl.com/cities/shahalam',
+  'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-shah-alam',
   'og_title' => '莎阿南商务伴游 | 莎阿南伴游及高端私人伴侣',
   'og_description' => '在莎阿南与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情似火，提供B2B按摩、浪漫约会和私人会面。',
   'content' => '莎阿南伴游 – SuperB Party Girl 高级陪伴
@@ -1970,10 +1975,10 @@ Plaza Shah Alam 伴游体验
       '你们为i-City豪华酒店提供服务吗？是的，那里是激情邂逅的常见地点。'
   ]
 ],
-'klangvalley' => [
+'klang-valley' => [
     'title' => '巴生谷伴游 – 超级商务伴游火辣陪伴',
     'description' => '巴生谷是马来西亚夜生活、餐饮和奢华体验的中心。我们的伴游俏皮优雅、狂野性感，提供B2B按摩、浪漫约会和私人会面。热门区域包括白沙罗上城、孟沙、武吉免登。立即预订您的巴生谷伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/klangvalley',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-klang-valley',
     'og_title' => '巴生谷商务伴游 | 巴生谷伴游及高端私人伴侣',
     'og_description' => '在巴生谷与SuperB Party Girl体验顶级伴游服务。我们的伴侣俏皮优雅、狂野性感，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '巴生谷伴游 – 超级商务伴游火辣陪伴
@@ -2003,7 +2008,7 @@ Plaza Shah Alam 伴游体验
 'damansara' => [
     'title' => '白沙罗伴游 – 超级商务伴游浪漫陪伴',
     'description' => '白沙罗时尚现代，是纵情享受的完美之选。我们的伴游优雅浪漫，提供B2B按摩、浪漫约会和私人会面。热门区域包括珍珠白沙罗、白沙罗上城、热带。立即预订您的白沙罗伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/damansara',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-damansara',
     'og_title' => '白沙罗商务伴游 | 白沙罗伴游及高端私人伴侣',
     'og_description' => '在白沙罗与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情似火，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '白沙罗伴游 – 超级商务伴游浪漫陪伴
@@ -2033,7 +2038,7 @@ Bandar Sri Damansara 伴游体验
 'bangsar' => [
     'title' => '孟沙伴游——超级商务伴游性感陪伴',
     'description' => '孟沙是吉隆坡最性感的街区，充满时尚与狂野夜生活。我们的伴游大胆自信、热情似火，提供B2B按摩、浪漫约会和私人会面。热门区域包括特拉维、孟沙村、中谷。立即预订您的孟沙伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/bangsar',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-bangsar',
     'og_title' => '孟沙商务伴游 | 孟沙伴游及高端私人伴侣',
     'og_description' => '在孟沙与SuperB Party Girl体验顶级伴游服务。我们的伴侣大胆自信、热情似火，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '孟沙伴游——超级商务伴游性感陪伴
@@ -2061,10 +2066,10 @@ Jalan Maarof 护送同伴
     ]
 ],
 
-'bukitbintang' => [
+'bukit-bintang' => [
     'title' => '武吉免登伴游 – 超级商务伴游豪华陪伴',
     'description' => '武吉免登是吉隆坡夜生活和奢华的中心。我们的伴游魅力四射、热情奔放，提供B2B按摩、浪漫约会和私人会面。热门区域包括Pavilion KL、Changkat、阿罗街。立即预订您的武吉免登伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cities/bukitbintang',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-bukit-bintang',
     'og_title' => '武吉免登商务伴游 | 武吉免登伴游及高端私人伴侣',
     'og_description' => '在武吉免登与SuperB Party Girl体验顶级伴游服务。我们的伴侣魅力四射、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '武吉免登伴游 – 超级商务伴游豪华陪伴
@@ -2144,7 +2149,7 @@ Starhill 伴游服务
 ],
 
 'model_c02_lele' => [
-    'title' => 'C02 Lele | 超级派对女孩 中国娇小伴游 158cm 32C',
+    'title' => 'C02 Lele | 超级派对女孩 中国娇小模特 158cm 32C',
     'description' => '娇小的中国派对女孩Lele。26岁，158cm，43kg，32C。俏皮成熟，具有浪漫魅力。适合派对、拍摄和品牌活动的热辣造型。',
     'name' => 'C02 Lele',
     'image' => '/wp-content/uploads/models/local/A02-min.webp',
@@ -2179,7 +2184,7 @@ Starhill 伴游服务
     'booking_info' => '将Lele带到您的下一次派对、演出或活动中，观看氛围变得明亮性感。联系超级派对女孩团队选择C02 Lele，我们将安排日期、服装和媒体交付。'
 ],
 'model_c03_liya' => [
-    'title' => 'C03 LIYA | 超级派对女孩 中国伴游 170cm 36D',
+    'title' => 'C03 LIYA | 超级派对女孩 中国模特 170cm 36D',
     'description' => 'LIYA是一位25岁的中国派对女孩，拥有长腿和36D曲线。170cm，50kg。成熟、有魅力、性感。完美适合活动、拍摄和品牌之夜。',
     'name' => 'C03 LIYA',
     'image' => '/wp-content/uploads/models/cn/C03.webp',
@@ -2259,7 +2264,7 @@ Starhill 伴游服务
 
 'model_c05_xiaoshui' => [
     'title' => 'C05 小水 | 超级派对女孩中国 166cm 32B 长腿',
-    'description' => '小水，22岁，中国。身高166厘米，体重46公斤，32B。修长美腿，成熟女友风格。甜美、浪漫、性感。派对、演出和品牌之夜的超级商务伴游。',
+    'description' => '小水，22岁，中国。身高166厘米，体重46公斤，32B。修长美腿，成熟女友风格。甜美、浪漫、性感。派对、演出和品牌之夜的超级派对女郎。',
     'name' => 'C05 小水',
     'image' => '/wp-content/uploads/models/cn/C05.webp',
     'content' => '小水是那种静静的迷恋，只要她看向你的那一刻，就会瞬间成为众人瞩目的焦点。她容光焕发，肌肤光滑，眼神温暖亲切。她的笑容温柔中带着一丝戏谑。周围的气氛变得轻松浪漫。她甜美、性感，很容易让人倾心。',
@@ -2364,7 +2369,7 @@ Starhill 伴游服务
     'description' => '甜甜，24岁，来自中国。身高173厘米，体重50公斤，胸围34C。声音柔和，腿长，散发着都市魅力。浪漫、撩人，非常适合派对、演出和品牌之夜。',
     'name' => 'C08 甜甜',
     'image' => '/wp-content/uploads/models/cn/C08.webp',
-    'content' => '高挑、温暖，甜美中略带一丝危险。甜甜身上散发着城市夜色的光芒。她只需看你一眼，你便能感受到。平静的声音，缓缓的微笑，以及一种默默的吸引力，你在她身边站得越久，这种吸引力就越强烈。她是一位超级商务伴游，能把每个房间都变成一道风景。',
+    'content' => '高挑、温暖，甜美中略带一丝危险。甜甜身上散发着城市夜色的光芒。她只需看你一眼，你便能感受到。平静的声音，缓缓的微笑，以及一种默默的吸引力，你在她身边站得越久，这种吸引力就越强烈。她是一位超级派对女郎，能把每个房间都变成一道风景。',
     'age' => '24',
     'height' => '173厘米',
     'weight' => '50公斤',
@@ -2398,7 +2403,7 @@ Starhill 伴游服务
     'description' => 'Shasha，23岁，来自中国。身高170厘米，体重48公斤，36D。充满活力，成熟稳重，给人一种亲密、可爱的感觉。适合VIP派对、演出和品牌之夜，浪漫又撩人。',
     'name' => 'C09 莎莎',
     'image' => '/wp-content/uploads/models/cn/C09.webp',
-    'content' => '莎莎就像夏天一样，轻盈活泼，略带一丝大胆。她眼神里流露出笑意，用轻松温暖的话语让你倍感亲近。前一分钟，她还是海滩上的阳光，下一分钟，她又像是黄昏游艇上一缕清风。她是超级商务伴游，让整个夜晚都感觉像是一场私人度假。',
+    'content' => '莎莎就像夏天一样，轻盈活泼，略带一丝大胆。她眼神里流露出笑意，用轻松温暖的话语让你倍感亲近。前一分钟，她还是海滩上的阳光，下一分钟，她又像是黄昏游艇上一缕清风。她是超级派对女郎，让整个夜晚都感觉像是一场私人度假。',
     'age' => '23',
     'height' => '170厘米',
     'weight' => '48公斤',
@@ -2432,7 +2437,7 @@ Starhill 伴游服务
     'description' => '静怡，25岁，中国。身高164厘米，体重45公斤，36D。性格开朗外向，拥有小妹妹般的魅力，笑容总能让人压力舒缓。浪漫性感，非常适合派对和演出。',
     'name' => 'C10 静怡',
     'image' => '/wp-content/uploads/models/cn/C10.webp',
-    'content' => '静怡温柔阳光，略带俏皮。她坐在你身旁，微笑着，让你的肩膀放松下来。她笑声轻柔，声音柔和，丰满的曲线散发着温暖梦幻的气息，让人心绪平静。她是一位超级商务伴游，能将忙碌的白天变成甜蜜的夜晚。',
+    'content' => '静怡温柔阳光，略带俏皮。她坐在你身旁，微笑着，让你的肩膀放松下来。她笑声轻柔，声音柔和，丰满的曲线散发着温暖梦幻的气息，让人心绪平静。她是一位超级派对女郎，能将忙碌的白天变成甜蜜的夜晚。',
     'age' => '25',
     'height' => '164厘米',
     'weight' => '45公斤',
@@ -2972,7 +2977,7 @@ Starhill 伴游服务
     'description' => 'Iris，22岁，来自中国。身高163厘米，体重45公斤，36E。纤细的腰肢，丰满的臀部，舞姿曼妙。她3D般的舞姿，让你整晚都保持清醒和微笑。浪漫又撩人。',
     'name' => 'C25 鸢尾花',
     'image' => '/wp-content/uploads/models/cn/C25.webp',
-    'content' => 'Iris 化身为活力四射的少女。她是海滩上的梦幻女神，也能点亮都市的夜空。纤细的腰肢，饱满的 36E 上围，以及让每一次转身都显得甜美动人的丰臀。她是一位超级商务伴游，以三条流畅的线条围绕着你舞动，从前到后，从侧到侧，从上到下，直到你忘记眨眼。',
+    'content' => 'Iris 化身为活力四射的少女。她是海滩上的梦幻女神，也能点亮都市的夜空。纤细的腰肢，饱满的 36E 上围，以及让每一次转身都显得甜美动人的丰臀。她是一位超级派对女郎，以三条流畅的线条围绕着你舞动，从前到后，从侧到侧，从上到下，直到你忘记眨眼。',
     'age' => '22',
     'height' => '163厘米',
     'weight' => '45公斤',
@@ -3009,7 +3014,7 @@ Starhill 伴游服务
     'description' => 'CICI，23岁，来自中国。身高168厘米，体重49公斤，体温34摄氏度。优雅的学生气质，迷人的微笑令人心醉神迷，忘却世事。浪漫又撩人，适合VIP派对和演出。',
     'name' => 'C26 CICI',
     'image' => '/wp-content/uploads/models/cn/C26.webp',
-    'content' => 'CICI 是那种甜蜜的宁静，能将忙碌的一天化作梦境。她坐在你身旁，微笑着，你的心就被温柔地抚慰。她34摄氏度的曲线和明亮的双眸，让你瞬间心动不已。无论是泳池边的白天，城市的夜晚，还是安静的咖啡馆时光，在她身上都显得完美无缺。她是一位真正的超级商务伴游，温柔而浪漫。',
+    'content' => 'CICI 是那种甜蜜的宁静，能将忙碌的一天化作梦境。她坐在你身旁，微笑着，你的心就被温柔地抚慰。她34摄氏度的曲线和明亮的双眸，让你瞬间心动不已。无论是泳池边的白天，城市的夜晚，还是安静的咖啡馆时光，在她身上都显得完美无缺。她是一位真正的超级派对女郎，温柔而浪漫。',
     'age' => '23',
     'height' => '168厘米',
     'weight' => '49公斤',
@@ -3189,7 +3194,7 @@ Starhill 伴游服务
         '轻松对话之夜',
         '高端、性感的生活方式和美容内容'
     ],
-    'booking' => '如果您追求成熟的魅力、柔和的热情和真挚的情感，那就选择 33 吧。联系超级商务伴游团队，我们将为您确认日期和媒体安排，打造完美夜晚。',
+    'booking' => '如果您追求成熟的魅力、柔和的热情和真挚的情感，那就选择 33 吧。联系超级派对女郎团队，我们将为您确认日期和媒体安排，打造完美夜晚。',
 ],
 
 

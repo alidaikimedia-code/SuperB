@@ -42,10 +42,10 @@
                     <p><i class="fas fa-clock"></i> <?= $texts['footer']['available_24_7'] ?></p>
                     <p><i class="fas fa-map-marker-alt"></i> <?= $texts['footer']['malaysia_wide'] ?></p>
                     <div class="contact-buttons">
-                        <a href="https://t.me/SuperBbaby" class="btn-telegram">
+                        <a href="<?= env('TELEGRAM_CHANNEL') ?>" class="btn-telegram">
                             <i class="fab fa-telegram"></i> <?= $texts['footer']['telegram'] ?>
                         </a>
-                        <a href="https://t.me/m/PY3Xovo4N2Vl" class="btn-booking">
+                        <a href="<?= env('TELEGRAM_LINK') ?>" class="btn-booking">
                             <i class="fas fa-calendar"></i> <?= $texts['footer']['book_now'] ?>
                         </a>
                     </div>
@@ -59,9 +59,9 @@
             <div class="footer-bottom-content">
                 <p>&copy; <?= date('Y') ?> Superb Party Girl. <?= $texts['footer']['all_rights_reserved'] ?>.</p>
                 <div class="footer-links">
-                    <a href="<?= localizedPath('/privacy') ?>"><?= $texts['footer']['privacy_policy'] ?></a>
-                    <a href="<?= localizedPath('/terms') ?>"><?= $texts['footer']['terms_of_service'] ?></a>
-                    <a href="<?= localizedPath('/disclaimer') ?>"><?= $texts['footer']['disclaimer'] ?></a>
+                    <a href="<?= localizedPath('/cn/privacy') ?>"><?= $texts['footer']['privacy_policy'] ?></a>
+                    <a href="<?= localizedPath('/cn/terms-of-service') ?>"><?= $texts['footer']['terms_of_service'] ?></a>
+                    <a href="<?= localizedPath('/cn/disclaimer') ?>"><?= $texts['footer']['disclaimer'] ?></a>
                 </div>
             </div>
         </div>

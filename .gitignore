@@ -1,28 +1,51 @@
-# WordPress essentials
-wp-content/uploads/
-wp-content/cache/
-wp-content/advanced-cache.php
-wp-content/backups/
-wp-content/updraft/
-wp-content/ai1wm-backups/
-wp-content/nitropack/
-wp-content/wflogs/
-wp-content/plugins/nitropack/
-wp-content/plugins/nitropack-sdk/
-wp-config.php
-nitropack-sdk/
+# =========================
+# WordPress core (DO NOT TRACK)
+# =========================
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/wp-config.php
 
+# =========================
+# WordPress content
+# =========================
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/backups/
+/wp-content/updraft/
+/wp-content/ai1wm-backups/
+/wp-content/wflogs/
+
+/wp-content/nitropack/
+/wp-content/plugins/nitropack/
+/wp-content/plugins/nitropack-sdk/
+
+/wp-content/debug.log
+/wp-content/upgrade/
+
+
+# =========================
+# NitroPack SDK (ROOT LEVEL)
+# =========================
+/nitropack-sdk/
+/nitropack-sdk/**
+
+# =========================
 # Logs & archives
+# =========================
 *.log
 *.sql
 *.zip
 *.tar.gz
 
+# =========================
 # System / IDE
+# =========================
 .DS_Store
 Thumbs.db
-node_modules/
-vendor/
+/node_modules/
+/vendor/
 .env
 .idea/
 .vscode/

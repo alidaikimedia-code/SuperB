@@ -64,6 +64,10 @@ include '../header.php';
   <div class="booking-desc">
     <h2><?= $texts['booking']['Kuala Lumpur party girl booking '] ?></h2>
     <p><?= $texts['booking']['Kuala Lumpur party girl booking Desc'] ?></p>
+    <h2><?= $texts['booking']['BookYourPerfectPartyExperienceToday'] ?></h2>
+    <p><?= $texts['booking']['BookYourPerfectPartyExperienceTodayDesc'] ?></p>
+    <h2><?= $texts['booking']['Trusted Nightclub Girl Booking Service'] ?></h2>
+    <p><?= $texts['booking']['TrustedNightclubGirlBookingServiceDesc'] ?></p>
   </div>
 </div>
 </main>

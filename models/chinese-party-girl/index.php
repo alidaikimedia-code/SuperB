@@ -1,4 +1,13 @@
 <?php
+// $page_meta = [
+//   'title' => $texts['chinaModel']['title'],
+//   'description' => $texts['chinaModel']['description'],
+//   'canonical' => $texts['chinaModel']['canonical_link'],
+//   'og_title' => $texts['chinaModel']['og_title'],
+//   'og_description' => $texts['chinaModel']['og_description'],
+//   'lang' => $lang,
+//   'custom_css' => "/assets/css/models.css"
+// ];
 
 $page_key = 'chinaModel';
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
@@ -37,12 +46,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <div class="cta">
       <a href="<?= env('TELEGRAM_LINK') ?>?text=<?= $texts['chinaModel']['chinaFullListMsg'] ?>"><?= $texts['models']['contactFullList'] ?></a>
     </div>
-    <div class="booking-desc" style="padding-bottom: 15px;">
-      <h2><?= $texts['chinaModel']['BookChinesepartygirlsonline'] ?></h2>
-      <p><?= $texts['chinaModel']['BookChinesepartygirlsonlinedesc'] ?></p>
-      <h2><?= $texts['chinaModel']['HireChinesepartygirls'] ?></h2>
-      <p><?= $texts['chinaModel']['HireChinesepartygirlsDesc'] ?></p>
-    </div>
+  </div>
+  <div class="booking-desc">
+    <h2><?= $texts['chinaModel']['BookChinesepartygirlsonline'] ?></h2>
+    <p><?= $texts['chinaModel']['BookChinesepartygirlsonlinedesc'] ?></p>
+    <h2><?= $texts['chinaModel']['HireChinesepartygirls'] ?></h2>
+    <p><?= $texts['chinaModel']['HireChinesepartygirlsDesc'] ?></p>
+    <h2><?= $texts['chinaModel']['Meet Charming Chinese Party Girls for Unforgettable Nights'] ?></h2>
+    <p><?= $texts['chinaModel']['MeetCharmingChinesePartyGirlsforUnforgettableNightsDesc'] ?></p>
+    <h2><?= $texts['chinaModel']['Perfect Choice for Every Occasion'] ?></h2>
+    <p><?= $texts['chinaModel']['PerfectChoiceforEveryOccasionDesc'] ?></p>
+    <h2><?= $texts['chinaModel']['Book Today with Confidence'] ?></h2>
+    <p><?= $texts['chinaModel']['BookTodaywithConfidenceDesc'] ?></p>
   </div>
 </main>
 
@@ -55,5 +70,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <script src="/assets/js/model_filter.js"></script>
 
 <?php
-include '../../footer.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>
