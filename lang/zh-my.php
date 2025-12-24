@@ -768,91 +768,91 @@ return [
     'readMore'          => "阅读更多",
     'blog_list' => [
       [
-        "img" => "/blogs-images/blog1_hero.png",
+        "img" => "/modelsimages/model1.webp",
         "title" => "为什么混血模特伴游需求量大",
         "desc" => "近年来对混血模特伴游的需求大幅增加",
         "url" => "/cn/blogs/why-mixed-race-model-escorts-are-in-high-demand"
       ],
       [
-        "img" => "/blogs-images/blog2_hero.png",
+        "img" => "/modelsimages/model2.webp",
         "title" => "假日派对女孩预订如何为私人活动工作",
         "desc" => "假日派对女孩预订让私人派对更加有趣和刺激。",
         "url" => "/cn/blogs/how-holiday-party-girls-reservations-work-for-private-events"
       ],
       [
-        "img" => "/blogs-images/blog3_hero.png",
+        "img" => "/modelsimages/model3.webp",
         "title" => "为什么欧洲模特伴游在私人派对中受欢迎",
         "desc" => "与朋友的派对一直是关于享受乐趣、奢华和创造回忆的。",
         "url" => "/cn/blogs/why-european-model-escorts-are-popular-for-private-parties"
       ],
       [
-        "img" => "/blogs-images/blog4_hero.png",
+        "img" => "/modelsimages/model4.webp",
         "title" => "私人派对伴游如何重新定义奢华娱乐",
         "desc" => "私人派对伴游正在改变人们在社交活动和聚会中体验高端娱乐的方式。",
         "url" => "/cn/blogs/how-private-party-escorts-redefine-luxury-entertainment"
       ],
       [
-        "img" => "/blogs-images/blog5_hero.png",
+        "img" => "/modelsimages/model5.webp",
         "title" => "男性派对和社交服务如何为活动增添火花",
         "desc" => "策划派对或社交活动可能很有趣，但要让它真正难忘，你需要的不只是食物和音乐。",
         "url" => "/cn/blogs/how-mens-party-and-social-services-add-spark-to-events"
       ],
       [
-        "img" => "/blogs-images/blog6_hero.png",
+        "img" => "/modelsimages/model1.webp",
         "title" => "上门伴游提升私人庆祝体验",
         "desc" => "与美丽的伴游分享时，精致用餐感觉更好",
         "url" => "/cn/blogs/outcall-escorts-enhance-the-private-celebration-experience"
       ],
       [
-        "img" => "/blogs-images/blog7_hero.png",
+        "img" => "/modelsimages/model2.webp",
         "title" => "伴游机构如何确保客户和伴侣的安全",
         "desc" => "当人们想到伴游服务套餐时，首先想到的是乐趣和陪伴。",
         "url" => "/cn/blogs/how-escort-agencies-ensure-safety-for-clients-and-companios"
       ],
       [
-        "img" => "/blogs-images/blog8_hero.png",
+        "img" => "/modelsimages/model3.webp",
         "title" => "伴游如何适应商务活动和公司职能",
         "desc" => "伴游在高级商务活动中的工作不仅仅是为公司提供陪伴。",
         "url" => "/cn/blogs/how-escorts-adapt-to-business-events-and-corporate-functions"
       ],
       [
-        "img" => "/blogs-images/blog9_hero.png",
+        "img" => "/modelsimages/model4.webp",
         "title" => "私人伴游服务如何提升精英夜生活体验",
         "desc" => "夜生活不是去俱乐部或派对；而是创造特殊和个人的回忆。",
         "url" => "/cn/blogs/how-private-escort-services-elevate-elite-nightlife-experiences"
       ],
       [
-        "img" => "/blogs-images/blog10_hero.png",
+        "img" => "/modelsimages/model5.webp",
         "title" => "为什么保密在伴游服务中最为重要",
         "desc" => "人们在选择夜间伴游服务时考虑的最关键因素之一就是隐私。",
         "url" => "/cn/blogs/why-confidentiality-matters-most-in-escort-services"
       ],
       [
-        "img" => "/blogs-images/blog11_hero.png",
+        "img" => "/modelsimages/model1.webp",
         "title" => "为什么在线伴游预订平台越来越受欢迎",
         "desc" => "想要在线预订派对女孩的人数大幅增加。",
         "url" => "/cn/blogs/why-online-escort-booking-platforms-are-rising-in-popularity"
       ],
       [
-        "img" => "/blogs-images/blog12_hero.png",
+        "img" => "/modelsimages/model2.webp",
         "title" => "为奢华旅行者和商人量身定制的伴游套餐",
         "desc" => "一些人在商务或休闲旅行时选择与他们分享兴趣和生活方式的旅行伴侣。",
         "url" => "/cn/blogs/escort-packages-tailored-for-luxury-travelers-and-businessmen"
       ],
       [
-        "img" => "/blogs-images/blog13_hero.png",
+        "img" => "/modelsimages/model3.webp",
         "title" => "从晚宴到游艇派对：精英社交圈中的伴游",
         "desc" => "你需要精致和存在感。许多人使用模特伴游服务来确保他们以魅力和自信出现",
         "url" => "/cn/blogs/from-gala-nights-to-yacht-parties-escorts-in-elite-social-circles"
       ],
       [
-        "img" => "/blogs-images/blog14_hero.png",
+        "img" => "/modelsimages/model4.webp",
         "title" => "奢华伴游服务中的健康和安全标准",
         "desc" => "奢华伴游服务努力确保客户和伴游可以享受乐趣而不承担过度风险。",
         "url" => "/cn/blogs/health-and-safety-standards-in-luxury-escort-services"
       ],
       [
-        "img" => "/blogs-images/blog15_hero.png",
+        "img" => "/modelsimages/model5.webp",
         "title" => "伴游服务如何在数字时代保护客户隐私",
         "desc" => "在当今快节奏的环境中，人们寻求不会危及个人生活的有趣活动。",
         "url" => "/cn/blogs/how-escort-services-protect-client-privacy-in-the-digital-era"
