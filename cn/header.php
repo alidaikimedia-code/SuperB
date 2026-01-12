@@ -497,48 +497,24 @@ $page_meta = [
             <li><a href="<?= localizedPath('/models/europe-party-girl') ?>"><?= $texts['header']['europe'] ?></a></li>
           </ul>
         </li>
-        <!-- <li><a href="<?= localizedPath('/') ?>"><?= $texts['header']['home'] ?></a></li> -->
         <li class="dropdown">
           <a href="<?= localizedPath('/premium-escort') ?>"><?= $texts['header']['premium_escort'] ?></a>
-          <ul class="dropdown-menu locations-dropdown"
+          <ul class="dropdown-menu locations-dropdown">
           
-          <!-- <li class="divider"></li> -->
             <li><a href="<?= localizedPath('/premium-escort-ampang') ?>"><?= $texts['cities']['ampang'] ?></a></li>
             <li><a href="<?= localizedPath('/premium-escort-cheras') ?>"><?= $texts['cities']['cheras'] ?></a></li>
             <li><a href="<?= localizedPath('/premium-escort-cyberjaya') ?>"><?= $texts['cities']['cyberjaya'] ?></a></li>
             <li><a href="<?= localizedPath('/premium-escort-genting') ?>"><?= $texts['cities']['genting'] ?></a></li>
             <li><a href="<?= localizedPath('/premium-escort-ipoh') ?>"><?= $texts['cities']['ipoh'] ?></a></li>
             
-            
-            <!-- <li class="divider"></li> -->
             <li><a href="<?= localizedPath('/cities') ?>" class="view-all-locations"><?= $texts['header']['view_all_locations'] ?></a></li>
           </ul>
         </li>
-        <!-- <li class="dropdown">
-          <a href="<?= localizedPath('/models') ?>"><?= $texts['header']['models'] ?></a>
-          <ul class="dropdown-menu models-dropdown">
-            <li><a href="<?= localizedPath('/models/local-party-girl') ?>"><?= $texts['header']['local'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/chinese-party-girl') ?>"><?= $texts['header']['china'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/vietnam-party-girl') ?>"><?= $texts['header']['vietnam'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/japan-party-girl') ?>"><?= $texts['header']['japan'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/korea-party-girl') ?>"><?= $texts['header']['korea'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/europe-party-girl') ?>"><?= $texts['header']['europe'] ?></a></li>
-          </ul>
-        </li> -->
-        <!-- <li class="dropdown">
-          <a href="<?= localizedPath('/service') ?>"><?= $texts['header']['services'] ?></a>
-          <ul class="dropdown-menu services-dropdown">
-            <li><a href="<?= localizedPath('/escort/premium') ?>"><?= $texts['header']['premium_escort_service'] ?></a></li>
-            <li><a href="<?= localizedPath('/escort/party-hosting') ?>"><?= $texts['header']['party_escort_hosting'] ?></a></li>
-            <li><a href="<?= localizedPath('/escort/events') ?>"><?= $texts['header']['exclusive_event_escort'] ?></a></li>
-          </ul>
-        </li> -->
-       
+      
         
         <li><a href="<?= localizedPath('/about') ?>"><?= $texts['header']['aboutus'] ?></a></li>
         <li><a href="<?= env('TELEGRAM_LINK') ?>?text=<?= $texts['header']['bomMsg'] ?>"><?= $texts['header']['bom'] ?></a></li> 
         <li><a href="<?= localizedPath('/contact-us') ?>"><?= $texts['header']['contactus'] ?></a></li>
-        <!-- <li><a href="<?= localizedPath('/booking') ?>" class="booking-btn"><?= $texts['header']['booking'] ?></a></li>        -->
         <li class="dropdown">
           <i class="fas fa-globe language-icon"></i> <!-- Font Awesome globe icon -->
           <ul class="dropdown-menu">

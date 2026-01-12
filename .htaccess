@@ -233,6 +233,17 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
+
+# ------------------------
+# Redirect Old Paths
+# ------------------------
+
+Redirect 301 /models/my/ https://superbpartygirl.com/models/local-party-girl/
+Redirect 301 /models/cn/ https://superbpartygirl.com/models/chinese-party-girl/
+Redirect 301 /models/vn/ https://superbpartygirl.com/models/vietnam-party-girl/
+Redirect 301 /models/eu/ https://superbpartygirl.com/models/europe-party-girl/
+Redirect 301 /models/kr/ https://superbpartygirl.com/models/korea-party-girl/
+Redirect 301 /models/jp/ https://superbpartygirl.com/models/japan-party-girl/
 </IfModule>
 
 # END WordPress

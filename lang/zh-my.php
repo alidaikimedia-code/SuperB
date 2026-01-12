@@ -759,7 +759,7 @@ return [
   'blogs' => [
     'title'             => "伴游博客与生活方式洞察 | SuperB高端外围",
     'description'       => "阅读关于高端陪伴、奢华夜生活和让每个夜晚都难忘的技巧的独家文章，来自SuperB Party Girl Malaysia。",
-    'canonical_link'    => "http://superbpartygirl.com/cn/blog/",
+    'canonical_link'    => "https://superbpartygirl.com/cn/blogs/",
     'og_title'          => "伴游博客与生活方式洞察 | SuperB高端外围",
     'og_description'    => "阅读关于高端陪伴、奢华夜生活和让每个夜晚都难忘的技巧的独家文章，来自SuperB Party Girl Malaysia。",
     'heroTitle'         => "伴游博客与生活方式洞察",
@@ -919,7 +919,7 @@ return [
   'blog_private_party_escorts_redefine' => [
     'title' => "私人派对伴游如何重新定义奢华娱乐 | SuperB高端外围",
     'description' => "了解私人派对伴游如何重新定义奢华娱乐，提供优雅、魅力和专业性，将活动提升为难忘的体验。",
-    'canonical_link' => "https://superbpartygirl.com/cn/blogs/how-private-party-escorts-redefine-luxury-entertainment",
+    'canonical_link' => "https://superbpartygirl.com/cn/blogs/how-private-party-escorts-redefine-luxury-entertainment/",
     'og_title' => "私人派对伴游如何重新定义奢华娱乐",
     'og_description' => "了解私人派对伴游如何重新定义奢华娱乐，提供优雅、魅力和专业性，将活动提升为难忘的体验。",
     'hero_title' => "私人派对伴游如何重新定义奢华娱乐",
@@ -1158,7 +1158,7 @@ return [
   'blog_why_confidentiality' => [
     'title' => "为什么保密在伴游服务中最为重要 | SuperB高端外围",
     'description' => "伴游服务中的保密性确保隐私、信任和安全，让客户在享受谨慎专业的陪伴服务时安心无忧。",
-    'canonical_link' => "https://superbpartygirl.com/cn/blogs/why-confidentiality-matters-most-in-escort-services",
+    'canonical_link' => "https://superbpartygirl.com/cn/blogs/why-confidentiality-matters-most-in-escort-services/",
     'og_title' => "为什么保密在伴游服务中最为重要",
     'og_description' => "伴游服务中的保密性确保隐私、信任和安全，让客户在享受谨慎专业的陪伴服务时安心无忧。",
     'hero_title' => "为什么保密在伴游服务中最为重要",
@@ -1322,7 +1322,7 @@ return [
   'blog_digital_privacy_protection' => [
     'title' => "伴游服务如何保护数字时代的客户隐私 | SuperB高端外围",
     'description' => "了解伴游服务如何利用先进技术保护客户隐私，确保在数字时代的安全和谨慎。",
-    'canonical_link' => "https://superbpartygirl.com/cn/blogs/how-escort-services-protect-client-privacy-in-the-digital-era",
+    'canonical_link' => "https://superbpartygirl.com/cn/blogs/how-escort-services-protect-client-privacy-in-the-digital-era/",
     'og_title' => "伴游服务如何保护数字时代的客户隐私",
     'og_description' => "了解伴游服务如何利用先进技术保护客户隐私，确保在数字时代的安全和谨慎。",
     'hero_title' => "伴游服务如何保护数字时代的客户隐私",
@@ -1381,7 +1381,7 @@ return [
   'blog_why_mixed_race_demand' => [
     'title' => "为什么混血模特伴游需求量大 | SuperB高端外围",
     'description' => "了解为什么混血模特伴游需求日益增长，因其独特外貌、魅力和优雅而备受推崇，为客户创造难忘体验。",
-    'canonical_link' => "https://superbpartygirl.com/cn/blogs/why-mixed-race-model-escorts-are-in-high-demand",
+    'canonical_link' => "https://superbpartygirl.com/cn/blogs/why-mixed-race-model-escorts-are-in-high-demand/",
     'og_title' => "为什么混血模特伴游需求量大",
     'og_description' => "了解为什么混血模特伴游需求日益增长，因其独特外貌、魅力和优雅而备受推崇，为客户创造难忘体验。",
     'hero_title' => "为什么混血模特伴游需求量大",
@@ -1653,7 +1653,7 @@ DPulze购物中心
 'johor' => [
     'title' => '新山伴游 – SuperB Party Girl 高级陪伴',
     'description' => '新山是马来西亚南部的明珠，充满激情与浪漫。我们的伴游热情似火，提供B2B按摩、浪漫约会和私人会面。热门区域包括金海湾、美迪尼依斯干达、公主港。立即预订您的新山伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-johor',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-johor/',
     'og_title' => '新山商务伴游 | 新山伴游及高端私人伴侣',
     'og_description' => '在新山与SuperB Party Girl体验顶级伴游服务。我们的伴侣热情似火、优雅撩人，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '新山伴游 – SuperB Party Girl 高级陪伴
@@ -1737,7 +1737,7 @@ DPulze购物中心
 'kota-damansara' => [
     'title' => '哥打白沙罗伴游 – 超棒的商务伴游感官陪伴',
     'description' => '哥打白沙罗时尚、活力四射，是享受纵情狂欢的完美之选。我们的伴游性感撩人，热情奔放，提供B2B按摩、浪漫约会和私人会面。热门区域包括双威吉萨、斯特兰德、热带花园。立即预订您的哥打白沙罗伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-kota-damansara',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-kota-damansara/',
     'og_title' => '哥打白沙罗商务伴游 | 哥打白沙罗伴游及高端私人伴侣',
     'og_description' => '在哥打白沙罗与SuperB Party Girl体验顶级伴游服务。我们的伴侣性感撩人、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '哥打白沙罗伴游 – 超棒的商务伴游感官陪伴
@@ -1793,7 +1793,7 @@ DPulze购物中心
 'mont-kiara' => [
     'title' => 'Mont Kiara 伴游 – 超级商务伴游高级陪伴',
     'description' => '满家乐是吉隆坡外籍人士的游乐场，以豪华公寓和独特夜生活闻名。我们的伴游魅力四射，提供B2B按摩、浪漫约会和私人会面。热门区域包括Arcoris Mont Kiara、Solaris Mont Kiara、Kiara 163。立即预订您的满家乐伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-mont-kiara',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-mont-kiara/',
     'og_title' => '满家乐商务伴游 | 满家乐伴游及高端私人伴侣',
     'og_description' => '在满家乐与SuperB Party Girl体验顶级伴游服务。我们的伴侣优雅浪漫、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => 'Mont Kiara 伴游 – 超级商务伴游高级陪伴
@@ -1978,7 +1978,7 @@ Plaza Shah Alam 伴游体验
 'klang-valley' => [
     'title' => '巴生谷伴游 – 超级商务伴游火辣陪伴',
     'description' => '巴生谷是马来西亚夜生活、餐饮和奢华体验的中心。我们的伴游俏皮优雅、狂野性感，提供B2B按摩、浪漫约会和私人会面。热门区域包括白沙罗上城、孟沙、武吉免登。立即预订您的巴生谷伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-klang-valley',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-klang-valley/',
     'og_title' => '巴生谷商务伴游 | 巴生谷伴游及高端私人伴侣',
     'og_description' => '在巴生谷与SuperB Party Girl体验顶级伴游服务。我们的伴侣俏皮优雅、狂野性感，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '巴生谷伴游 – 超级商务伴游火辣陪伴
@@ -2069,7 +2069,7 @@ Jalan Maarof 护送同伴
 'bukit-bintang' => [
     'title' => '武吉免登伴游 – 超级商务伴游豪华陪伴',
     'description' => '武吉免登是吉隆坡夜生活和奢华的中心。我们的伴游魅力四射、热情奔放，提供B2B按摩、浪漫约会和私人会面。热门区域包括Pavilion KL、Changkat、阿罗街。立即预订您的武吉免登伴游，享受难忘的体验。',
-    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-bukit-bintang',
+    'canonical_link' => 'https://superbpartygirl.com/cn/premium-escort-bukit-bintang/',
     'og_title' => '武吉免登商务伴游 | 武吉免登伴游及高端私人伴侣',
     'og_description' => '在武吉免登与SuperB Party Girl体验顶级伴游服务。我们的伴侣魅力四射、热情奔放，提供B2B按摩、浪漫约会和私人会面。',
     'content' => '武吉免登伴游 – 超级商务伴游豪华陪伴

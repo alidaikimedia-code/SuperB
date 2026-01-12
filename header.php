@@ -78,6 +78,19 @@ if (isset($legal_section) && isset($texts['legal'][$legal_section])) {
     'lang' => $lang ?? 'en-my'
   ];
 }
+if (!empty($canonical_override)) {
+    $page_meta['canonical'] = $canonical_override;
+}
+
+/* =========================================================
+   Fallback: current URL if still empty
+   ========================================================= */
+if (empty($page_meta['canonical'])) {
+    $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    $page_meta['canonical'] =
+        $scheme . '://' . ($_SERVER['HTTP_HOST'] ?? 'superbpartygirl.com')
+        . ($_SERVER['REQUEST_URI'] ?? '/');
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?= $page_meta['lang'] ?? 'en-my' ?>">
@@ -86,9 +99,7 @@ if (isset($legal_section) && isset($texts['legal'][$legal_section])) {
   <meta charset="UTF-8">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <?php if (!empty($page_meta['canonical'])): ?>
-    <link rel="canonical" href="<?= htmlspecialchars($page_meta['canonical']) ?>">
-  <?php endif; ?>
+  <link rel="canonical" href="<?= htmlspecialchars($page_meta['canonical']); ?>">
   <?php if (!empty($page_meta['description'])): ?>
     <meta name="description" content="<?= htmlspecialchars($page_meta['description']) ?>">
   <?php endif; ?>
@@ -658,36 +669,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <img alt="superbpartygirl" src="/wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
       <ul class="nav-links">
       <li class="dropdown">
-          <a href="<?= localizedPath('/') ?>"><?= $texts['header']['models'] ?></a>
-          <ul class="dropdown-menu models-dropdown">
-            <li><a href="<?= localizedPath('/models/local-party-girl') ?>"><?= $texts['header']['local'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/chinese-party-girl') ?>"><?= $texts['header']['china'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/vietnam-party-girl') ?>"><?= $texts['header']['vietnam'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/japan-party-girl') ?>"><?= $texts['header']['japan'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/korea-party-girl') ?>"><?= $texts['header']['korea'] ?></a></li>
-            <li><a href="<?= localizedPath('/models/europe-party-girl') ?>"><?= $texts['header']['europe'] ?></a></li>
-          </ul>
-        </li>
-        <!-- <li><a href="<?= localizedPath('/') ?>"><?= $texts['header']['home'] ?></a></li> -->
-
-        <!-- <li><a href="<?= localizedPath('/hotel') ?>"><?= $texts['header']['hotel'] ?></a></li> -->
-        <li class="dropdown">
-          <a href="<?= localizedPath('/premium-escort') ?>"><?= $texts['header']['premium_escort'] ?></a>
-          <ul class="dropdown-menu locations-dropdown">
-          
-          <!-- <li class="divider"></li> -->
-            <li><a href="<?= localizedPath('/premium-escort-ampang') ?>"><?= $texts['cities']['ampang'] ?></a></li>
-            <li><a href="<?= localizedPath('/premium-escort-cheras') ?>"><?= $texts['cities']['cheras'] ?></a></li>
-            <li><a href="<?= localizedPath('/premium-escort-cyberjaya') ?>"><?= $texts['cities']['cyberjaya'] ?></a></li>
-            <li><a href="<?= localizedPath('/premium-escort-genting') ?>"><?= $texts['cities']['genting'] ?></a></li>
-            <li><a href="<?= localizedPath('/premium-escort-ipoh') ?>"><?= $texts['cities']['ipoh'] ?></a></li>
-            
-            
-            <!-- <li class="divider"></li> -->
-            <li><a href="<?= localizedPath('/cities') ?>" class="view-all-locations"><?= $texts['header']['view_all_locations'] ?></a></li>
-          </ul>
-        </li>
-        <!-- <li class="dropdown">
           <a href="<?= localizedPath('/models') ?>"><?= $texts['header']['models'] ?></a>
           <ul class="dropdown-menu models-dropdown">
             <li><a href="<?= localizedPath('/models/local-party-girl') ?>"><?= $texts['header']['local'] ?></a></li>
@@ -697,23 +678,31 @@ document.addEventListener("DOMContentLoaded", function () {
             <li><a href="<?= localizedPath('/models/korea-party-girl') ?>"><?= $texts['header']['korea'] ?></a></li>
             <li><a href="<?= localizedPath('/models/europe-party-girl') ?>"><?= $texts['header']['europe'] ?></a></li>
           </ul>
-        </li> -->
-        <!-- <li class="dropdown">
-          <a href="<?= localizedPath('/service') ?>"><?= $texts['header']['services'] ?></a>
-          <ul class="dropdown-menu services-dropdown">
-            <li><a href="<?= localizedPath('/escort/premium') ?>"><?= $texts['header']['premium_escort_service'] ?></a></li>
-            <li><a href="<?= localizedPath('/escort/party-hosting') ?>"><?= $texts['header']['party_escort_hosting'] ?></a></li>
-            <li><a href="<?= localizedPath('/escort/events') ?>"><?= $texts['header']['exclusive_event_escort'] ?></a></li>
+        </li>
+        <li class="dropdown">
+          <a href="<?= localizedPath('/premium-escort') ?>"><?= $texts['header']['premium_escort'] ?></a>
+          <ul class="dropdown-menu locations-dropdown">
+          
+
+            <li><a href="<?= localizedPath('/premium-escort-ampang') ?>"><?= $texts['cities']['ampang'] ?></a></li>
+            <li><a href="<?= localizedPath('/premium-escort-cheras') ?>"><?= $texts['cities']['cheras'] ?></a></li>
+            <li><a href="<?= localizedPath('/premium-escort-cyberjaya') ?>"><?= $texts['cities']['cyberjaya'] ?></a></li>
+            <li><a href="<?= localizedPath('/premium-escort-genting') ?>"><?= $texts['cities']['genting'] ?></a></li>
+            <li><a href="<?= localizedPath('/premium-escort-ipoh') ?>"><?= $texts['cities']['ipoh'] ?></a></li>
+            
+            
+
+            <li><a href="<?= localizedPath('/cities') ?>" class="view-all-locations"><?= $texts['header']['view_all_locations'] ?></a></li>
           </ul>
-        </li> -->
-       
+        </li>
         
         <li><a href="<?= localizedPath('/about') ?>"><?= $texts['header']['aboutus'] ?></a></li>
         <li><a href="<?= localizedPath('/blog') ?>"><?= $texts['header']['blog'] ?></a></li>
+        <?php if ($lang === 'en'): ?>
         <li><a href="<?= localizedPath('/clubs') ?>"><?= $texts['header']['clubs'] ?></a></li>
+        <?php endif; ?>
         <li><a href="https://t.me/SuperBvvip?text=<?= $texts['header']['bomMsg'] ?>"><?= $texts['header']['bom'] ?></a></li> 
         <li><a href="<?= localizedPath('/contact-us') ?>"><?= $texts['header']['contactus'] ?></a></li>
-        <!-- <li><a href="<?= localizedPath('/booking') ?>" class="booking-btn"><?= $texts['header']['booking'] ?></a></li>        -->
         <li class="language-dropdown">
           <a href="#" class="language-toggle">
             <i class="fas fa-globe language-icon"></i>

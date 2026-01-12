@@ -2322,7 +2322,7 @@ Petaling Jaya attracts professionals, students, and locals who love a mix of fun
   'port-dickson' => [
     'title' => 'Elite Port Dickson Escorts and B2B Massage | SuperB Party Girl Port Dickson',
     'description' => 'Experience top rated escort services in Port Dickson with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Port Dickson Waterfront, PD Walk, Avillion Port Dickson. Book your Port Dickson call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-port-dickson',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-port-dickson/',
     'og_title' => 'Elite Port Dickson Escorts and B2B Massage | SuperB Party Girl Port Dickson',
     'og_description' => 'Experience top rated escort services in Port Dickson with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Port Dickson Escorts – SuperB Party Girl Romantic Companionship
@@ -2385,7 +2385,7 @@ Locals, professionals, and travellers who want discreet yet passionate encounter
   'sabah' => [
     'title' => 'Elite Sabah Escorts and B2B Massage | SuperB Party Girl Sabah',
     'description' => 'Experience top rated escort services in Sabah with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Kota Kinabalu, Sandakan, Tawau. Book your Sabah call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sabah',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sabah/',
     'og_title' => 'Elite Sabah Escorts and B2B Massage | SuperB Party Girl Sabah',
     'og_description' => 'Experience top rated escort services in Sabah with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Sabah Escorts – SuperB Party Girl Exotic Companionship
@@ -2417,7 +2417,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Sa
   'sarawak' => [
     'title' => 'Elite Sarawak Escorts and B2B Massage | SuperB Party Girl Sarawak',
     'description' => 'Experience top rated escort services in Sarawak with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Kuching, Miri, Sibu. Book your Sarawak call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sarawak',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sarawak/',
     'og_title' => 'Elite Sarawak Escorts and B2B Massage | SuperB Party Girl Sarawak',
     'og_description' => 'Experience top rated escort services in Sarawak with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Sarawak Escorts – SuperB Party Girl Exotic Companionship
@@ -2449,7 +2449,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Sa
   'serdang' => [
     'title' => 'Elite Serdang Escorts and B2B Massage | SuperB Party Girl Serdang',
     'description' => 'Experience top rated escort services in Serdang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include UPM, Serdang Raya, Taman Universiti. Book your Serdang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-serdang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-serdang/',
     'og_title' => 'Elite Serdang Escorts and B2B Massage | SuperB Party Girl Serdang',
     'og_description' => 'Experience top rated escort services in Serdang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Serdang Escorts – SuperB Party Girl Academic Companionship
@@ -2481,7 +2481,7 @@ Students, professionals, and academics who want romance and sex in equal measure
   'seremban' => [
     'title' => 'Elite Seremban Escorts and B2B Massage | SuperB Party Girl Seremban',
     'description' => 'Experience top rated escort services in Seremban with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Seremban 2, Terminal 1, Seremban Parade. Book your Seremban call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-seremban',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-seremban/',
     'og_title' => 'Elite Seremban Escorts and B2B Massage | SuperB Party Girl Seremban',
     'og_description' => 'Experience top rated escort services in Seremban with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Seremban Escorts – SuperB Party Girl Royal Companionship
@@ -2513,7 +2513,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Se
   'setia-alam' => [
     'title' => 'Elite Setia Alam Escorts and B2B Massage | SuperB Party Girl Setia Alam',
     'description' => 'Experience top rated escort services in Setia Alam with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Setia City Mall, Setia Eco Park, Setia Alam Central. Book your Setia Alam call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-setia-alam',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-setia-alam/',
     'og_title' => 'Elite Setia Alam Escorts and B2B Massage | SuperB Party Girl Setia Alam',
     'og_description' => 'Experience top rated escort services in Setia Alam with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Setia Alam Escorts – SuperB Party Girl Eco Companionship
@@ -2545,7 +2545,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Se
   'sri-petaling' => [
     'title' => 'Elite Sri Petaling Escorts and B2B Massage | SuperB Party Girl Sri Petaling',
     'description' => 'Experience top rated escort services in Sri Petaling with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Sri Petaling Mall, Taman OUG, Old Klang Road. Book your Sri Petaling call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sri-petaling',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-sri-petaling/',
     'og_title' => 'Elite Sri Petaling Escorts and B2B Massage | SuperB Party Girl Sri Petaling',
     'og_description' => 'Experience top rated escort services in Sri Petaling with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Sri Petaling Escorts – SuperB Party Girl Vibrant Companionship
@@ -2577,7 +2577,7 @@ Professionals, couples, and expats who want romance and sex in equal measure. Sr
   'subang' => [
     'title' => 'Subang Escort and B2B Massage | Romantic Companions in Subang',
     'description' => 'Experience top rated escort services in Subang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include SS15, Sunway Pyramid, Subang Parade. Book your Subang call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-subang',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-subang/',
     'og_title' => 'Subang Escort and B2B Massage | Romantic Companions in Subang',
     'og_description' => 'Experience top rated escort services in Subang with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Subang Jaya Escorts – SuperB Party Girl Hot Companionship
@@ -2606,7 +2606,7 @@ Students, young professionals, and executives who crave playful yet intense sexu
   'taiping' => [
     'title' => 'Elite Taiping Escorts and B2B Massage | SuperB Party Girl Taiping',
     'description' => 'Experience top rated escort services in Taiping with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups. Popular areas include Taiping Lake Gardens, Taiping Mall, Taiping Sentral. Book your Taiping call girl today for an unforgettable experience.',
-    'canonical_link' => 'https://superbpartygirl.com/premium-escort-taiping',
+    'canonical_link' => 'https://superbpartygirl.com/premium-escort-taiping/',
     'og_title' => 'Elite Taiping Escorts and B2B Massage | SuperB Party Girl Taiping',
     'og_description' => 'Experience top rated escort services in Taiping with SuperB Party Girl. Our companions are classy, discreet, and available for B2B massage, romantic dates, and private meetups.',
     'content' => 'Taiping Escorts – SuperB Party Girl Heritage Companionship
