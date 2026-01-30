@@ -1,73 +1,6 @@
 <?php 
 $page_key = 'blogs';
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
-
-// WordPress Posts Integration
-require __DIR__ . '/helpers.php';
-
-/** ---------- LANG + CATEGORY FILTER HELPERS ---------- */
-
-// Detect current language: cookie > URL /cn prefix > default en
-function current_lang() {
-  if (!empty($_COOKIE['site_lang'])) {
-    $v = strtolower($_COOKIE['site_lang']);
-    if ($v === 'zh' || $v === 'en') return $v;
-  }
-  $uri = $_SERVER['REQUEST_URI'] ?? '/';
-  if ($uri === '/cn' || strpos($uri, '/cn/') === 0) return 'zh';
-  return 'en';
-}
-
-// Get category ID by slug via WP REST (cache for this request)
-function wp_category_id_by_slug($slug) {
-  static $cache = [];
-  if (isset($cache[$slug])) return $cache[$slug];
-
-  $base = rtrim(blog_cfg('WP_BASE'), '/'); // e.g. https://example.com
-  $url  = $base . '/wp-json/wp/v2/categories?slug=' . rawurlencode($slug) . '&per_page=1';
-
-  // Lightweight GET (use your helpers if you have one)
-  $opts = ['http'=>['method'=>'GET','timeout'=>5,'ignore_errors'=>true]];
-  $json = @file_get_contents($url, false, stream_context_create($opts));
-  $data = json_decode($json ?: '[]', true);
-
-  $id = isset($data[0]['id']) ? (int)$data[0]['id'] : 0;
-  $cache[$slug] = $id;
-  return $id;
-}
-
-// Build language-aware URL (adds /cn when on Chinese)
-function lang_prefix() { return current_lang()==='zh' ? '/cn' : ''; }
-
-/** ---------- QUERY PARAMS ---------- */
-
-$page = isset($_GET['page']) ? max(1,(int)$_GET['page']) : 1;
-$per  = (int) blog_cfg('POSTS_PER_PAGE');
-
-$lang     = current_lang();
-$catSlug  = ($lang === 'zh') ? 'lang-zh' : 'lang-en';
-$catId    = wp_category_id_by_slug($catSlug);
-
-// Fallback: if we can't find the category ID, show nothing (or remove this line to show all)
-if (!$catId) { /* you can log this if needed */ }
-
-/** Pass 'categories' to the REST call so WP filters by category */
-$params = ['per_page' => $per, 'page' => $page];
-if ($catId) $params['categories'] = $catId;
-
-/** Fetch posts now language-filtered */
-
-[$posts,$res,$url] = fetch_posts($params);
-
-debug_panel([
-  'WP_BASE        = '.blog_cfg('WP_BASE'),
-  'Lang           = '.$lang.' (slug='.$catSlug.' id='.$catId.')',
-  'Fetch URL      = '.$url,
-  'HTTP code      = '.$res['code'],
-  'x-wp-total     = '.($res['headers']['x-wp-total'] ?? 'n/a'),
-  'x-wp-totalpages= '.($res['headers']['x-wp-totalpages'] ?? 'n/a'),
-  'Posts length   = '.(is_array($posts)?count($posts):'null'),
-]);
 ?>
   <link rel="stylesheet" href="/assets/css/blogs.css">
   <style>
@@ -364,48 +297,150 @@ debug_panel([
 
   
   <section class="blogs-section">
-    <h2 class="blogs-h2"><?= $texts[$page_key]['latestBlogs'] ?? 'Latest Blogs' ?></h2>
+    <h2 class="blogs-h2"><?= $texts[$page_key]['latestBlogs'] ?></h2>
     <div class="blogs-grid">
 
       <?php 
-      // Display WordPress Posts
-      if (!is_array($posts)): ?>
-        <div style="grid-column: 1 / -1; text-align: center; padding: 40px;">
-          <p class="blogs-p">Couldn't load posts (HTTP <?php echo esc($res['code'] ?? 'Unknown'); ?>).</p>
+      // Function to dynamically get all blogs from /blogs/ folder
+      function getAllBlogsFromFolder($texts, $readMoreText) {
+        $blogsDir = $_SERVER['DOCUMENT_ROOT'] . '/blogs';
+        $blogFolders = [];
+        $excludedFiles = ['index.php', 'blog-template.php', '.', '..'];
+        
+        // Scan blogs directory
+        if (is_dir($blogsDir)) {
+          $items = scandir($blogsDir);
+          
+          foreach ($items as $item) {
+            // Skip excluded files and non-directories
+            if (in_array($item, $excludedFiles) || !is_dir($blogsDir . '/' . $item)) {
+              continue;
+            }
+            
+            $blogIndexFile = $blogsDir . '/' . $item . '/index.php';
+            
+            // Check if index.php exists in the blog folder
+            if (file_exists($blogIndexFile)) {
+              $blogSlug = $item;
+              $blogUrl = '/blogs/' . $blogSlug;
+              
+              // Read page_key from blog's index.php file
+              $langKey = $blogSlug; // Default to slug
+              $pageKeyFile = file_get_contents($blogIndexFile);
+              
+              // Extract $page_key from the file
+              if (preg_match("/page_key\s*=\s*['\"]([^'\"]+)['\"]/", $pageKeyFile, $matches)) {
+                $langKey = $matches[1];
+              }
+              
+              // Try alternative lang key patterns (some blogs might use different formats)
+              $possibleKeys = [
+                $langKey, // Direct match from index.php
+                $blogSlug, // Folder slug
+                'blog_' . str_replace('-', '_', $blogSlug), // With blog_ prefix and underscores
+                str_replace('-', '_', $blogSlug) // Just underscores
+              ];
+              
+              // Try to get blog data from lang file using all possible keys
+              $blogTitle = '';
+              $blogDesc = '';
+              $blogImg = '';
+              
+              foreach ($possibleKeys as $key) {
+                if (isset($texts[$key])) {
+                  // Use hero_title or title from lang file
+                  $blogTitle = $texts[$key]['hero_title'] ?? $texts[$key]['title'] ?? '';
+                  $blogDesc = $texts[$key]['hero_description'] ?? $texts[$key]['description'] ?? '';
+                  $blogImg = $texts[$key]['hero_image'] ?? '';
+                  break; // Found a match, stop searching
+                }
+              }
+              
+              // If title is empty, generate from slug
+              if (empty($blogTitle)) {
+                $blogTitle = ucwords(str_replace('-', ' ', $blogSlug));
+              }
+              
+              // If description is empty, use default
+              if (empty($blogDesc)) {
+                $blogDesc = 'Read our latest article about ' . strtolower($blogTitle);
+              }
+              
+              // Default image if not found
+              if (empty($blogImg) || !file_exists($_SERVER['DOCUMENT_ROOT'] . $blogImg)) {
+                // Try to find image in blogs-images folder based on slug
+                $possibleImages = [
+                  '/blogs-images/' . $blogSlug . '_hero.png',
+                  '/blogs-images/' . $blogSlug . '.png',
+                  '/blogs-images/blog1_hero.png' // fallback
+                ];
+                
+                foreach ($possibleImages as $imgPath) {
+                  if (file_exists($_SERVER['DOCUMENT_ROOT'] . $imgPath)) {
+                    $blogImg = $imgPath;
+                    break;
+                  }
+                }
+                
+                // If still no image, use default
+                if (empty($blogImg) || !file_exists($_SERVER['DOCUMENT_ROOT'] . $blogImg)) {
+                  $blogImg = '/blogs-images/blog1_hero.png';
+                }
+              }
+              
+              // Add to blogs array
+              $blogFolders[] = [
+                'slug' => $blogSlug,
+                'url' => $blogUrl,
+                'title' => $blogTitle,
+                'desc' => $blogDesc,
+                'img' => $blogImg
+              ];
+            }
+          }
+        }
+        
+        // Sort by slug alphabetically (newest first if you have date, or custom order)
+        usort($blogFolders, function($a, $b) {
+          return strcmp($b['slug'], $a['slug']); // Reverse alphabetical (newer slugs usually come first)
+        });
+        
+        return $blogFolders;
+      }
+      
+      // Get all blogs dynamically
+      $allBlogs = getAllBlogsFromFolder($texts, $texts[$page_key]['readMore']);
+      
+      // Display blogs
+      foreach($allBlogs as $blog) {
+        echo '
+        <div class="blog-card">
+          <img src="'.$blog['img'].'" alt="'.htmlspecialchars($blog['title']).'">
+          <div class="blog-content">
+            <h3>'.htmlspecialchars($blog['title']).'</h3>
+            <p>'.htmlspecialchars($blog['desc']).'</p>
+            <a href="'.$blog['url'].'">'.$texts[$page_key]['readMore'].'</a>
+          </div>
         </div>
-      <?php elseif (!count($posts)): ?>
-        <div style="grid-column: 1 / -1; text-align: center; padding: 40px;">
-          <p class="blogs-p">No posts yet.</p>
-        </div>
-      <?php else: ?>
-        <?php foreach ($posts as $p):
-          $title = $p['title']['rendered'] ?? '(untitled)';
-          $slug  = $p['slug'] ?? '';
-          $img   = media_url($p);
-          $date  = !empty($p['date']) ? date('M j, Y', strtotime($p['date'])) : '';
-          $excerpt = trim(strip_tags($p['excerpt']['rendered'] ?? '')); 
-          if ($excerpt === '') $excerpt = '...';
-          $postUrl = lang_prefix() . '/blog/' . esc($slug);
-        ?>
+        ';
+      }
+      
+      // Fallback: If no blogs found dynamically, use manual list from lang file
+      if (empty($allBlogs) && isset($texts[$page_key]['blog_list'])) {
+        foreach($texts[$page_key]['blog_list'] as $blog) {
+          echo '
           <div class="blog-card">
-            <?php if ($img): ?>
-              <a href="<?php echo $postUrl; ?>">
-                <img src="<?php echo esc($img); ?>" alt="<?php echo esc($title); ?>">
-              </a>
-            <?php endif; ?>
+            <img src="'.$blog['img'].'" alt="'.htmlspecialchars($blog['title']).'">
             <div class="blog-content">
-              <h3>
-                  <?php echo esc($title); ?>
-              </h3>
-              <!-- <?php if ($date): ?>
-                <small style="color: #999; display: block; margin-bottom: 10px;"><?php echo esc($date); ?></small>
-              <?php endif; ?> -->
-              <p><?php echo esc($excerpt); ?></p>
-              <a href="<?php echo $postUrl; ?>"><?php echo $texts[$page_key]['readMore'] ?? 'Read More'; ?></a>
+              <h3>'.htmlspecialchars($blog['title']).'</h3>
+              <p>'.htmlspecialchars($blog['desc']).'</p>
+              <a href="'.$blog['url'].'">'.$texts[$page_key]['readMore'].'</a>
             </div>
           </div>
-        <?php endforeach; ?>
-      <?php endif; ?>
+          ';
+        }
+      }
+      ?>
     </div>
 </section>
 

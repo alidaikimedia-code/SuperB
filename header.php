@@ -107,10 +107,10 @@ if (empty($page_meta['canonical'])) {
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?= htmlspecialchars($page_meta['og_title'] ?? $page_meta['title'] ?? '') ?>">
   <meta property="og:description" content="<?= htmlspecialchars($page_meta['og_description'] ?? $page_meta['description'] ?? '') ?>">
-  <meta property="og:image" content="/wp-content/uploads/2024/12/Party-Girl-Logo-01.png">
+  <meta property="og:image" content="https://superbpartygirl.com/wp-content/uploads/2024/12/Party-Girl-Logo-01.png">
   <meta name="google-site-verification" content="uFFdhSsXwLa7UmW0yGqHpd7Zsfsl0EYFQOKqoBXzpsc" />
   <title><?= htmlspecialchars($page_meta['title'] ?? 'SuperB Party Girl') ?></title>
-  <link rel="shortcut icon" type="image/x-icon" href="/wp-content/uploads/2024/12/Party-Girl-Logo-01.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://superbpartygirl.com/wp-content/uploads/2024/12/Party-Girl-Logo-01.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="/wp-content/themes/theme/style.css">
   <link rel="stylesheet" href="/assets/css/navbar.css">
@@ -666,7 +666,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <nav class="navbar">
     <div class="container">
       <a title="superbpartygirl" href="<?= localizedPath('/') ?>" class="logo">
-        <img alt="superbpartygirl" src="/wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
+        <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
       <ul class="nav-links">
       <li class="dropdown">
           <a href="<?= localizedPath('/models') ?>"><?= $texts['header']['models'] ?></a>

@@ -9,7 +9,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <!-- Video Header -->
 <div class="video-header">
   <video autoplay muted loop playsinline class="video-bg1 mobile-video">
-    <source src="/wp-content/uploads/2025/02/klpartygirl.webm" type="video/webm">
+    <source src="https://superbpartygirl.com/wp-content/uploads/2025/02/klpartygirl.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
   <div class="overlay"></div>
@@ -35,10 +35,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
       <!-- Promo 1 -->
       <a class="promo-card promo-card1" href="<?= localizedPath('/hotel') ?>" aria-label="<?= $texts['home']['promo1Aria'] ?? 'SuperB Party Girl' ?>">
         <picture>
-          <source media="(max-width: 1199px)" srcset="/wp-content/uploads/index/superB_free_hotel_promo_mobile_<?= $lang ?>.webp">
+          <source media="(max-width: 1199px)" srcset="https://superbpartygirl.com/wp-content/uploads/index/superB_free_hotel_promo_mobile_<?= $lang ?>.webp">
           <img
             id="promo1-img"
-            src="/wp-content/uploads/index/superB_free_hotel_promo_<?= $lang ?>.webp"
+            src="https://superbpartygirl.com/wp-content/uploads/index/superB_free_hotel_promo_<?= $lang ?>.webp"
             alt="<?= $texts['home']['promo1Alt'] ?? 'Exclusive Party Girl Promotions' ?>"
             loading="lazy"
           />
@@ -50,10 +50,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
       <!-- Promo 2 -->
       <a class="promo-card promo-card2" href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?=$texts['home']['promo2Msg'] ?>" target="_blank" rel="noopener" aria-label="<?= $texts['home']['promo2Aria'] ?? 'Book VIP now on Telegram' ?>">
         <picture>
-          <source media="(max-width: 1199px)" srcset="/wp-content/uploads/index/superB_refer_friend_promo_mobile_<?= $lang ?>.webp">
+          <source media="(max-width: 1199px)" srcset="https://superbpartygirl.com/wp-content/uploads/index/superB_refer_friend_promo_mobile_<?= $lang ?>.webp">
           <img
             id="promo2-img"
-            src="/wp-content/uploads/index/superB_refer_friend_promo_<?= $lang ?>.webp"
+            src="https://superbpartygirl.com/wp-content/uploads/index/superB_refer_friend_promo_<?= $lang ?>.webp"
             alt="<?= $texts['home']['promo2Alt'] ?? 'VIP Booking — Limited Slots' ?>"
             loading="lazy"
           />
@@ -84,7 +84,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <article class="card-standard">
                 <a title="superbpartygirl" href="<?= localizedPath('/models/local-party-girl/') ?>" class="productCard text-center">
                   <div class="productCard-mainPic">
-                    <img alt="superbpartygirl" src="/wp-content/uploads/index/cn/local_kol.webp">
+                    <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/index/cn/local_kol.webp">
                     <div class="overlay1">
                       <span><?= $texts['home']['local'] ?></span>
                     </div>
@@ -96,7 +96,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <article class="card-standard">
                 <a title="superbpartygirl" href="<?= localizedPath('/models/chinese-party-girl/') ?>" class="productCard text-center">
                   <div class="productCard-mainPic">
-                    <img alt="superbpartygirl" src="/wp-content/uploads/index/cn/china_kol.webp">
+                    <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/index/cn/china_kol.webp">
                     <div class="overlay1">
                       <span><?= $texts['home']['china'] ?></span>
                     </div>
@@ -108,7 +108,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <article class="card-standard">
                 <a title="superbpartygirl" href="<?= localizedPath('/models/vietnam-party-girl/') ?>" class="productCard text-center">
                   <div class="productCard-mainPic">
-                    <img alt="superbpartygirl" src="/wp-content/uploads/index/cn/vn_kol.webp">
+                    <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/index/cn/vn_kol.webp">
                     <div class="overlay1">
                       <span><?= $texts['home']['vietnam'] ?></span>
                     </div>
@@ -120,7 +120,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <article class="card-standard">
                 <a title="superbpartygirl" href="<?= localizedPath('/models/japan-party-girl/') ?>" class="productCard text-center">
                   <div class="productCard-mainPic">
-                    <img alt="superbpartygirl" src="/wp-content/uploads/index/cn/jp_kol.webp">
+                    <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/index/cn/jp_kol.webp">
                     <div class="overlay1">
                       <span><?= $texts['home']['japan'] ?></span>
                     </div>
@@ -132,7 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <article class="card-standard">
                 <a title="superbpartygirl" href="<?= localizedPath('/models/korea-party-girl/') ?>" class="productCard text-center">
                   <div class="productCard-mainPic">
-                    <img alt="superbpartygirl" src="/wp-content/uploads/index/cn/kr_kol.webp">
+                    <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/index/cn/kr_kol.webp">
                     <div class="overlay1">
                       <span><?= $texts['home']['korea'] ?></span>
                     </div>
@@ -144,7 +144,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <article class="card-standard">
                 <a title="superbpartygirl" href="<?= localizedPath('/models/europe-party-girl/') ?>" class="productCard text-center">
                   <div class="productCard-mainPic">
-                    <img alt="superbpartygirl" src="/wp-content/uploads/index/cn/eu_kol.webp">
+                    <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/index/cn/eu_kol.webp">
                     <div class="overlay1">
                       <span><?= $texts['home']['europe'] ?></span>
                     </div>

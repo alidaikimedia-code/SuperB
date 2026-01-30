@@ -1764,7 +1764,7 @@ At Superb Party Girl, every booking means expert entertainment, great vibes, and
     'section3_title' => "Beyond Golf: Indulge in KLGCC's Luxurious Amenities",
     'section3_content' => "After a first-rate recreation, loosen up at one of KLGCC's six stunning eating places which serve a huge choice of meals to delight anyone. There is a bowling alley, a health club, and even a movie theater inside the clubhouse, so your day won't finish while you go away the vegetables. The Olympic-sized swimming pool and spa centers are superb for folks who want to relax even greater.",
     'section4_title' => "The Perfect Blend: Golf, Glamour, and Good Times",
-    'section4_content' => "Spending a day at KLGCC with a daring Party Girl Kuala Lumpur pal is an exceptional way to relax and experience lifestyles. It's a chance to play golfing at a global-elegance level, dine at a fancy restaurant, and spot Kuala Lumpur's energetic nightlife all in sooner or later. This blend will offer you an experience like no other, whether or not you need to electrify a consumer, commemorate a particular occasion, or just have a fun day.",
+    'section4_content' => "Spending a day at KLGCC with a daring <a href='/blog/what-to-know-before-exploring-your-sexuality-with-an-escort/' title='Party Girl Kuala Lumpur'>Party Girl Kuala Lumpur</a> pal is an exceptional way to relax and experience lifestyles. It's a chance to play golfing at a global-elegance level, dine at a fancy restaurant, and spot Kuala Lumpur's energetic nightlife all in sooner or later. This blend will offer you an experience like no other, whether or not you need to electrify a consumer, commemorate a particular occasion, or just have a fun day.",
     'conclusion_title' => "Conclusion",
     'conclusion_content' => "A day at the Kuala Lumpur Golf & Country Club with a daring Party Girl Kuala Lumpur friend is a one-of-a-kind mix of sport, luxury, and social style. It's an event that will please both golf fans and socialites, making for a day full of fun and style. This combo guarantees an outstanding adventure for anyone looking for a fun day out in Superb Party Girl."
   ]
@@ -2857,7 +2857,36 @@ Travellers, businessmen, and nightlife lovers who want escorts as wild as the ci
     'heroTitle'         => "Premium Escort Services Malaysia",
     'heroDesc'          => "Luxury companions and party girls for exclusive events, business meetings, and private encounters across Malaysia.",
     'bookNow'           => "Book Now",
-    'learnMore'         => "Learn More"
+    'learnMore'         => "Learn More",
+    // Unique page content for premium-escort (different from /service/)
+    'bookingTitle'      => "Premium Escort Malaysia",
+    'bookingSubTitle'   => "Exclusive Luxury Escort Experience",
+    'bookingSubDesc1'   => "Looking for refined elegance and sophisticated companionship?",
+    'bookingSubDesc2'   => "<span class=\"highlight\"><a class='link' title='Premium Escort Malaysia' href='https://superbpartygirl.com/premium-escort/' target='_blank'>SuperB Premium Escort Malaysia</a></span> delivers the finest in luxury companionship. Our handpicked premium escorts combine beauty, intelligence, and charm to create extraordinary experiences. Whether attending upscale venues, business dinners, or private gatherings, our elite companions ensure every moment exceeds expectations.",
+    'ourPTService'      => "Premium Escort Destinations",
+    'serviceTime'       => "Booking Hours: 10AM-3AM Daily",
+    'packageTitle'      => "Premium Packages:",
+    'pkg1Title'         => "Elite Evening (5 Hours)",
+    'pkg1Desc'          => "Enjoy refined companionship for an elegant evening—ideal for upscale dinners and exclusive events.",
+    'pkg1Msg'           => "Hi, I would like to book the Elite Evening (5 Hours) premium package.",
+    'pkg2Title'         => "VIP Hour (1 Hour)",
+    'pkg2Desc'          => "A focused hour of premium attention for quick business meetings or brief luxury encounters.",
+    'pkg2Msg'           => "Hi, I would like to book the VIP Hour (1 Hour) premium package.",
+    'pkg3Title'         => "Luxury Extended (6 Hours)",
+    'pkg3Desc'          => "Extended premium experience combining dinner, entertainment, and exclusive companionship.",
+    'pkg3Msg'           => "Hi, I would like to book the Luxury Extended (6 Hours) premium package.",
+    'pkg4Title'         => "Overnight Prestige (8 Hours)",
+    'pkg4Desc'          => "Full overnight luxury experience with premium accommodation and sophisticated companionship.",
+    'pkg4Msg'           => "Hi, I would like to book the Overnight Prestige (8 Hours) premium package.",
+    'pkg5Title'         => "Ultimate Luxury (12 Hours)",
+    'pkg5Desc'          => "The complete premium experience—dinner, entertainment, and overnight companionship with our most elite escorts.",
+    'pkg5Msg'           => "Hi, I would like to book the Ultimate Luxury (12 Hours) premium package.",
+    'pkgExtraDesc'      => "
+      Our <a class='link' title='Premium Escort Models' href='https://superbpartygirl.com/models/' target='_blank'>premium escorts</a> are carefully selected for their sophistication, intelligence, and natural elegance. Each companion undergoes extensive vetting to ensure they meet the highest standards of professionalism. They excel in formal settings, understand business etiquette, and adapt seamlessly to luxury environments. From five-star hotel lounges to exclusive golf clubs, our premium escorts make every setting more memorable.",
+    'whyChooseUs'       => "The Premium Difference",
+    'whyChooseUsDesc'   => "<a class='link' title='Premium Escort Malaysia' href='https://superbpartygirl.com/premium-escort/' target='_blank'>SuperB Premium Escort</a> represents the pinnacle of luxury companionship in Malaysia. Our elite selection process ensures only the most refined, educated, and charming companions join our premium roster. We prioritize absolute discretion, personalized experiences, and attention to every detail.<br>Experience the difference that true premium service provides—book your <a class='link' title='Premium Escort' href='https://superbpartygirl.com/premium-escort/' target='_blank'>premium escort</a> today.",
+    'Privatepartyescortservice'=> "Luxury Hotel Escort Services",
+    'Privatepartyescortservicedesc'=> "SuperB Premium Escort specializes in luxury hotel companionship across Kuala Lumpur's finest properties. Our premium escorts are familiar with Marriott, Ritz-Carlton, St. Regis, and other five-star establishments. They understand upscale environments, proper etiquette, and how to complement your sophisticated lifestyle. Whether you require a companion for a business stay or a romantic weekend retreat, our premium escorts deliver unmatched elegance and discretion at Malaysia's most prestigious hotels."
   ],
 
   'cities_page' => [

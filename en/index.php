@@ -30,11 +30,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta property="og:title" content="Best KL Party Girl Malaysia Platform | Top Local KOL Models">
     <meta property="og:description" content="Discover Local KOLs, Penang, Johor, KL party girl experience with Superb Party Girl, Malaysia's leading party girl platform. Elevate your nights with unforgettable vibes!">
     <meta property="og:image" content="https://superbpartygirl.com/wp-content/uploads/2024/12/Party-Girl-Logo-01.png">
-<link rel="canonical" href="https://superbpartygirl.com/">
+<link rel="canonical" href="/">
 <meta name="google-site-verification" content="uFFdhSsXwLa7UmW0yGqHpd7Zsfsl0EYFQOKqoBXzpsc" />
     <title>Best KL Party Girl Malaysia Platform | Top Local KOL Models</title>
-	 <link rel="shortcut icon" type="image/x-icon" href="wp-content/uploads/2024/12/Party-Girl-Logo-01.png" />
-  <link rel="stylesheet" href="wp-content/themes/theme/style.css">
+	 <link rel="shortcut icon" type="image/x-icon" href="https://superbpartygirl.com/wp-content/uploads/2024/12/Party-Girl-Logo-01.png" />
+  <link rel="stylesheet" href="../wp-content/themes/theme/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 </head>
@@ -98,30 +98,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<nav class="navbar">
     <div class="container">
       <a title="superbpartygirl" href="https://superbpartygirl.com" class="logo">
-		  <img alt="superbpartygirl" src="wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
+		  <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
 	  <ul class="nav-links">
-        <li><a href="https://superbpartygirl.com/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li class="dropdown">
-        <a href="https://superbpartygirl.com/models/" class="dropbtn">Models</a>
+        <a href="/models/" class="dropbtn">Models</a>
         <ul class="dropdown-menu">
-          <li><a href="https://superbpartygirl.com/models/local-party-girl/">Local</a></li>
-			<li><a href="https://superbpartygirl.com/models/vietnam-party-girl/">Vietnam</a></li>
-			<li><a href="https://superbpartygirl.com/models/korea-party-girl/">Korea</a></li>
-			<li><a href="https://superbpartygirl.com/models/japan-party-girl/">Japan</a></li>
-			<li><a href="https://superbpartygirl.com/models/chinese-party-girl/">China</a></li>
-			<li><a href="https://superbpartygirl.com/models/europe-party-girl/">Europe</a></li>
+          <li><a href="/models/local-party-girl/">Local</a></li>
+			<li><a href="/models/vietnam-party-girl/">Vietnam</a></li>
+			<li><a href="/models/korea-party-girl/">Korea</a></li>
+			<li><a href="/models/japan-party-girl/">Japan</a></li>
+			<li><a href="/models/chinese-party-girl/">China</a></li>
+			<li><a href="/models/europe-party-girl/">Europe</a></li>
         </ul>
       </li>
-        <li><a href="https://superbpartygirl.com/service/">Services</a></li>
-		  <li><a href="https://superbpartygirl.com/booking/">Booking</a></li>
-        <li><a href="https://superbpartygirl.com/contact-us/">Contact Us</a></li>
-        <li><a href="https://superbpartygirl.com/about/">About Us</a></li>
+        <li><a href="/service/">Services</a></li>
+		  <li><a href="/booking/">Booking</a></li>
+        <li><a href="/contact-us/">Contact Us</a></li>
+        <li><a href="/about/">About Us</a></li>
+		  <li><a href="/blog/">Blog</a></li>
 		  <li><a href="https://t.me/m/PY3Xovo4N2Vl?text=Hi, I want to become SuperB model.">Become Our Models</a></li>
 		 <li class="dropdown">
 			 <i class="fas fa-globe language-icon"></i> <!-- Font Awesome globe icon -->
     <ul class="dropdown-menu">
-        <li><a href="https://superbpartygirl.com/">EN</a></li>
-        <li><a href="https://superbpartygirl.com/cn/">中</a></li>
+        <li><a href="/">EN</a></li>
+        <li><a href="/cn/">中</a></li>
     </ul>
 </li>
       </ul>
@@ -266,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Example of a standardized card with hover overlay -->
       <div class="col-xl-3 col-lg-4 col-md-4 col-6">
         <article class="card-standard">
-          <a title="superbpartygirl" href="https://superbpartygirl.com/models/local-party-girl/" class="productCard text-center">
+          <a title="superbpartygirl" href="/models/local-party-girl/" class="productCard text-center">
             <div class="productCard-mainPic">
               <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/local_kol.jpeg">
               <div class="overlay1">
@@ -278,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="col-xl-3 col-lg-4 col-md-4 col-6">
         <article class="card-standard">
-          <a title="superbpartygirl" href="https://superbpartygirl.com/models/chinese-party-girl/" class="productCard text-center">
+          <a title="superbpartygirl" href="/models/chinese-party-girl/" class="productCard text-center">
             <div class="productCard-mainPic">
               <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/china_kol.jpg">
               <div class="overlay1">
@@ -290,7 +291,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="col-xl-3 col-lg-4 col-md-4 col-6">
         <article class="card-standard">
-          <a title="superbpartygirl" href="https://superbpartygirl.com/models/vietnam-party-girl/" class="productCard text-center">
+          <a title="superbpartygirl" href="/models/vietnam-party-girl/" class="productCard text-center">
             <div class="productCard-mainPic">
               <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/vn_kol.jpg">
               <div class="overlay1">
@@ -302,7 +303,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="col-xl-3 col-lg-4 col-md-4 col-6">
         <article class="card-standard">
-          <a title="superbpartygirl" href="https://superbpartygirl.com/models/japan-party-girl/" class="productCard text-center">
+          <a title="superbpartygirl" href="/models/japan-party-girl/" class="productCard text-center">
             <div class="productCard-mainPic">
               <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/kol_jp.jpeg">
               <div class="overlay1">
@@ -314,7 +315,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="col-xl-3 col-lg-4 col-md-4 col-6">
         <article class="card-standard">
-          <a title="superbpartygirl" href="https://superbpartygirl.com/models/korea-party-girl/" class="productCard text-center">
+          <a title="superbpartygirl" href="/models/korea-party-girl/" class="productCard text-center">
             <div class="productCard-mainPic">
               <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/kr_kol.jpg">
               <div class="overlay1">
@@ -326,7 +327,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="col-xl-3 col-lg-4 col-md-4 col-6">
         <article class="card-standard">
-          <a title="superbpartygirl" href="https://superbpartygirl.com/models/europe-party-girl/" class="productCard text-center">
+          <a title="superbpartygirl" href="/models/europe-party-girl/" class="productCard text-center">
             <div class="productCard-mainPic">
               <img alt="superbpartygirl" src="https://superbpartygirl.com/wp-content/uploads/2024/12/eu.jpg">
               <div class="overlay1">
@@ -377,7 +378,7 @@ Are you ready to elevate your night? We're ready to act. Make tonight superb.</p
 	<div class="title">
         <i class="fas fa-angle-double-right ml-2"></i>
 		  <h2>What People Say About SuperB Party Girl Malaysia</h2>
-		<p>Imagine entering an exciting, unforgettable world. Malaysian SuperB <a href="https://superbpartygirl.com/" class="link">Party Girl</a> charisma. For a night of fun, leisure, or adventure, these party girls redefine entertainment with their beauty, grace, and dynamic energy. They host nights and create memories. SuperB Party Girl Malaysia can make ordinary evenings extraordinary, according to these reviews.</p>
+		<p>Imagine entering an exciting, unforgettable world. Malaysian SuperB <a href="/" class="link">Party Girl</a> charisma. For a night of fun, leisure, or adventure, these party girls redefine entertainment with their beauty, grace, and dynamic energy. They host nights and create memories. SuperB Party Girl Malaysia can make ordinary evenings extraordinary, according to these reviews.</p>
     </div>
 		<div class="row">
 		<div class="col-xl-3 col-lg-4 col-md-4 col-6">
@@ -479,28 +480,28 @@ setTimeout(function(){
         <div class="sitemap-section">
           <p>Pages</p>
           <ul>
-            <li><a href="https://superbpartygirl.com/">Home</a></li>
-            <li><a href="https://superbpartygirl.com/about/">About</a></li>
-            <li><a href="https://superbpartygirl.com/contact-us/">Contact Us</a></li>
-			  <li><a href="https://superbpartygirl.com/sitemap.xml">Sitemap</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact-us/">Contact Us</a></li>
+			  <li><a href="/sitemap.xml">Sitemap</a></li>
           </ul>
         </div>
         <div class="sitemap-section">
           <p>Models</p>
           <ul>
-            <li><a href="https://superbpartygirl.com/models/local-party-girl/">Local</a></li>
-			<li><a href="https://superbpartygirl.com/models/vietnam-party-girl/">Vietnam</a></li>
-			<li><a href="https://superbpartygirl.com/models/korea-party-girl/">Korea</a></li>
-			<li><a href="https://superbpartygirl.com/models/japan-party-girl/">Japan</a></li>
-			<li><a href="https://superbpartygirl.com/models/chinese-party-girl/">China</a></li>
-			<li><a href="https://superbpartygirl.com/models/europe-party-girl/">Europe</a></li>
+            <li><a href="/models/local-party-girl/">Local</a></li>
+			<li><a href="/models/vietnam-party-girl/">Vietnam</a></li>
+			<li><a href="/models/korea-party-girl/">Korea</a></li>
+			<li><a href="/models/japan-party-girl/">Japan</a></li>
+			<li><a href="/models/chinese-party-girl/">China</a></li>
+			<li><a href="/models/europe-party-girl/">Europe</a></li>
           </ul>
         </div>
         <div class="sitemap-section">
           <p>Services</p>
           <ul>
-            <li><a href="https://superbpartygirl.com/service/">All Services</a></li>
-			  <li><a href="https://superbpartygirl.com/booking/">Booking</a></li>
+            <li><a href="/service/">All Services</a></li>
+			  <li><a href="/booking/">Booking</a></li>
           </ul>
         </div>
       </div>
@@ -512,7 +513,7 @@ setTimeout(function(){
 	
 </footer>
 
-  <script src="wp-content/themes/theme/script.js"></script>
-  <script src="wp-content/themes/theme/slider.js"></script>
+  <script src="../wp-content/themes/theme/script.js"></script>
+  <script src="../wp-content/themes/theme/slider.js"></script>
 </body>
 </html>

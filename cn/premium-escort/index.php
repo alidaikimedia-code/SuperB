@@ -520,46 +520,46 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <!-- content -->
 <div class="banner-section service-models">
   <!-- Mobile/tablet: <img>, Desktop: background-image -->
-  <img class="banner-img-mobile" src="/wp-content/uploads/services/services-bg.webp" alt="superbpartygirl">
+  <img class="banner-img-mobile" src="/wp-content/uploads/services/services-bg.webp" alt="马来西亚高端伴游">
   <div class="banner-overlay">
-    <h1><?= $texts['service']['bookingTitle'] ?></h1>
+    <h1><?= $texts['premium-escort']['bookingTitle'] ?></h1>
     <div class="banner-btn">
       <a href="<?= env('TELEGRAM_CHANNEL') ?>" class="btn"><?= $texts['common']['telegram'] ?></a>
     </div>
     <div class="banner-btn">
-      <a href="<?= env('TELEGRAM_LINK') ?>" class="btn"><?= $texts['common']['telegram'] ?></a>
+      <a href="<?= env('TELEGRAM_LINK') ?>" class="btn"><?= $texts['common']['book_now'] ?></a>
     </div>
   </div>
 </div>
 <main>
 	<div class="contentBox-card">
     <section class="service-hero">
-      <h2><?= $texts['service']['bookingSubTitle'] ?></h2>
-      <p class="tagline"><?= $texts['service']['bookingSubDesc1'] ?></p>
+      <h2><?= $texts['premium-escort']['bookingSubTitle'] ?></h2>
+      <p class="tagline"><?= $texts['premium-escort']['bookingSubDesc1'] ?></p>
     </section>
 
     <section class="service-summary">
       <p>
-        <?= $texts['service']['bookingSubDesc2'] ?>
+        <?= $texts['premium-escort']['bookingSubDesc2'] ?>
       </p>
     </section>
 
     <section class="service-areas">
-      <h2><?= $texts['service']['ourPTService'] ?></h2>
+      <h2><?= $texts['premium-escort']['ourPTService'] ?></h2>
       <div class="areas-list">
         <!-- All 27 Cities from language file -->
         <?php foreach($texts['cities'] as $city_key => $city_name): ?>
         <div class="area-card">
-          <i class="fas fa-map-marker-alt"></i> 
+          <i class="fas fa-map-marker-alt"></i>
           <a href="/cn/premium-escort-<?= $city_key ?>/" class="city-link"><?= $city_name ?></a>
         </div>
         <?php endforeach; ?>
       </div>
-      <div class="service-hours"><i class="fas fa-clock"></i> <?= $texts['service']['serviceTime'] ?></div>
+      <div class="service-hours"><i class="fas fa-clock"></i> <?= $texts['premium-escort']['serviceTime'] ?></div>
     </section>
 
     <section class="service-packages">
-        <h2><?= $texts['service']['packageTitle'] ?></h2>
+        <h2><?= $texts['premium-escort']['packageTitle'] ?></h2>
         <div class="packages-list">
           <!-- Package 1 -->
           <div class="package-block">
@@ -567,9 +567,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
             <div class="package-card">
               <div class="package-bg-img package_01">
                 <div class="package-content">
-                  <div class="package-title"><?= $texts['service']['pkg1Title'] ?></div>
-                  <div class="package-desc"><?= $texts['service']['pkg1Desc'] ?></div>
-                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg1Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <div class="package-title"><?= $texts['premium-escort']['pkg1Title'] ?></div>
+                  <div class="package-desc"><?= $texts['premium-escort']['pkg1Desc'] ?></div>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['premium-escort']['pkg1Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -581,9 +581,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
             <div class="package-card">
               <div class="package-bg-img package_02">
                 <div class="package-content">
-                  <div class="package-title"><?= $texts['service']['pkg2Title'] ?></div>
-                  <div class="package-desc"><?= $texts['service']['pkg2Desc'] ?></div>
-                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg2Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <div class="package-title"><?= $texts['premium-escort']['pkg2Title'] ?></div>
+                  <div class="package-desc"><?= $texts['premium-escort']['pkg2Desc'] ?></div>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['premium-escort']['pkg2Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -595,9 +595,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
             <div class="package-card">
               <div class="package-bg-img package_03">
                 <div class="package-content">
-                  <div class="package-title"><?= $texts['service']['pkg3Title'] ?></div>
-                  <div class="package-desc"><?= $texts['service']['pkg3Desc'] ?></div>
-                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg3Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <div class="package-title"><?= $texts['premium-escort']['pkg3Title'] ?></div>
+                  <div class="package-desc"><?= $texts['premium-escort']['pkg3Desc'] ?></div>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['premium-escort']['pkg3Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -609,9 +609,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
             <div class="package-card">
               <div class="package-bg-img package_04">
                 <div class="package-content">
-                  <div class="package-title"><?= $texts['service']['pkg4Title'] ?></div>
-                  <div class="package-desc"><?= $texts['service']['pkg4Desc'] ?></div>
-                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg4Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                  <div class="package-title"><?= $texts['premium-escort']['pkg4Title'] ?></div>
+                  <div class="package-desc"><?= $texts['premium-escort']['pkg4Desc'] ?></div>
+                  <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['premium-escort']['pkg4Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                 </div>
               </div>
             </div>
@@ -623,9 +623,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
               <div class="package-card">
                 <div class="package-bg-img package_05">
                   <div class="package-content">
-                    <div class="package-title"><?= $texts['service']['pkg5Title'] ?></div>
-                    <div class="package-desc"><?= $texts['service']['pkg5Desc'] ?></div>
-                    <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['service']['pkg5Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
+                    <div class="package-title"><?= $texts['premium-escort']['pkg5Title'] ?></div>
+                    <div class="package-desc"><?= $texts['premium-escort']['pkg5Desc'] ?></div>
+                    <a href="<?= env('TELEGRAM_LINK') ?>?url=&text=<?= $texts['premium-escort']['pkg5Msg']?>" class="read-more-btn" target="_blank"><?= $texts['common']['book_now'] ?></a>
                   </div>
                 </div>
               </div>
@@ -635,20 +635,20 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 
     <section class="service-details">
       <p>
-        <?= $texts['service']['pkgExtraDesc'] ?>
+        <?= $texts['premium-escort']['pkgExtraDesc'] ?>
       </p>
     </section>
 
     <section class="why-choose">
-    <h2><?= $texts['service']['Privatepartyescortservice'] ?></h2>
+    <h2><?= $texts['premium-escort']['Privatepartyescortservice'] ?></h2>
       <p>
-        <?= $texts['service']['Privatepartyescortservicedesc'] ?>
+        <?= $texts['premium-escort']['Privatepartyescortservicedesc'] ?>
       </p>
-      <h2><?= $texts['service']['whyChooseUs'] ?></h2>
+      <h2><?= $texts['premium-escort']['whyChooseUs'] ?></h2>
       <p>
-        <?= $texts['service']['whyChooseUsDesc'] ?>
+        <?= $texts['premium-escort']['whyChooseUsDesc'] ?>
       </p>
-      
+
     </section>
 
     <div class="cta">

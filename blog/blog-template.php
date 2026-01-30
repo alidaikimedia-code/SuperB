@@ -1,21 +1,14 @@
-<?php
-require __DIR__ . '/helpers.php';
-$slug = $_GET['slug'] ?? '';
-if ($slug===''){ http_response_code(404); exit('Not found'); }
+<?php 
+// Universal Blog Template
+// This template can be used for any blog by setting the $page_key variable
+// Usage: $page_key = 'blog_key_name'; include 'blog-template.php';
 
-[$arr,$res,$url] = fetch_single_by_slug($slug);
-$post = (is_array($arr) && !empty($arr)) ? $arr[0] : null;
-
-debug_panel(['Single slug='.$slug, 'Fetch URL='.$url, 'HTTP code='.$res['code'], 'Found=' . ($post?'yes':'no')]);
-
-if (!$post){ http_response_code(404); exit('Post not found'); }
-
-$title = $post['title']['rendered'] ?? '(untitled)';
-$content = $post['content']['rendered'] ?? '';
-$img = media_url($post);
-$date = !empty($post['date']) ? date('M j, Y', strtotime($post['date'])) : '';
+if (!isset($page_key)) {
+    die('Error: $page_key must be set before including this template');
+}
 
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
+
 ?>
 
 <link rel="stylesheet" href="/assets/css/blogs.css">
@@ -42,9 +35,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     color: #e0e0e0; 
     font-size: 1.1rem;
     line-height: 1.7;
-  }
-  details .blogs-faq-content-card p {
-    margin-bottom: unset!important;
   }
 
   /* Hero Section - More Visible Image */
@@ -293,11 +283,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     overflow: hidden;
     padding: 0 30px;
     color: #e0e0e0;
-    /* transition: all 0.5s ease; */
-    transition: max-height 0.35s ease, padding 0.35s ease;
+    transition: all 0.5s ease;
     font-size: 1rem;
     line-height: 1.7;
-    padding: 0;
   }
   
   .blogs-faq-card.active .blogs-faq-content-card {
@@ -358,140 +346,154 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     }
   }
 </style>
+
 <section class="blogs-body">
   <!-- Hero Section -->
   <header class="blogs-hero-section">
-      <?php if ($img): ?><img src="<?php echo esc($img); ?>" style="max-width:100%;border-radius:10px"><?php endif; ?>
-      <div class="blogs-hero-bg-overlay"></div>
+    <img src="<?= $texts[$page_key]['hero_image'] ?? '/blogs-images/default-hero.png' ?>" 
+         alt="<?= $texts[$page_key]['hero_image_alt'] ?? 'Blog Image' ?>">
+    <div class="blogs-hero-bg-overlay"></div>
     <div class="blogs-hero-text-content">
-      <h1 class="blogs-h1"><?php echo $title; ?></h1>
+      <h1 class="blogs-h1"><?= $texts[$page_key]['hero_title'] ?? 'Blog Title' ?></h1>
+      <p class="blogs-p"><?= $texts[$page_key]['hero_description'] ?? 'Blog Description' ?></p>
     </div>
-    
   </header>
-    <!-- Blog Content Section -->
+
+  <!-- Blog Content Section -->
   <section id="blog-content" class="blogs-page-section">
     <div class="blogs-section-inner">
-      <div><?php echo $content !== '' ? $content : '<p>(no content)</p>'; ?></div>
+      
+      <!-- Introduction -->
+      <?php if (isset($texts[$page_key]['content']['intro'])): ?>
+        <p class="blogs-p"><?= $texts[$page_key]['content']['intro'] ?></p>
+      <?php endif; ?>
+      
+      <!-- Dynamic Sections -->
+      <?php 
+      $section_count = 1;
+      while (isset($texts[$page_key]['content']['section' . $section_count . '_title'])): 
+      ?>
+        <div class="blogs-section-wrapper">
+          <h2 class="blogs-h2"><?= $texts[$page_key]['content']['section' . $section_count . '_title'] ?></h2>
+          <p class="blogs-p"><?= $texts[$page_key]['content']['section' . $section_count . '_content'] ?></p>
+          
+          <!-- Content Image (if exists for this section) -->
+          <?php if (isset($texts[$page_key]['content']['section' . $section_count . '_image'])): ?>
+            <div class="blogs-image-container">
+              <img src="<?= $texts[$page_key]['content']['section' . $section_count . '_image'] ?>" 
+                   alt="<?= $texts[$page_key]['content']['section' . $section_count . '_image_alt'] ?? 'Content Image' ?>" 
+                   class="blogs-img">
+            </div>
+          <?php endif; ?>
+        </div>
+        
+        <?php $section_count++; ?>
+      <?php endwhile; ?>
+
+      <!-- Main Content Image (if exists) -->
+      <?php if (isset($texts[$page_key]['content_image'])): ?>
+        <div class="blogs-main-image-container">
+          <img src="<?= $texts[$page_key]['content_image'] ?>" 
+               alt="<?= $texts[$page_key]['content_image_alt'] ?? 'Content Image' ?>" 
+               class="blogs-img blogs-main-img">
+        </div>
+      <?php endif; ?>
+
+      <!-- Conclusion Section -->
+      <?php if (isset($texts[$page_key]['content']['conclusion_title'])): ?>
+        <h2 class="blogs-h2"><?= $texts[$page_key]['content']['conclusion_title'] ?></h2>
+        <p class="blogs-p"><?= $texts[$page_key]['content']['conclusion_content'] ?></p>
+      <?php endif; ?>
     </div>
   </section>
+
+  <!-- FAQ Section -->
+  <?php if (isset($texts[$page_key]['faqs']) && !empty($texts[$page_key]['faqs'])): ?>
+  <section class="blogs-page-section">
+    <h2 class="blogs-h2">FAQs</h2>
+    <?php foreach($texts[$page_key]['faqs'] as $faq): ?>
+    <div class="blogs-faq-card">
+      <div class="blogs-faq-header-card"><?= $faq['question'] ?></div>
+      <div class="blogs-faq-content-card"><?= $faq['answer'] ?></div>
+    </div>
+    <?php endforeach; ?>
+  </section>
+  <?php endif; ?>
+
+  <?php if (isset($texts[$page_key]['faqs']) && !empty($texts[$page_key]['faqs'])): ?>
+    <?= generateBlogPageFAQSchema($texts[$page_key]['faqs'], $texts[$page_key]['title'] ?? 'Blog Post') ?>
+  <?php endif; ?>
+
   <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const container = document.getElementById("blog-content");
-  if (!container) return;
-
-  // 1) Headings/img/p -> add classes (scoped to #blog-content)
-  const rules = {
-    h1: "blogs-h1",
-    h2: "blogs-h2",
-    h3: "blogs-h3",
-    img: "blogs-img",
-    p:  "blogs-p"
-  };
-  Object.keys(rules).forEach(tag => {
-    container.querySelectorAll(tag).forEach(el => {
-      const cls = rules[tag];
-      if (!el.classList.contains(cls)) el.classList.add(cls);
+    // Professional scroll animations
+    const sectionObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { 
+      threshold: 0.1,
+      rootMargin: '0px 0px -30px 0px'
     });
-  });
+    
+    // Observe all elements that need animation
+    document.querySelectorAll('.blogs-section-inner, .blogs-faq-card').forEach((el, index) => {
+      el.style.animationDelay = `${index * 0.15}s`;
+      sectionObserver.observe(el);
+    });
 
-  // 2) FAQs: normalize structure to ONE content wrapper per <details>
-  const detailsList = container.querySelectorAll("details");
-  detailsList.forEach(d => {
-    d.classList.add("blogs-faq-card");
-
-    // summary
-    let sum = d.querySelector("summary");
-    if (!sum) {
-      // create a fallback summary to avoid invalid details structure
-      sum = document.createElement("summary");
-      sum.textContent = "Details";
-      d.insertBefore(sum, d.firstChild);
-    }
-    sum.classList.add("blogs-faq-header-card");
-
-    // Ensure exactly ONE .blogs-faq-content-card wrapping all content except summary
-    let content = d.querySelector(".blogs-faq-content-card");
-    if (!content) {
-      content = document.createElement("div");
-      content.className = "blogs-faq-content-card";
-      // move all siblings after summary into the wrapper
-      const nodesToMove = [];
-      for (let n = sum.nextSibling; n; n = n.nextSibling) nodesToMove.push(n);
-      nodesToMove.forEach(n => content.appendChild(n));
-      d.appendChild(content);
-    } else {
-      // if there are multiple wrappers, merge them
-      const extras = d.querySelectorAll(".blogs-faq-content-card");
-      if (extras.length > 1) {
-        extras.forEach((wrap, i) => {
-          if (i === 0) return;
-          while (wrap.firstChild) content.appendChild(wrap.firstChild);
-          wrap.remove();
+    // Professional FAQ Accordion with smooth animations
+    document.querySelectorAll('.blogs-faq-card').forEach(faq => {
+      const header = faq.querySelector('.blogs-faq-header-card');
+      const content = faq.querySelector('.blogs-faq-content-card');
+      
+      header.addEventListener('click', () => {
+        const isActive = faq.classList.contains('active');
+        
+        // Close all other FAQs
+        document.querySelectorAll('.blogs-faq-card.active').forEach(otherFaq => {
+          if (otherFaq !== faq) {
+            otherFaq.classList.remove('active');
+            otherFaq.querySelector('.blogs-faq-content-card').style.maxHeight = '0';
+          }
         });
-      }
-    }
-
-    // start collapsed visuals (native <details> may be closed; reflect with styles)
-    content.style.overflow = "hidden";
-    content.style.transition = "max-height 250ms ease";
-    content.style.maxHeight = d.open ? content.scrollHeight + "px" : "0";
-  });
-
-  // 3) Animate via native <details> toggle; also close others
-  detailsList.forEach(d => {
-    d.addEventListener("toggle", () => {
-      const content = d.querySelector(".blogs-faq-content-card");
-      if (!content) return;
-
-      if (d.open) {
-        // close others
-        detailsList.forEach(other => {
-          if (other !== d && other.open) other.open = false;
-        });
-        d.classList.add("active");
-        // expand
-        content.style.maxHeight = content.scrollHeight + "px";
-        // ensure reflow after dynamic content changes
-        requestAnimationFrame(() => {
-          content.style.maxHeight = content.scrollHeight + "px";
-        });
-      } else {
-        d.classList.remove("active");
-        // collapse
-        content.style.maxHeight = "0";
-      }
+        
+        // Toggle current FAQ
+        if (isActive) {
+          faq.classList.remove('active');
+          content.style.maxHeight = '0';
+        } else {
+          faq.classList.add('active');
+          content.style.maxHeight = content.scrollHeight + 'px';
+        }
+      });
     });
-  });
 
-  // 4) Optional: IntersectionObserver (run AFTER classes/wrappers exist)
-  const sectionObserver = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        entry.target.style.opacity = 1;
-        entry.target.style.transform = "translateY(0)";
-      }
+    // Smooth scroll behavior for better UX
+    document.documentElement.style.scrollBehavior = 'smooth';
+    
+    // Add loading animation
+    window.addEventListener('load', () => {
+      document.body.style.opacity = '1';
     });
-  }, { threshold: 0.1, rootMargin: "0px 0px -30px 0px" });
 
-  container.querySelectorAll(".blogs-section-inner, .blogs-faq-card").forEach((el, i) => {
-    el.style.animationDelay = `${i * 0.15}s`;
-    sectionObserver.observe(el);
-  });
-
-  // 5) Smooth scroll (optional)
-  document.documentElement.style.scrollBehavior = "smooth";
-  window.addEventListener("load", () => { document.body.style.opacity = "1"; });
-  container.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener("click", e => {
-      e.preventDefault();
-      const target = document.querySelector(a.getAttribute("href"));
-      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
     });
-  });
-});
-</script>
-
+  </script>
 </section>
 
 <?php
