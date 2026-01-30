@@ -20,10 +20,9 @@ if (file_exists($nitropack_path)) {
 // Set default language
 $lang = 'en-my';
 
-error_reporting(E_ALL); // Report all errors
-    error_reporting(E_ERROR | E_WARNING | E_PARSE); // Report fatal errors, warnings, and parser errors
-    error_reporting(E_ALL & ~E_NOTICE); // Report all errors except notices
-    error_reporting(0); // Turn off all error reporting
+// Production: Turn off all error reporting
+error_reporting(0);
+ini_set('display_errors', 0);
     
 define( 'WP_DEBUG', false );
 

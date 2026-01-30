@@ -229,18 +229,19 @@ RewriteRule ^cn/terms-of-service$ /cn/terms-of-service/ [R=301,L]
     Header set Referrer-Policy "no-referrer-when-downgrade"
 </IfModule>
 # END W3TC Browser Cache
-# BEGIN WordPress - DISABLED FOR LOCAL DEVELOPMENT
+# BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
 # Any changes to the directives between these markers will be overwritten.
-# <IfModule mod_rewrite.c>
-# RewriteEngine On
-# RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-# RewriteBase /
-# RewriteRule ^index\.php$ - [L]
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteRule . /index.php [L]
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
 
 # ------------------------
 # Redirect Old Paths
@@ -252,6 +253,5 @@ Redirect 301 /models/vn/ https://superbpartygirl.com/models/vietnam-party-girl/
 Redirect 301 /models/eu/ https://superbpartygirl.com/models/europe-party-girl/
 Redirect 301 /models/kr/ https://superbpartygirl.com/models/korea-party-girl/
 Redirect 301 /models/jp/ https://superbpartygirl.com/models/japan-party-girl/
-# </IfModule>
 
 # END WordPress
