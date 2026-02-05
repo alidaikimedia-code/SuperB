@@ -1,10 +1,10 @@
 <?php
 $page_key = 'party-girl-services-kuala-lumpur';
 
-// Load language system first
+// Load language system first so $texts is available
 include_once $_SERVER['DOCUMENT_ROOT'] . '/lang/init.php';
 
-// Set page meta for this custom page (after lang init loads $texts)
+// Set page meta for this custom page
 $texts[$page_key] = [
     'title' => 'Party Girl Services in Kuala Lumpur | VVIP & High-End Girls',
     'description' => 'Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, business dinners, and unforgettable experiences. Book now for luxury party energy.',

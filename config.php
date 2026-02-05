@@ -7,8 +7,11 @@ define("NITROPACK_HOME_URL", "https://superbpartygirl.com/");
 define("NITROPACK_SITE_ID", "gcrnZQGnsrCaaEhlWncaxWcIeJVamLZV");         // Replace with your actual Site ID
 define("NITROPACK_SITE_SECRET", "U4vfB6szA5tXDCqQRLlgRrfRx268g7xfSXsJO3hbAuYT55ydetxvYVxscrYXfLzb"); // Replace with your actual Site Secret
 
-// Load NitroPack SDK
-include_once $_SERVER['DOCUMENT_ROOT'] . "/nitropack-sdk/bootstrap.php";
+// Load NitroPack SDK (only if exists - not available on local dev)
+$nitropack_path = $_SERVER['DOCUMENT_ROOT'] . "/nitropack-sdk/bootstrap.php";
+if (file_exists($nitropack_path)) {
+    include_once $nitropack_path;
+}
 
 
 // Configuration file for SuperB Party Girl website
