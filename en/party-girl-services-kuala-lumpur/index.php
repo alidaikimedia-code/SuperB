@@ -10,12 +10,12 @@ $texts[$page_key] = [
     'description' => 'Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, business dinners, and unforgettable experiences. Book now for luxury party energy.',
     'canonical_link' => 'https://superbpartygirl.com/party-girl-services-kuala-lumpur/',
     'og_title' => 'Party Girl Services in Kuala Lumpur | VVIP & High-End Girls',
-    'og_description' => 'Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, and unforgettable experiences.'
+    'og_description' => 'Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, and unforgettable experiences.',
+    'custom_css' => '/assets/css/kl-party-services.css'
 ];
 
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 ?>
-  <link rel="stylesheet" href="/assets/css/kl-party-services.css"/>
 
   <!-- Video Header -->
   <header class="video-header">
