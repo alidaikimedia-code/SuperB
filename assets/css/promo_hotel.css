@@ -9,10 +9,10 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 
 /* Hero Section */
 html[lang="en-my"] .banner-section.promo-hotel {
-  background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_en-my.webp');
+  background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_en-my.webp');
 }
 html[lang="zh-my"] .banner-section.promo-hotel {
-  background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_zh-my.webp');
+  background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_zh-my.webp');
 }
 .banner-section.promo-hotel {
   position: relative;
@@ -765,10 +765,10 @@ html[lang="zh-my"] .banner-section.promo-hotel {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
   }
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
   }
   .banner-section.promo-hotel {
     min-height: 45vh;
@@ -888,10 +888,10 @@ html[lang="zh-my"] .banner-section.promo-hotel {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
   }
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
   }
   .banner-section.promo-hotel {
     min-height: 42vh;
@@ -913,10 +913,10 @@ html[lang="zh-my"] .banner-section.promo-hotel {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
   }
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
   }
   .banner-section.promo-hotel {
     min-height: 52vh;
@@ -939,10 +939,10 @@ html[lang="zh-my"] .banner-section.promo-hotel {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
   }
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
   }
   .banner-section.promo-hotel {
     min-height: 42vh;
@@ -964,10 +964,10 @@ html[lang="zh-my"] .banner-section.promo-hotel {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
   }
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
   }
   .banner-section.promo-hotel {
     min-height: 52vh;
@@ -986,10 +986,10 @@ html[lang="zh-my"] .banner-section.promo-hotel {
 /* General tablet fallback */
 @media (max-width: 1024px) and (min-width: 769px) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
   }
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
   }
   .banner-section.promo-hotel {
     min-height: 42vh;
@@ -1008,13 +1008,13 @@ html[lang="zh-my"] .banner-section.promo-hotel {
 /* Mobile devices (excluding iPads) */
 @media (max-width: 768px) and (max-device-width: 768px) and (orientation: portrait) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
     min-height: 30vh;
     height: 100%;
   }
   
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
     min-height: 30vh;
     height: 100%;
   }
@@ -1028,13 +1028,13 @@ html[lang="zh-my"] .banner-section.promo-hotel {
 /* Mobile devices landscape */
 @media (max-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
   html[lang="en-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_en-my.webp');
     min-height: 30vh;
     height: 100%;
   }
   
   html[lang="zh-my"] .banner-section.promo-hotel {
-    background-image: url('/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
+    background-image: url('https://superbpartygirl.com/wp-content/uploads/hotel/superB_free_hotel_promo_mobile_zh-my.webp');
     min-height: 30vh;
     height: 100%;
   }

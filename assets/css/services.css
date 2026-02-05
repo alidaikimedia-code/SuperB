@@ -1,5 +1,5 @@
 .banner-section.service-models {
-  background-image: url('/wp-content/uploads/services/services-bg.webp');
+  background-image: url('https://superbpartygirl.com/wp-content/uploads/services/services-bg.webp');
 }
 .contentBox-card h1, .contentBox-card h2 {
     color: #fff;
@@ -147,19 +147,19 @@
     align-items: flex-end;
 }
 .package-bg-img.package_01 {
-    background: url('/wp-content/uploads/services/package_01.webp') center/cover no-repeat;
+    background: url('https://superbpartygirl.com/wp-content/uploads/services/package_01.webp') center/cover no-repeat;
 }
 .package-bg-img.package_02 {
-    background: url('/wp-content/uploads/services/package_02.webp') center/cover no-repeat;
+    background: url('https://superbpartygirl.com/wp-content/uploads/services/package_02.webp') center/cover no-repeat;
 }
 .package-bg-img.package_03 {
-    background: url('/wp-content/uploads/services/package_03.webp') center/cover no-repeat;
+    background: url('https://superbpartygirl.com/wp-content/uploads/services/package_03.webp') center/cover no-repeat;
 }
 .package-bg-img.package_04 {
-    background: url('/wp-content/uploads/services/package_04.webp') center/cover no-repeat;
+    background: url('https://superbpartygirl.com/wp-content/uploads/services/package_04.webp') center/cover no-repeat;
 }
 .package-bg-img.package_05 {
-    background: url('/wp-content/uploads/services/package_05.webp') center/cover no-repeat;
+    background: url('https://superbpartygirl.com/wp-content/uploads/services/package_05.webp') center/cover no-repeat;
 }
 .package-bg-img:hover {
     filter: grayscale(5%);
