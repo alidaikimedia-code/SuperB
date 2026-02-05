@@ -1,16 +1,21 @@
 <?php
 $page_key = 'party-girl-services-kuala-lumpur';
+
+// Load language system first
+include_once $_SERVER['DOCUMENT_ROOT'] . '/lang/init.php';
+
+// Set page meta for this custom page (after lang init loads $texts)
+$texts[$page_key] = [
+    'title' => 'Party Girl Services in Kuala Lumpur | VVIP & High-End Girls',
+    'description' => 'Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, business dinners, and unforgettable experiences. Book now for luxury party energy.',
+    'canonical_link' => 'https://superbpartygirl.com/party-girl-services-kuala-lumpur/',
+    'og_title' => 'Party Girl Services in Kuala Lumpur | VVIP & High-End Girls',
+    'og_description' => 'Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, and unforgettable experiences.'
+];
+
 include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 ?>
   <link rel="stylesheet" href="/assets/css/kl-party-services.css"/>
-
-  <!-- Custom Meta for this page -->
-  <meta name="description" content="Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, business dinners, and unforgettable experiences. Book now for luxury party energy.">
-  <meta property="og:url" content="https://superbpartygirl.com/party-girl-services-kuala-lumpur/">
-  <meta property="og:title" content="Party Girl Services in Kuala Lumpur | VVIP & High-End Girls">
-  <meta property="og:description" content="Premium party girl services in Kuala Lumpur. VVIP high-end girls for VIP nights, parties, clubs, and unforgettable experiences.">
-  <link rel="canonical" href="https://superbpartygirl.com/party-girl-services-kuala-lumpur/">
-  <title>Party Girl Services in Kuala Lumpur | VVIP & High-End Girls</title>
 
   <!-- Video Header -->
   <header class="video-header">
