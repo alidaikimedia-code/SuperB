@@ -53,6 +53,9 @@ RewriteRule ^blogs$ /blogs/ [R=301,L]
 # Cities pages
 RewriteRule ^cities$ /cities/ [R=301,L]
 
+# Party Girl Services Kuala Lumpur page
+RewriteRule ^party-girl-services-kuala-lumpur/?$ /en/party-girl-services-kuala-lumpur/index.php [L,QSA]
+
 
 # Chinese language pages
 RewriteRule ^cn$ /cn/ [R=301,L]
