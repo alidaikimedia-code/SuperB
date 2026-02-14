@@ -33,8 +33,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="canonical" href="https://superbpartygirl.com/">
 <meta name="google-site-verification" content="uFFdhSsXwLa7UmW0yGqHpd7Zsfsl0EYFQOKqoBXzpsc" />
     <title>Best KL Party Girl Malaysia Platform | Top Local KOL Models</title>
-	 <link rel="shortcut icon" type="image/x-icon" href="wp-content/uploads/2024/12/Party-Girl-Logo-01.png" />
-  <link rel="stylesheet" href="wp-content/themes/theme/style.css">
+	 <link rel="shortcut icon" type="image/x-icon" href="/wp-content/uploads/2024/12/Party-Girl-Logo-01.png" />
+  <link rel="stylesheet" href="/wp-content/themes/theme/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 </head>
@@ -98,7 +98,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<nav class="navbar">
     <div class="container">
       <a title="superbpartygirl" href="https://superbpartygirl.com" class="logo">
-		  <img alt="superbpartygirl" src="wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
+		  <img alt="superbpartygirl" src="/wp-content/uploads/2024/12/Party-Girl-Logo-01.png"></a>
 	  <ul class="nav-links">
         <li><a href="https://superbpartygirl.com/">Home</a></li>
         <li class="dropdown">
@@ -512,7 +512,7 @@ setTimeout(function(){
 	
 </footer>
 
-  <script src="wp-content/themes/theme/script.js"></script>
-  <script src="wp-content/themes/theme/slider.js"></script>
+  <script src="/wp-content/themes/theme/script.js"></script>
+  <script src="/wp-content/themes/theme/slider.js"></script>
 </body>
 </html>
