@@ -10,6 +10,13 @@ $path = parse_url($uri, PHP_URL_PATH);
 // Remove trailing slash for matching (except root)
 $trimmed = rtrim($path, '/');
 
+// Helper: require a file with correct working directory
+// so that relative includes (../header.php) resolve properly
+function routeRequire($filePath) {
+    chdir(dirname($filePath));
+    require $filePath;
+}
+
 // 1. Serve static files directly (CSS, JS, images, fonts, etc.)
 $staticExtensions = ['css', 'js', 'jpg', 'jpeg', 'png', 'gif', 'svg', 'webp', 'ico', 'woff', 'woff2', 'ttf', 'eot', 'mp4', 'webm', 'pdf', 'xml', 'json', 'txt', 'map'];
 $ext = strtolower(pathinfo($path, PATHINFO_EXTENSION));
@@ -27,91 +34,78 @@ if (file_exists(__DIR__ . $path) && is_file(__DIR__ . $path)) {
 
 // 3. If directory with index.php exists, serve it
 if (is_dir(__DIR__ . $trimmed) && file_exists(__DIR__ . $trimmed . '/index.php')) {
-    require __DIR__ . $trimmed . '/index.php';
+    routeRequire(__DIR__ . $trimmed . '/index.php');
     return true;
 }
 
 // 4. Map clean URLs to .php files
 // e.g., /en/about/ -> /en/about.php
 if ($trimmed !== '' && file_exists(__DIR__ . $trimmed . '.php')) {
-    require __DIR__ . $trimmed . '.php';
+    routeRequire(__DIR__ . $trimmed . '.php');
     return true;
 }
 
-// 5. Special route: /en/models/ -> /en/models/models.php
-if ($trimmed === '/en/models' || $trimmed === '/models') {
-    $modelsFile = __DIR__ . '/en/models/models.php';
-    if (file_exists($modelsFile)) {
-        require $modelsFile;
+// 5. Special route: /models/ -> /models/index.php (root level)
+if ($trimmed === '/models') {
+    $modelsIndex = __DIR__ . '/models/index.php';
+    if (file_exists($modelsIndex)) {
+        routeRequire($modelsIndex);
         return true;
     }
 }
 
-// 6. Model sub-pages: /en/models/local-party-girl/ -> /en/models/local-party-girl.php
-if (preg_match('#^/(?:en/)?models/([a-z\-]+)$#', $trimmed, $matches)) {
-    $modelFile = __DIR__ . '/en/models/' . $matches[1] . '.php';
-    if (file_exists($modelFile)) {
-        require $modelFile;
+// 6. Model sub-pages: /models/local-party-girl/ -> /models/local-party-girl/index.php
+if (preg_match('#^/models/([a-z\-]+)$#', $trimmed, $matches)) {
+    $modelDir = __DIR__ . '/models/' . $matches[1] . '/index.php';
+    if (file_exists($modelDir)) {
+        routeRequire($modelDir);
         return true;
     }
 }
 
-// 7. EN pages without /en/ prefix: /about/ -> /en/about.php
-$enPages = ['about', 'booking', 'contact', 'contact-us', 'service'];
+// 7. EN pages: /about/ -> /about/index.php, /service/ -> /service/index.php
+$enPages = ['about', 'booking', 'contact-us', 'service', 'hotel'];
 foreach ($enPages as $page) {
     if ($trimmed === '/' . $page) {
-        // contact-us maps to contact.php
-        $fileName = ($page === 'contact-us') ? 'contact' : $page;
-        $filePath = __DIR__ . '/en/' . $fileName . '.php';
-        if (file_exists($filePath)) {
-            require $filePath;
+        $indexFile = __DIR__ . '/' . $page . '/index.php';
+        if (file_exists($indexFile)) {
+            routeRequire($indexFile);
             return true;
         }
     }
 }
 
-// 8. EN pages with /en/ prefix: /en/about/ -> /en/about.php, /en/contact-us/ -> /en/contact.php
-if (preg_match('#^/en/([a-z\-]+)$#', $trimmed, $matches)) {
-    $page = $matches[1];
-    $fileName = ($page === 'contact-us') ? 'contact' : $page;
-    $filePath = __DIR__ . '/en/' . $fileName . '.php';
-    if (file_exists($filePath)) {
-        require $filePath;
-        return true;
-    }
-}
-
-// 9. Root / -> redirect to /en/
+// 8. Root / -> load /en/index.php (English homepage)
 if ($path === '/' || $path === '') {
-    header('Location: /en/');
-    exit;
+    routeRequire(__DIR__ . '/en/index.php');
+    return true;
 }
 
-// 10. Blog routes
-if (preg_match('#^/blog/?$#', $trimmed) || preg_match('#^/en/blog/?$#', $trimmed)) {
+// 9. Blog routes
+if (preg_match('#^/blog/?$#', $trimmed)) {
     $blogIndex = __DIR__ . '/blog/index.php';
     if (file_exists($blogIndex)) {
-        require $blogIndex;
+        routeRequire($blogIndex);
         return true;
     }
 }
 
-if (preg_match('#^/(?:en/)?blog/([^/]+)$#', $trimmed, $matches)) {
+if (preg_match('#^/blog/([^/]+)$#', $trimmed, $matches)) {
     $_GET['slug'] = $matches[1];
     $blogSingle = __DIR__ . '/blog/single.php';
     if (file_exists($blogSingle)) {
-        require $blogSingle;
+        routeRequire($blogSingle);
         return true;
     }
 }
 
-// 11. Fallback: try to serve as-is
+// 10. Fallback: try to serve directory index.php
 $fallbackPath = __DIR__ . $path;
 if (file_exists($fallbackPath)) {
     if (is_dir($fallbackPath)) {
-        $indexFile = $fallbackPath . '/index.php';
+        $indexFile = rtrim($fallbackPath, '/') . '/index.php';
         if (file_exists($indexFile)) {
-            require $indexFile;
+            routeRequire($indexFile);
             return true;
         }
     }
