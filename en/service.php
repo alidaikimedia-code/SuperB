@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
+// wp-load.php removed - not a WordPress site
 ?>
 
 <!DOCTYPE html>
