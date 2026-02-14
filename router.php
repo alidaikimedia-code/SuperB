@@ -17,6 +17,15 @@ function routeRequire($filePath) {
     require $filePath;
 }
 
+// 0. Redirect /wp-content/uploads/ to production server (images/videos not in repo)
+if (strpos($path, '/wp-content/uploads/') === 0) {
+    $localFile = __DIR__ . $path;
+    if (!file_exists($localFile)) {
+        header('Location: https://superbpartygirl.com' . $path, true, 302);
+        exit;
+    }
+}
+
 // 1. Serve static files directly (CSS, JS, images, fonts, etc.)
 $staticExtensions = ['css', 'js', 'jpg', 'jpeg', 'png', 'gif', 'svg', 'webp', 'ico', 'woff', 'woff2', 'ttf', 'eot', 'mp4', 'webm', 'pdf', 'xml', 'json', 'txt', 'map'];
 $ext = strtolower(pathinfo($path, PATHINFO_EXTENSION));
